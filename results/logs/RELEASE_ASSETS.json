@@ -1,0 +1,41 @@
+{
+  "tag": "supplementary-20261106",
+  "repository": "hasstar/TVT-2026-03463-SupplementaryMaterial",
+  "assets": [
+    {
+      "file": "rfe_summaries_01.zip",
+      "bytes": 130109084,
+      "sha256": "9a0e232dc81b87e5eacb2321ed7500d1cf096c890f8d3f8a2034a3a4477716ff",
+      "files": 823,
+      "unpacked_bytes": 1571858183,
+      "group": "rfe_summaries"
+    },
+    {
+      "file": "rfe_summaries_02.zip",
+      "bytes": 111960103,
+      "sha256": "baf0a416b66c0c3de641898100765ed22afcb10ccae0141ec30e4a188909120e",
+      "files": 689,
+      "unpacked_bytes": 1570575189,
+      "group": "rfe_summaries"
+    },
+    {
+      "file": "rfe_summaries_03.zip",
+      "bytes": 27180983,
+      "sha256": "ac88634eeb388fed2612da542031fbd6bc590d487f5680dea16ea772ec82bfe2",
+      "files": 98,
+      "unpacked_bytes": 388533311,
+      "group": "rfe_summaries"
+    },
+    {
+      "file": "frozen_models_01.zip",
+      "bytes": 1133527583,
+      "sha256": "9f20c70e62bd576941c312d09f86541c99b1a4bdf5c48b42c2375d1e839cb564",
+      "files": 5816,
+      "unpacked_bytes": 1132117405,
+      "group": "frozen_models"
+    }
+  ],
+  "local_dataset_included": false,
+  "uk_data_in_git_tree": true,
+  "restore_to": "repository root, preserving ZIP paths"
+}

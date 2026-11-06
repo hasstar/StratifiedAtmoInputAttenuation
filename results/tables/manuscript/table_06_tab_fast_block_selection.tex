@@ -1,0 +1,32 @@
+% Exact table extracted from the pinned manuscript; needs booktabs/amsmath.
+\begin{table}[t]
+\centering
+\caption{Training-only comparison of temporal generators.}
+\label{tab:fast_block_selection}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Generator / segment length & VS-1 (16) & VS-1 (8) \\
+\midrule
+IID & 0.024792 & 0.024759 \\
+Gaussian-copula AR(1) & 0.023429 & 0.023431 \\
+Segment 2 s & 0.024104 & 0.024078 \\
+Segment 4 s & 0.023391 & 0.023373 \\
+Segment 8 s & 0.022873 & 0.022842 \\
+Segment 16 s & 0.022349 & 0.022331 \\
+Segment 32 s & 0.022152 & 0.022165 \\
+Segment 64 s & 0.021892 & 0.021880 \\
+Segment 128 s & 0.021734 & 0.021721 \\
+\textbf{Segment 256 s} & \textbf{0.021709} & \textbf{0.021687} \\
+Segment 512 s & 0.022026 & 0.021944 \\
+Segment 1024 s & 0.022263 & 0.022201 \\
+Segment 2048 s & 0.022464 & 0.022446 \\
+Segment 3600 s & 0.022807 & 0.022831 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\columnwidth}\footnotesize
+\end{minipage}
+\end{table}

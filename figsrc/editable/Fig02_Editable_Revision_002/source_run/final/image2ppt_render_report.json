@@ -1,0 +1,30 @@
+{
+  "schema_version": "image2ppt-render-qa-v1",
+  "status": "rendered",
+  "renderer": "powerpoint-com",
+  "pptx": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\final\\exec-194bdcd5-97e5-40b1-a1d5-1ce789f456ad_edited.pptx",
+  "out_dir": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\final\\image2ppt_render",
+  "rendered_png": null,
+  "rendered_slides": [
+    "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\final\\image2ppt_render\\幻灯片1.PNG"
+  ],
+  "source_image": null,
+  "raw": {
+    "status": "rendered",
+    "renderer": "powerpoint-com",
+    "backend": "powerpoint-export-png",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "command": [
+      "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoProfile",
+      "-NonInteractive",
+      "-Command",
+      "$ErrorActionPreference='Stop';$app=$null;$deck=$null;try{$app=New-Object -ComObject PowerPoint.Application;$deck=$app.Presentations.Open('E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\final\\exec-194bdcd5-97e5-40b1-a1d5-1ce789f456ad_edited.pptx',$true,$true,$false);$deck.Export('E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\final\\image2ppt_render','PNG')}finally{if($null -ne $deck){try{$deck.Close()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($deck)|Out-Null}catch{};$deck=$null};if($null -ne $app){try{$app.Quit()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app)|Out-Null}catch{};$app=$null}}"
+    ],
+    "slides": [
+      "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\final\\image2ppt_render\\幻灯片1.PNG"
+    ]
+  }
+}

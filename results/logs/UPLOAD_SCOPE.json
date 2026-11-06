@@ -1,0 +1,13 @@
+{
+  "source_package": "SupplementaryMaterial",
+  "destination": "hasstar/TVT-2026-03463-SupplementaryMaterial",
+  "visibility": "private",
+  "local_dataset_distributed": false,
+  "uk_dataset_distributed": true,
+  "rfe_summary_states": 1610,
+  "model_artifact_files": 5816,
+  "missing_model_references": [],
+  "source_preserved": true,
+  "frozen_generator_distributed": false,
+  "svr_support_vector_models_distributed": false
+}

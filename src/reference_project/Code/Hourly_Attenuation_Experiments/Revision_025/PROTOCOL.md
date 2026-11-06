@@ -1,0 +1,25 @@
+# Revision 025: BiLSTM pressure subsets and refitted RFE
+
+## Question and immutable sources
+
+Using the QA-passed Revision 023 meteorological screen, compare all 1024 subsets of the ten pressure surfaces with the same one-hour vertical BiLSTM. Independently follow a 156-to-1 column-level recursive elimination path using that learner. These are predictive comparisons, not causal effects. No pressure level, feature count, or improvement is guaranteed or required.
+
+Inputs are the 156 retained meteorological columns (50 single-level/column-integrated and 106 pressure-level columns), target `clear_sky_attenuation_db`, and the unchanged Signal_Detectability_Revision_003 split: 2404 train, 343 validation, 687 test hours. Event labels, time, and any measured signal are never model inputs. Training, validation, and test records, previous experiments, original H5/ERA5 and Run_011 stay read-only. New artifacts belong only to Revision 025.
+
+The architecture is the existing Revision 014 vertical BiLSTM: 188 base slots, each active pressure level as one 16-slot vertical token, one bidirectional LSTM layer with 32 hidden units per direction, independent base branch, and fusion head. A screened-out or RFE-removed *column* gets a neutral zero after training-only median imputation and z-score scaling; an excluded *level* has no token. This is not fixed-model zero-masking: every subset and every RFE state has new weights fitted from scratch. The frozen BiLSTM configuration is Revision 023's validation-selected config 2: AdamW, learning rate 0.001, weight decay 0.001, dropout 0.2, batch 128, exactly 62 epochs (its validation-selected full-input round). All states receive the same optimization budget. Seed 17 is fixed for comparable full-training fits; the three train-only day-grouped folds use the same seed and fold definitions as Revision 023's layer experiment. Each fold recomputes preprocessing using only its fit portion. Curves record every train and fold-holdout epoch, but no state changes its 62-epoch limit using holdout outcomes.
+
+## Layer comparison
+
+For masks 0 through 1023, keep all 50 screened base columns and only the screened columns from active pressure surfaces. Fit three day-disjoint train-fold models and one full-train model for each mask: 4096 independent BiLSTM fits. Save every mask's exact feature list, folds, epoch curves, train-fold predictions and weather scores, full-train model, train prediction summary, source fingerprint and model digest. The train-fold mean overall RMSE determines a pre-test illustrative operating mask by the one-SE rule: minimum CV mean plus its SE, then fewest pressure surfaces, then lowest CV mean and mask ID. Also report paired with/without-surface changes over 512 contexts per surface. These development scores may have search optimism and are not final test estimates.
+
+Only after all 1024 states and independent train QA PASS, load the saved models and score validation/test without fitting. Save all hourly predictions and overall/rain/dry-overcast/heavy-rain RMSE, MAE, bias and counts. Rain includes strong rain. Test results must not revise the pre-test mask or training rules.
+
+## Column RFE
+
+Start afresh from all 156 screened columns, regardless of the selected layer subset. For k=156,...,1, fit three day-disjoint train-fold BiLSTMs and one full-train BiLSTM with the same 62-epoch configuration: 624 new fits and 155 deletions. Within each train fold, shuffle each retained input column once on its holdout hours with a deterministic seed. Importance is the mean of the three increases in overall RMSE, `RMSE(permuted)-RMSE(original)`; remove the smallest, breaking ties by feature name. Negative importance is allowed. Validation/test/event labels never decide a deletion. Freeze one illustrative k by the training-fold one-SE rule (smallest k within one SE of the lowest mean RMSE) before holdout evaluation. Each k's feature list, all epoch histories, fold predictions, permutation scores and saved full-training model are mandatory. After 156 states and independent train QA PASS, load models and score validation/test, then independently verify and report every k.
+
+Both all-mask and RFE test sweeps are exploratory descriptions; the previously viewed test partition is not a fresh blind test and its calendar days overlap training. Do not use a test-curve optimum as a subsequently validated model. A new independent split or site would be needed for that claim. The original ten-model choice was made on validation; this experiment is a requested BiLSTM comparator, not a retroactive replacement of the SVR winner.
+
+## Reproducibility and gates
+
+`run_manifest.json` freezes source SHA-256 hashes, source feature order, hyperparameters, folds, code/protocol and target. State writes are atomic and resumable under the identical fingerprint. A single writer lock prevents duplicate workers. Separate train QA gates precede any validation/test read. Complete evaluation QA precedes publication of the result tables. The long-running worker is monitored every 15 minutes; when it is alive, monitoring is read-only and never launches a duplicate.

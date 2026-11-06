@@ -1,0 +1,161 @@
+{
+  "tabm": {
+    "config": {
+      "id": 0,
+      "name": "official_base",
+      "width": 256,
+      "blocks": 3,
+      "k": 32,
+      "dropout": 0.1,
+      "lr": 0.002,
+      "weight_decay": 0.01,
+      "embedding": 0,
+      "gate": false
+    },
+    "epochs": 54,
+    "weight_policy": "uniform"
+  },
+  "bai_lstm": {
+    "epochs": 32,
+    "max_epochs": 1000,
+    "patience": 5,
+    "batch": 128,
+    "lr": 0.0001,
+    "alpha": 0.9,
+    "eps": 1e-06,
+    "weight_policy": "uniform"
+  },
+  "bilstm": {
+    "config_id": 2,
+    "choice": {
+      "estimator": {
+        "epochs": 160,
+        "lr": 0.001,
+        "dropout": 0.2,
+        "weight_decay": 0.001
+      },
+      "override": {},
+      "weight_policy": "uniform",
+      "gated_fusion": false
+    },
+    "formal_rounds": 53,
+    "validation_objective_db": 0.2895693626255448,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  },
+  "transformer": {
+    "config_id": 0,
+    "choice": {
+      "estimator": {
+        "epochs": 160,
+        "lr": 0.001,
+        "dropout": 0.1,
+        "weight_decay": 0.0001
+      },
+      "override": {},
+      "weight_policy": "uniform",
+      "gated_fusion": false
+    },
+    "formal_rounds": 41,
+    "validation_objective_db": 0.28704333401503873,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  },
+  "mlp": {
+    "config_id": 4,
+    "choice": {
+      "estimator": {
+        "epochs": 160,
+        "lr": 0.001,
+        "dropout": 0.2,
+        "weight_decay": 0.001
+      },
+      "override": {},
+      "weight_policy": "balanced",
+      "gated_fusion": false
+    },
+    "formal_rounds": 48,
+    "validation_objective_db": 0.3259913515190826,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  },
+  "catboost": {
+    "config_id": 7,
+    "choice": {
+      "estimator": {
+        "iterations": 500,
+        "depth": 6,
+        "learning_rate": 0.05
+      },
+      "override": {
+        "l2_leaf_reg": 10.0
+      },
+      "weight_policy": "balanced",
+      "gated_fusion": false
+    },
+    "formal_rounds": 500,
+    "validation_objective_db": 0.32635335048588404,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  },
+  "gcn": {
+    "config_id": 6,
+    "choice": {
+      "estimator": {
+        "epochs": 160,
+        "lr": 0.001,
+        "dropout": 0.30000000000000004,
+        "weight_decay": 0.01
+      },
+      "override": {},
+      "weight_policy": "balanced",
+      "gated_fusion": true
+    },
+    "formal_rounds": 56,
+    "validation_objective_db": 0.29814210151468473,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  },
+  "random_forest": {
+    "config_id": 5,
+    "choice": {
+      "estimator": {
+        "n_estimators": 500,
+        "max_depth": 16,
+        "min_samples_leaf": 5
+      },
+      "override": {},
+      "weight_policy": "balanced",
+      "gated_fusion": false
+    },
+    "formal_rounds": 7,
+    "validation_objective_db": 0.3181079519775965,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  },
+  "svr_rbf": {
+    "config_id": 0,
+    "choice": {
+      "estimator": {
+        "C": 1.0,
+        "epsilon": 0.1,
+        "gamma": "scale"
+      },
+      "override": {},
+      "weight_policy": "uniform",
+      "gated_fusion": false
+    },
+    "formal_rounds": null,
+    "validation_objective_db": 0.3387547028845054,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  },
+  "elastic_net": {
+    "config_id": 2,
+    "choice": {
+      "estimator": {
+        "alpha": 0.01,
+        "l1_ratio": 0.75
+      },
+      "override": {},
+      "weight_policy": "uniform",
+      "gated_fusion": false
+    },
+    "formal_rounds": null,
+    "validation_objective_db": 0.5963429692794824,
+    "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+  }
+}

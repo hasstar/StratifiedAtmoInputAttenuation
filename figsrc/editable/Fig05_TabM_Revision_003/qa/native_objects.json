@@ -1,0 +1,1332 @@
+[
+  {
+    "name": "panel-a-title",
+    "x": 30,
+    "y": 13,
+    "w": 1680,
+    "h": 44,
+    "text": "(a)  Hourly attenuation estimator"
+  },
+  {
+    "name": "input-heading",
+    "x": 30,
+    "y": 74,
+    "w": 245,
+    "h": 32,
+    "text": "Hourly inputs"
+  },
+  {
+    "name": "full-feature-pool",
+    "x": 30,
+    "y": 115,
+    "w": 245,
+    "h": 112,
+    "text": ""
+  },
+  {
+    "name": "full-pool-label",
+    "x": 45,
+    "y": 120,
+    "w": 210,
+    "h": 32,
+    "text": "Full pool: 156"
+  },
+  {
+    "name": "full-pool-counts",
+    "x": 45,
+    "y": 158,
+    "w": 215,
+    "h": 59,
+    "text": "50 base + 106\npressure-level features"
+  },
+  {
+    "name": "alternative-or",
+    "x": 30,
+    "y": 234,
+    "w": 245,
+    "h": 30,
+    "text": "or"
+  },
+  {
+    "name": "base-feature-pool",
+    "x": 30,
+    "y": 273,
+    "w": 245,
+    "h": 78,
+    "text": "Base pool: 50\nNo vertical resolution"
+  },
+  {
+    "name": "input-pool-join-top",
+    "x1": 284,
+    "y1": 171,
+    "x2": 284,
+    "y2": 312
+  },
+  {
+    "name": "input-pool-short-top",
+    "x1": 275,
+    "y1": 171,
+    "x2": 284,
+    "y2": 171
+  },
+  {
+    "name": "input-pool-short-bottom",
+    "x1": 275,
+    "y1": 312,
+    "x2": 284,
+    "y2": 312
+  },
+  {
+    "name": "selected-to-preprocessing",
+    "x1": 284,
+    "y1": 248,
+    "x2": 310,
+    "y2": 248
+  },
+  {
+    "name": "retained-feature-count",
+    "x": 280,
+    "y": 184,
+    "w": 34,
+    "h": 58,
+    "text": "k"
+  },
+  {
+    "name": "retained-feature-note",
+    "x": 30,
+    "y": 368,
+    "w": 245,
+    "h": 31,
+    "text": "k retained features"
+  },
+  {
+    "name": "preprocessing",
+    "x": 312,
+    "y": 117,
+    "w": 181,
+    "h": 230,
+    "text": ""
+  },
+  {
+    "name": "preprocessing-title",
+    "x": 322,
+    "y": 126,
+    "w": 161,
+    "h": 33,
+    "text": "Preprocessing"
+  },
+  {
+    "name": "preprocessing-scope",
+    "x": 322,
+    "y": 166,
+    "w": 161,
+    "h": 59,
+    "text": "Fit on local\ntraining data"
+  },
+  {
+    "name": "median-imputation",
+    "x": 325,
+    "y": 238,
+    "w": 155,
+    "h": 42,
+    "text": "Median imputation"
+  },
+  {
+    "name": "standardization",
+    "x": 325,
+    "y": 292,
+    "w": 155,
+    "h": 42,
+    "text": "Standardization"
+  },
+  {
+    "name": "preprocessing-to-replication",
+    "x1": 497,
+    "y1": 248,
+    "x2": 531,
+    "y2": 248
+  },
+  {
+    "name": "same-hour-title",
+    "x": 527,
+    "y": 89,
+    "w": 164,
+    "h": 57,
+    "text": "Same input\nfor M members"
+  },
+  {
+    "name": "replication-matrix-name",
+    "x": 536,
+    "y": 152,
+    "w": 150,
+    "h": 33,
+    "text": "X: M × k"
+  },
+  {
+    "name": "replicated-input-row-0",
+    "x": 556,
+    "y": 195,
+    "w": 108,
+    "h": 27,
+    "text": "xᵀ"
+  },
+  {
+    "name": "replicated-input-row-1",
+    "x": 556,
+    "y": 227,
+    "w": 108,
+    "h": 27,
+    "text": "xᵀ"
+  },
+  {
+    "name": "replicated-input-row-2",
+    "x": 556,
+    "y": 259,
+    "w": 108,
+    "h": 27,
+    "text": "⋮"
+  },
+  {
+    "name": "replicated-input-row-3",
+    "x": 556,
+    "y": 291,
+    "w": 108,
+    "h": 27,
+    "text": "xᵀ"
+  },
+  {
+    "name": "replicated-input-left",
+    "x1": 548,
+    "y1": 192,
+    "x2": 548,
+    "y2": 318
+  },
+  {
+    "name": "replicated-input-left-top",
+    "x1": 548,
+    "y1": 192,
+    "x2": 554,
+    "y2": 192
+  },
+  {
+    "name": "replicated-input-left-bottom",
+    "x1": 548,
+    "y1": 318,
+    "x2": 554,
+    "y2": 318
+  },
+  {
+    "name": "replicated-input-right",
+    "x1": 672,
+    "y1": 192,
+    "x2": 672,
+    "y2": 318
+  },
+  {
+    "name": "replicated-input-right-top",
+    "x1": 666,
+    "y1": 192,
+    "x2": 672,
+    "y2": 192
+  },
+  {
+    "name": "replicated-input-right-bottom",
+    "x1": 666,
+    "y1": 318,
+    "x2": 672,
+    "y2": 318
+  },
+  {
+    "name": "member-count",
+    "x": 520,
+    "y": 339,
+    "w": 180,
+    "h": 36,
+    "text": "M = 32 members"
+  },
+  {
+    "name": "replicated-input-to-backbone",
+    "x1": 682,
+    "y1": 248,
+    "x2": 710,
+    "y2": 248
+  },
+  {
+    "name": "tabm-backbone-container",
+    "x": 710,
+    "y": 96,
+    "w": 378,
+    "h": 254,
+    "text": ""
+  },
+  {
+    "name": "backbone-heading",
+    "x": 720,
+    "y": 103,
+    "w": 358,
+    "h": 37,
+    "text": "TabM backbone"
+  },
+  {
+    "name": "backbone-subheading",
+    "x": 720,
+    "y": 146,
+    "w": 358,
+    "h": 52,
+    "text": "Shared hidden weights\nMember-specific adapters"
+  },
+  {
+    "name": "block-1",
+    "x": 724,
+    "y": 215,
+    "w": 108,
+    "h": 114,
+    "text": ""
+  },
+  {
+    "name": "block-heading-0",
+    "x": 728,
+    "y": 221,
+    "w": 100,
+    "h": 31,
+    "text": "Block 1"
+  },
+  {
+    "name": "block-spec-0",
+    "x": 728,
+    "y": 251,
+    "w": 100,
+    "h": 76,
+    "text": "256 units\nReLU\nDropout 0.1"
+  },
+  {
+    "name": "between-blocks-0",
+    "x1": 832,
+    "y1": 269,
+    "x2": 845,
+    "y2": 269
+  },
+  {
+    "name": "block-2",
+    "x": 845,
+    "y": 215,
+    "w": 108,
+    "h": 114,
+    "text": ""
+  },
+  {
+    "name": "block-heading-1",
+    "x": 849,
+    "y": 221,
+    "w": 100,
+    "h": 31,
+    "text": "Block 2"
+  },
+  {
+    "name": "block-spec-1",
+    "x": 849,
+    "y": 251,
+    "w": 100,
+    "h": 76,
+    "text": "256 units\nReLU\nDropout 0.1"
+  },
+  {
+    "name": "between-blocks-1",
+    "x1": 953,
+    "y1": 269,
+    "x2": 966,
+    "y2": 269
+  },
+  {
+    "name": "block-3",
+    "x": 966,
+    "y": 215,
+    "w": 108,
+    "h": 114,
+    "text": ""
+  },
+  {
+    "name": "block-heading-2",
+    "x": 970,
+    "y": 221,
+    "w": 100,
+    "h": 31,
+    "text": "Block 3"
+  },
+  {
+    "name": "block-spec-2",
+    "x": 970,
+    "y": 251,
+    "w": 100,
+    "h": 76,
+    "text": "256 units\nReLU\nDropout 0.1"
+  },
+  {
+    "name": "inside-block-crossref",
+    "x": 717,
+    "y": 365,
+    "w": 370,
+    "h": 31,
+    "text": "See (b) for the block operation"
+  },
+  {
+    "name": "heads-title",
+    "x": 1106,
+    "y": 81,
+    "w": 180,
+    "h": 59,
+    "text": "Member-specific\nheads"
+  },
+  {
+    "name": "backbone-to-heads-bus",
+    "x1": 1088,
+    "y1": 269,
+    "x2": 1100,
+    "y2": 269
+  },
+  {
+    "name": "heads-input-bus",
+    "x1": 1100,
+    "y1": 165,
+    "x2": 1100,
+    "y2": 354
+  },
+  {
+    "name": "to-head-0",
+    "x1": 1100,
+    "y1": 165,
+    "x2": 1113,
+    "y2": 165
+  },
+  {
+    "name": "member-head-1",
+    "x": 1113,
+    "y": 145,
+    "w": 72,
+    "h": 40,
+    "text": "h1(·)"
+  },
+  {
+    "name": "head-to-output-0",
+    "x1": 1187,
+    "y1": 165,
+    "x2": 1203,
+    "y2": 165
+  },
+  {
+    "name": "member-output-0",
+    "x": 1206,
+    "y": 145,
+    "w": 74,
+    "h": 40,
+    "text": "ẑ₁,h"
+  },
+  {
+    "name": "output-collect-0",
+    "x1": 1279,
+    "y1": 165,
+    "x2": 1294,
+    "y2": 165
+  },
+  {
+    "name": "to-head-1",
+    "x1": 1100,
+    "y1": 225,
+    "x2": 1113,
+    "y2": 225
+  },
+  {
+    "name": "member-head-2",
+    "x": 1113,
+    "y": 205,
+    "w": 72,
+    "h": 40,
+    "text": "h2(·)"
+  },
+  {
+    "name": "head-to-output-1",
+    "x1": 1187,
+    "y1": 225,
+    "x2": 1203,
+    "y2": 225
+  },
+  {
+    "name": "member-output-1",
+    "x": 1206,
+    "y": 205,
+    "w": 74,
+    "h": 40,
+    "text": "ẑ₂,h"
+  },
+  {
+    "name": "output-collect-1",
+    "x1": 1279,
+    "y1": 225,
+    "x2": 1294,
+    "y2": 225
+  },
+  {
+    "name": "to-head-2",
+    "x1": 1100,
+    "y1": 285,
+    "x2": 1113,
+    "y2": 285
+  },
+  {
+    "name": "member-head-3",
+    "x": 1113,
+    "y": 265,
+    "w": 72,
+    "h": 40,
+    "text": "h3(·)"
+  },
+  {
+    "name": "head-to-output-2",
+    "x1": 1187,
+    "y1": 285,
+    "x2": 1203,
+    "y2": 285
+  },
+  {
+    "name": "member-output-2",
+    "x": 1206,
+    "y": 265,
+    "w": 74,
+    "h": 40,
+    "text": "ẑ₃,h"
+  },
+  {
+    "name": "output-collect-2",
+    "x1": 1279,
+    "y1": 285,
+    "x2": 1294,
+    "y2": 285
+  },
+  {
+    "name": "to-head-3",
+    "x1": 1100,
+    "y1": 354,
+    "x2": 1113,
+    "y2": 354
+  },
+  {
+    "name": "member-head-32",
+    "x": 1113,
+    "y": 334,
+    "w": 72,
+    "h": 40,
+    "text": "h32(·)"
+  },
+  {
+    "name": "head-to-output-3",
+    "x1": 1187,
+    "y1": 354,
+    "x2": 1203,
+    "y2": 354
+  },
+  {
+    "name": "member-output-3",
+    "x": 1206,
+    "y": 334,
+    "w": 74,
+    "h": 40,
+    "text": "ẑ₃₂,h"
+  },
+  {
+    "name": "output-collect-3",
+    "x1": 1279,
+    "y1": 354,
+    "x2": 1294,
+    "y2": 354
+  },
+  {
+    "name": "heads-ellipsis",
+    "x": 1114,
+    "y": 306,
+    "w": 68,
+    "h": 24,
+    "text": "⋮"
+  },
+  {
+    "name": "output-ellipsis",
+    "x": 1208,
+    "y": 306,
+    "w": 69,
+    "h": 24,
+    "text": "⋮"
+  },
+  {
+    "name": "all-member-output-bus",
+    "x1": 1294,
+    "y1": 165,
+    "x2": 1294,
+    "y2": 354
+  },
+  {
+    "name": "mean-branch",
+    "x1": 1294,
+    "y1": 252,
+    "x2": 1320,
+    "y2": 252
+  },
+  {
+    "name": "member-mean",
+    "x": 1320,
+    "y": 204,
+    "w": 124,
+    "h": 97,
+    "text": ""
+  },
+  {
+    "name": "mean-title",
+    "x": 1324,
+    "y": 208,
+    "w": 116,
+    "h": 29,
+    "text": "Mean"
+  },
+  {
+    "name": "mean-standardized-output",
+    "x": 1324,
+    "y": 241,
+    "w": 116,
+    "h": 29,
+    "text": "z̄h"
+  },
+  {
+    "name": "mean-count",
+    "x": 1324,
+    "y": 270,
+    "w": 116,
+    "h": 24,
+    "text": "32 members"
+  },
+  {
+    "name": "mean-to-unscale",
+    "x1": 1444,
+    "y1": 252,
+    "x2": 1468,
+    "y2": 252
+  },
+  {
+    "name": "inverse-target-scaling",
+    "x": 1468,
+    "y": 204,
+    "w": 107,
+    "h": 97,
+    "text": "Inverse\ntarget\nscaling"
+  },
+  {
+    "name": "unscale-to-attenuation",
+    "x1": 1575,
+    "y1": 252,
+    "x2": 1598,
+    "y2": 252
+  },
+  {
+    "name": "hourly-attenuation",
+    "x": 1598,
+    "y": 197,
+    "w": 132,
+    "h": 111,
+    "text": "Hourly\nattenuation\nÂh (dB)"
+  },
+  {
+    "name": "all-outputs-to-loss-vertical",
+    "x1": 1294,
+    "y1": 354,
+    "x2": 1294,
+    "y2": 389
+  },
+  {
+    "name": "all-outputs-to-loss",
+    "x1": 1294,
+    "y1": 389,
+    "x2": 1320,
+    "y2": 389
+  },
+  {
+    "name": "memberwise-loss",
+    "x": 1320,
+    "y": 355,
+    "w": 255,
+    "h": 64,
+    "text": "Member-wise MSE\nTraining only"
+  },
+  {
+    "name": "panel-a-rule",
+    "x1": 30,
+    "y1": 435,
+    "x2": 1730,
+    "y2": 435
+  },
+  {
+    "name": "panel-b-title",
+    "x": 30,
+    "y": 448,
+    "w": 1680,
+    "h": 43,
+    "text": "(b)  Inside one TabM block"
+  },
+  {
+    "name": "hidden-input-title",
+    "x": 12,
+    "y": 501,
+    "w": 200,
+    "h": 34,
+    "text": "Input H"
+  },
+  {
+    "name": "hidden-input-row-0",
+    "x": 58,
+    "y": 541,
+    "w": 108,
+    "h": 27,
+    "text": "h₁ᵀ"
+  },
+  {
+    "name": "hidden-input-row-1",
+    "x": 58,
+    "y": 573,
+    "w": 108,
+    "h": 27,
+    "text": "h₂ᵀ"
+  },
+  {
+    "name": "hidden-input-row-2",
+    "x": 58,
+    "y": 605,
+    "w": 108,
+    "h": 27,
+    "text": "⋮"
+  },
+  {
+    "name": "hidden-input-row-3",
+    "x": 58,
+    "y": 637,
+    "w": 108,
+    "h": 27,
+    "text": "h₃₂ᵀ"
+  },
+  {
+    "name": "hidden-input-left",
+    "x1": 50,
+    "y1": 538,
+    "x2": 50,
+    "y2": 664
+  },
+  {
+    "name": "hidden-input-left-top",
+    "x1": 50,
+    "y1": 538,
+    "x2": 56,
+    "y2": 538
+  },
+  {
+    "name": "hidden-input-left-bottom",
+    "x1": 50,
+    "y1": 664,
+    "x2": 56,
+    "y2": 664
+  },
+  {
+    "name": "hidden-input-right",
+    "x1": 174,
+    "y1": 538,
+    "x2": 174,
+    "y2": 664
+  },
+  {
+    "name": "hidden-input-right-top",
+    "x1": 168,
+    "y1": 538,
+    "x2": 174,
+    "y2": 538
+  },
+  {
+    "name": "hidden-input-right-bottom",
+    "x1": 168,
+    "y1": 664,
+    "x2": 174,
+    "y2": 664
+  },
+  {
+    "name": "hidden-input-shape",
+    "x": 15,
+    "y": 678,
+    "w": 194,
+    "h": 32,
+    "text": "M × input width"
+  },
+  {
+    "name": "input-adapter-title",
+    "x": 222,
+    "y": 501,
+    "w": 200,
+    "h": 34,
+    "text": "Input adapter R"
+  },
+  {
+    "name": "input-adapter-row-0",
+    "x": 268,
+    "y": 541,
+    "w": 108,
+    "h": 27,
+    "text": "r₁ᵀ"
+  },
+  {
+    "name": "input-adapter-row-1",
+    "x": 268,
+    "y": 573,
+    "w": 108,
+    "h": 27,
+    "text": "r₂ᵀ"
+  },
+  {
+    "name": "input-adapter-row-2",
+    "x": 268,
+    "y": 605,
+    "w": 108,
+    "h": 27,
+    "text": "⋮"
+  },
+  {
+    "name": "input-adapter-row-3",
+    "x": 268,
+    "y": 637,
+    "w": 108,
+    "h": 27,
+    "text": "r₃₂ᵀ"
+  },
+  {
+    "name": "input-adapter-left",
+    "x1": 260,
+    "y1": 538,
+    "x2": 260,
+    "y2": 664
+  },
+  {
+    "name": "input-adapter-left-top",
+    "x1": 260,
+    "y1": 538,
+    "x2": 266,
+    "y2": 538
+  },
+  {
+    "name": "input-adapter-left-bottom",
+    "x1": 260,
+    "y1": 664,
+    "x2": 266,
+    "y2": 664
+  },
+  {
+    "name": "input-adapter-right",
+    "x1": 384,
+    "y1": 538,
+    "x2": 384,
+    "y2": 664
+  },
+  {
+    "name": "input-adapter-right-top",
+    "x1": 378,
+    "y1": 538,
+    "x2": 384,
+    "y2": 538
+  },
+  {
+    "name": "input-adapter-right-bottom",
+    "x1": 378,
+    "y1": 664,
+    "x2": 384,
+    "y2": 664
+  },
+  {
+    "name": "input-adapter-shape",
+    "x": 225,
+    "y": 678,
+    "w": 194,
+    "h": 32,
+    "text": "M × input width"
+  },
+  {
+    "name": "output-adapter-title",
+    "x": 692,
+    "y": 501,
+    "w": 200,
+    "h": 34,
+    "text": "Output adapter S"
+  },
+  {
+    "name": "output-adapter-row-0",
+    "x": 738,
+    "y": 541,
+    "w": 108,
+    "h": 27,
+    "text": "s₁ᵀ"
+  },
+  {
+    "name": "output-adapter-row-1",
+    "x": 738,
+    "y": 573,
+    "w": 108,
+    "h": 27,
+    "text": "s₂ᵀ"
+  },
+  {
+    "name": "output-adapter-row-2",
+    "x": 738,
+    "y": 605,
+    "w": 108,
+    "h": 27,
+    "text": "⋮"
+  },
+  {
+    "name": "output-adapter-row-3",
+    "x": 738,
+    "y": 637,
+    "w": 108,
+    "h": 27,
+    "text": "s₃₂ᵀ"
+  },
+  {
+    "name": "output-adapter-left",
+    "x1": 730,
+    "y1": 538,
+    "x2": 730,
+    "y2": 664
+  },
+  {
+    "name": "output-adapter-left-top",
+    "x1": 730,
+    "y1": 538,
+    "x2": 736,
+    "y2": 538
+  },
+  {
+    "name": "output-adapter-left-bottom",
+    "x1": 730,
+    "y1": 664,
+    "x2": 736,
+    "y2": 664
+  },
+  {
+    "name": "output-adapter-right",
+    "x1": 854,
+    "y1": 538,
+    "x2": 854,
+    "y2": 664
+  },
+  {
+    "name": "output-adapter-right-top",
+    "x1": 848,
+    "y1": 538,
+    "x2": 854,
+    "y2": 538
+  },
+  {
+    "name": "output-adapter-right-bottom",
+    "x1": 848,
+    "y1": 664,
+    "x2": 854,
+    "y2": 664
+  },
+  {
+    "name": "output-adapter-shape",
+    "x": 695,
+    "y": 678,
+    "w": 194,
+    "h": 32,
+    "text": "M × output width"
+  },
+  {
+    "name": "member-bias-title",
+    "x": 922,
+    "y": 501,
+    "w": 200,
+    "h": 34,
+    "text": "Bias B"
+  },
+  {
+    "name": "member-bias-row-0",
+    "x": 968,
+    "y": 541,
+    "w": 108,
+    "h": 27,
+    "text": "b₁ᵀ"
+  },
+  {
+    "name": "member-bias-row-1",
+    "x": 968,
+    "y": 573,
+    "w": 108,
+    "h": 27,
+    "text": "b₂ᵀ"
+  },
+  {
+    "name": "member-bias-row-2",
+    "x": 968,
+    "y": 605,
+    "w": 108,
+    "h": 27,
+    "text": "⋮"
+  },
+  {
+    "name": "member-bias-row-3",
+    "x": 968,
+    "y": 637,
+    "w": 108,
+    "h": 27,
+    "text": "b₃₂ᵀ"
+  },
+  {
+    "name": "member-bias-left",
+    "x1": 960,
+    "y1": 538,
+    "x2": 960,
+    "y2": 664
+  },
+  {
+    "name": "member-bias-left-top",
+    "x1": 960,
+    "y1": 538,
+    "x2": 966,
+    "y2": 538
+  },
+  {
+    "name": "member-bias-left-bottom",
+    "x1": 960,
+    "y1": 664,
+    "x2": 966,
+    "y2": 664
+  },
+  {
+    "name": "member-bias-right",
+    "x1": 1084,
+    "y1": 538,
+    "x2": 1084,
+    "y2": 664
+  },
+  {
+    "name": "member-bias-right-top",
+    "x1": 1078,
+    "y1": 538,
+    "x2": 1084,
+    "y2": 538
+  },
+  {
+    "name": "member-bias-right-bottom",
+    "x1": 1078,
+    "y1": 664,
+    "x2": 1084,
+    "y2": 664
+  },
+  {
+    "name": "member-bias-shape",
+    "x": 925,
+    "y": 678,
+    "w": 194,
+    "h": 32,
+    "text": "M × output width"
+  },
+  {
+    "name": "block-output-title",
+    "x": 1492,
+    "y": 501,
+    "w": 216,
+    "h": 34,
+    "text": "Output H′"
+  },
+  {
+    "name": "block-output-row-0",
+    "x": 1538,
+    "y": 541,
+    "w": 124,
+    "h": 27,
+    "text": "h′₁ᵀ"
+  },
+  {
+    "name": "block-output-row-1",
+    "x": 1538,
+    "y": 573,
+    "w": 124,
+    "h": 27,
+    "text": "h′₂ᵀ"
+  },
+  {
+    "name": "block-output-row-2",
+    "x": 1538,
+    "y": 605,
+    "w": 124,
+    "h": 27,
+    "text": "⋮"
+  },
+  {
+    "name": "block-output-row-3",
+    "x": 1538,
+    "y": 637,
+    "w": 124,
+    "h": 27,
+    "text": "h′₃₂ᵀ"
+  },
+  {
+    "name": "block-output-left",
+    "x1": 1530,
+    "y1": 538,
+    "x2": 1530,
+    "y2": 664
+  },
+  {
+    "name": "block-output-left-top",
+    "x1": 1530,
+    "y1": 538,
+    "x2": 1536,
+    "y2": 538
+  },
+  {
+    "name": "block-output-left-bottom",
+    "x1": 1530,
+    "y1": 664,
+    "x2": 1536,
+    "y2": 664
+  },
+  {
+    "name": "block-output-right",
+    "x1": 1670,
+    "y1": 538,
+    "x2": 1670,
+    "y2": 664
+  },
+  {
+    "name": "block-output-right-top",
+    "x1": 1664,
+    "y1": 538,
+    "x2": 1670,
+    "y2": 538
+  },
+  {
+    "name": "block-output-right-bottom",
+    "x1": 1664,
+    "y1": 664,
+    "x2": 1670,
+    "y2": 664
+  },
+  {
+    "name": "block-output-shape",
+    "x": 1495,
+    "y": 678,
+    "w": 210,
+    "h": 32,
+    "text": "M × output width"
+  },
+  {
+    "name": "shared-weight-title",
+    "x": 441,
+    "y": 501,
+    "w": 222,
+    "h": 34,
+    "text": "Shared weight W"
+  },
+  {
+    "name": "shared-weight-matrix",
+    "x": 480,
+    "y": 538,
+    "w": 144,
+    "h": 126,
+    "text": ""
+  },
+  {
+    "name": "W-grid-v-1",
+    "x1": 504,
+    "y1": 538,
+    "x2": 504,
+    "y2": 664
+  },
+  {
+    "name": "W-grid-h-1",
+    "x1": 480,
+    "y1": 559,
+    "x2": 624,
+    "y2": 559
+  },
+  {
+    "name": "W-grid-v-2",
+    "x1": 528,
+    "y1": 538,
+    "x2": 528,
+    "y2": 664
+  },
+  {
+    "name": "W-grid-h-2",
+    "x1": 480,
+    "y1": 580,
+    "x2": 624,
+    "y2": 580
+  },
+  {
+    "name": "W-grid-v-3",
+    "x1": 552,
+    "y1": 538,
+    "x2": 552,
+    "y2": 664
+  },
+  {
+    "name": "W-grid-h-3",
+    "x1": 480,
+    "y1": 601,
+    "x2": 624,
+    "y2": 601
+  },
+  {
+    "name": "W-grid-v-4",
+    "x1": 576,
+    "y1": 538,
+    "x2": 576,
+    "y2": 664
+  },
+  {
+    "name": "W-grid-h-4",
+    "x1": 480,
+    "y1": 622,
+    "x2": 624,
+    "y2": 622
+  },
+  {
+    "name": "W-grid-v-5",
+    "x1": 600,
+    "y1": 538,
+    "x2": 600,
+    "y2": 664
+  },
+  {
+    "name": "W-grid-h-5",
+    "x1": 480,
+    "y1": 643,
+    "x2": 624,
+    "y2": 643
+  },
+  {
+    "name": "W-symbol",
+    "x": 500,
+    "y": 574,
+    "w": 104,
+    "h": 56,
+    "text": "W"
+  },
+  {
+    "name": "W-shape",
+    "x": 430,
+    "y": 678,
+    "w": 244,
+    "h": 32,
+    "text": "Input width × output width"
+  },
+  {
+    "name": "elementwise-input",
+    "x": 191,
+    "y": 573,
+    "w": 49,
+    "h": 55,
+    "text": "⊙"
+  },
+  {
+    "name": "matrix-multiply",
+    "x": 411,
+    "y": 573,
+    "w": 49,
+    "h": 55,
+    "text": "×"
+  },
+  {
+    "name": "elementwise-output",
+    "x": 658,
+    "y": 573,
+    "w": 49,
+    "h": 55,
+    "text": "⊙"
+  },
+  {
+    "name": "bias-add",
+    "x": 884,
+    "y": 573,
+    "w": 49,
+    "h": 55,
+    "text": "+"
+  },
+  {
+    "name": "bias-to-relu",
+    "x1": 1095,
+    "y1": 603,
+    "x2": 1132,
+    "y2": 603
+  },
+  {
+    "name": "relu",
+    "x": 1132,
+    "y": 577,
+    "w": 103,
+    "h": 52,
+    "text": "ReLU"
+  },
+  {
+    "name": "relu-to-dropout",
+    "x1": 1235,
+    "y1": 603,
+    "x2": 1270,
+    "y2": 603
+  },
+  {
+    "name": "dropout",
+    "x": 1270,
+    "y": 577,
+    "w": 118,
+    "h": 52,
+    "text": "Dropout"
+  },
+  {
+    "name": "dropout-to-output",
+    "x1": 1388,
+    "y1": 603,
+    "x2": 1518,
+    "y2": 603
+  },
+  {
+    "name": "dropout-training",
+    "x": 1248,
+    "y": 638,
+    "w": 162,
+    "h": 33,
+    "text": "0.1, training only"
+  },
+  {
+    "name": "shared-legend-swatch",
+    "x": 127,
+    "y": 730,
+    "w": 32,
+    "h": 23,
+    "text": ""
+  },
+  {
+    "name": "shared-legend",
+    "x": 169,
+    "y": 723,
+    "w": 546,
+    "h": 38,
+    "text": "Shared across members: one W per block"
+  },
+  {
+    "name": "member-legend-swatch",
+    "x": 727,
+    "y": 730,
+    "w": 32,
+    "h": 23,
+    "text": ""
+  },
+  {
+    "name": "member-legend",
+    "x": 770,
+    "y": 723,
+    "w": 850,
+    "h": 38,
+    "text": "Member-specific: input/output scales, biases and regression heads"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "model": "random_forest",
+  "k": 3,
+  "local_replay_max_abs_db": 4.440892098500626e-16,
+  "model_sha256": "e2b9d92279b57126b5a1e53c27db52224e2d6401f56f240da70ea3844cda1de6",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

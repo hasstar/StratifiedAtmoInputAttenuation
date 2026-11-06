@@ -1,0 +1,28 @@
+{
+  "status": "NUMERICS_TABLES_SIX_FIGURES_REPORT_READY_PENDING_VISUAL_REVIEW",
+  "utc": "2026-10-24T00:08:10.150156+00:00",
+  "states": 100,
+  "figures": 6,
+  "training_calls": 0,
+  "all_required_numerics_verified": true,
+  "visual_review_complete": false,
+  "report": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\UK_RESULTS_CN.md",
+  "report_sha256": "6ddd0bc88b0ce940ecc37792e8a4f5c24741f635ebd70327e784e69744354deb",
+  "tables_sha256": {
+    "bai_lstm_UK_six_metrics.csv": "07a2fb3460062075ca2ffb8cefee0ecf6fd7dd81960d056fa78b59ef9ec2a927",
+    "bilstm_UK_six_metrics.csv": "cf5401395709c8a76db4e0501754c9e2b4c3fc4c4ae1e7a25505fd20370891f9",
+    "catboost_UK_six_metrics.csv": "3ea98b5d4e1b9f0c44b42b35c1859144c22db438391201626faee8c30e819261",
+    "elastic_net_UK_six_metrics.csv": "c3d62cdec74a7ab265b8585a322a4c8b923e8ab8e87642c4353fc68dfb07a125",
+    "gcn_UK_six_metrics.csv": "22a674d05ad9e264cd52d273350518118de270c76a1012e61de25f00af5080f6",
+    "metrics_all_weather_station.csv": "ce419929a8543dd6ed98e8ea8ad518703ba3f625eb570d7cfd73f77dc7ec762a",
+    "mlp_UK_six_metrics.csv": "05abf46a2e76d1698f8f38bce9de5246d1acc3dacd512367576a064e4d69d447",
+    "random_forest_UK_six_metrics.csv": "2e5b4010ed8fbe9e73302de3c3e110eb78494eb485935e69d8812ce20f2c0a82",
+    "retained_inputs_all_100_states.csv": "39e602d0a82d60058edc34b13452af37c3082c030c7c158153b8af81531cd0b4",
+    "svr_rbf_UK_six_metrics.csv": "eaf98c8ddb96c16ba4dc9171514445b007a1c6222156d487194454aa92ee3eac",
+    "tabm_UK_six_metrics.csv": "90769b6bcfbe80b7d2530a4a84e2295f58e49fece7e31e9f18fe0a4d220a8e39",
+    "transformer_UK_six_metrics.csv": "af58a26f1806e6d3a200eca4d524b075b98e33bd9737d0216420e66104d78060",
+    "UK_100_states_six_metrics.csv": "d15a732cc676b58484930178b9db23073d7d8f7936da4c4bf7c3dfe40e97047b"
+  },
+  "all_task_complete": false,
+  "old_automations_changed": false
+}

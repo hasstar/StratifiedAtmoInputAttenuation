@@ -1,0 +1,1654 @@
+[
+  {
+    "id": "chilbolton_2003-08-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030819.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030819.nc",
+    "sha256": "45992d073dab441e0ad23f23634452f112c40c9b6657c3a59390c12f631799f7",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030820.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030820.nc",
+    "sha256": "b932f3d8ad3a72bfde90ed32a21ab3e87c2a0bb9f2a270d9768d059b0c08f348",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030821.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030821.nc",
+    "sha256": "888bcfc37849af4c44da180731f92b9c8d88bef8339bdc337aa8957db7fd23bf",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030822.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030822.nc",
+    "sha256": "ac196c83a91d6ff68a88c9a39112098a91836cf990b6047c4d78628239cddc9f",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030823.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030823.nc",
+    "sha256": "8c18364eceb4b94a29f7d4132b7366446c5e06f94e39a275d9ac5713ca42d7d9",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2003-08-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030824.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030824.nc",
+    "sha256": "9d7dee46312b0c7fd05a6075a57493a089e2fad5bb4fc9f1eba4cf4dcfbb411f",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2003-08-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030825.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030825.nc",
+    "sha256": "38ee7c7153242e70f8055228746297224b0aecb707ee22b4f37fd94933c46211",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2003-08-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030826.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030826.nc",
+    "sha256": "1feacc6e763383c85358f7b12295939134f71c3cfcd07e05243350dbd498d25b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030827.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030827.nc",
+    "sha256": "fa4761d4a3c6fa54d5e4027bd7abe92218939cf0aaf03055bd8fc5a4f8018c23",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030828.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030828.nc",
+    "sha256": "0c9df17d7a389188595fa866bde074fa4ac71bc2764da666d49d8ce55cae2f3d",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030829.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030829.nc",
+    "sha256": "7d418d6f7a465df519dcd98a0d7ff41d263da97e1c84801a57d0927e5e4e2995",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030830.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030830.nc",
+    "sha256": "aad4fb0ec0f212785eaa271d6c4522c854a814b9b53a8b686d5a9f86e4d234df",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-08-31",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/08/cfarr-gbs_chilbolton_20030831.nc?download=1",
+    "target": "chilbolton/2003/08/cfarr-gbs_chilbolton_20030831.nc",
+    "sha256": "01608bc2e77db7e688dc09d19cb4c1b4a9261290dce4e6433877ba91ef53b5a6",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-01",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030901.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030901.nc",
+    "sha256": "91b6773344b0a5d5a157d30af7e1b2de01cdf93e2b976d1ab23c9023b1d76602",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-02",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030902.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030902.nc",
+    "sha256": "9feecb77d14525042e8a8463aa386da06c627007c668c93bddb15c2aea0a5242",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-03",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030903.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030903.nc",
+    "sha256": "32baa2a4e0f989825530f61cc065c5a84428ff01c8b21a3473c9d35350cdde75",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-04",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030904.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030904.nc",
+    "sha256": "1370e2a8fcb994f256b0e56c12782bacd833dc49ac49b6d61614f0e4c8d9408d",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-05",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030905.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030905.nc",
+    "sha256": "b5bf9f221e69db6547d77ab76a277a4c89b68e5624d2e11a7f58da84fbd3b630",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-06",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030906.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030906.nc",
+    "sha256": "a55a338b74fd7d4552bf60a022f8e49e26378b9d1840601a8a1247eefbd252f7",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-07",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030907.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030907.nc",
+    "sha256": "a4c5421b7e20101f546d147af2916789d62c76bbaa1f4e5639ffb9dcd998056a",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-08",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030908.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030908.nc",
+    "sha256": "dd762b6b3b70723e54712bc9d60204b84598e8b2c20f2b560bcf10d9840c3e1b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-09",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030909.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030909.nc",
+    "sha256": "2f0b85820ab82a81e34833e08561003cb16dc77f5383c301a15a1810382b3b9a",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-10",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030910.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030910.nc",
+    "sha256": "ec072f64f3e773bfce36347888863020f189801a267a7f001ebd5a804b530e94",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-11",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030911.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030911.nc",
+    "sha256": "cc1d8c63813c2d2f318ff1b56e0af7854763501dd352da222ccad456d0a0db5e",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-12",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030912.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030912.nc",
+    "sha256": "7f1477482ed9d629e1dbcfeb50436f2fa17a6ac14f3a770880b8889d92376625",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-13",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030913.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030913.nc",
+    "sha256": "235bfc8e6994e535d773d328113c4ef80b07e51a143daca69738b177c01ec8a2",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-14",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030914.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030914.nc",
+    "sha256": "259162e333102b121485ed924bea506656bbcb337995d31a69602aef4d4321fb",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-15",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030915.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030915.nc",
+    "sha256": "f1456e57d65105d6f5fca41210228620ce949d0ce9f84a970dcde158cbd954fb",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-16",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030916.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030916.nc",
+    "sha256": "a7101d7b0a4cf6398c185d7e6c7eeb71a132775801e240ae0ac664a56d2e6757",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-17",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030917.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030917.nc",
+    "sha256": "8d06e3a4e0e1bbc8be30b156738dc77564775e8a88b3655a974cf81405a01255",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030918.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030918.nc",
+    "sha256": "189728a8b8fab86bbf7f2f1f457c2839c7a12d8b9ea39789dd12ce890a7a0a56",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030919.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030919.nc",
+    "sha256": "f9c6f7513a544d6f0061a804d4a1490693aa7be3c26414b234031e94eea9ad21",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030920.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030920.nc",
+    "sha256": "1689d06cf8cdda24dc64493206a84fa2fee0ab5e82f7f3f2e601800e54a61868",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030921.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030921.nc",
+    "sha256": "8cfc4eab94631a7882141e3feba601a248ece51daf0e4d4294918c56a62a863d",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030922.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030922.nc",
+    "sha256": "3fd9c795734fcebcfbfdacebcaca9bbdb116ceefa2a39035f875918ae537a8f2",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030923.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030923.nc",
+    "sha256": "a8a0ace16bc52a8e6cb0e8c9d6bc0c3cba8afb2dabf57ad5c96e8c8c3cf79fcb",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030924.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030924.nc",
+    "sha256": "c0486df733fd860c61412352a491d77e1daa7a55cfeb58b1b75e9c5cedd6eca0",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030925.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030925.nc",
+    "sha256": "9f46b2bcea782fbcd4c0a81bd8a191511f2e22147784b1381ff6edc1e9951849",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030926.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030926.nc",
+    "sha256": "c65841faf616f1acbe14c1e7cb4507ecce716f3206094c76ebd9b5ab39e665dc",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030927.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030927.nc",
+    "sha256": "47398fe2d684a46f1fc4995e9b7279c0a64542dd4971ac4cb36c4bd643ae71a2",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030928.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030928.nc",
+    "sha256": "4ade556d0e1febeac6f17a67a5cc0f7be41f4ef562e58b854f4d378436d23165",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030929.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030929.nc",
+    "sha256": "e1f3786a2a05f1f6df4019c5d2b8b5d04759721839a161397b8486e69c087acf",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-09-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/09/cfarr-gbs_chilbolton_20030930.nc?download=1",
+    "target": "chilbolton/2003/09/cfarr-gbs_chilbolton_20030930.nc",
+    "sha256": "87a5f5fa53f93f773773a052813abf03fe15717a54673a59778549da44d3a3cf",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-01",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031001.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031001.nc",
+    "sha256": "f729dc98e7a2ec7c1951e5552315acfc01e32180e132fff492d00158bc1bbab7",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-02",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031002.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031002.nc",
+    "sha256": "288aa2a3ef654a6f07d6942c51775470e93b2b4af8353d46e449eded7d81503e",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-03",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031003.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031003.nc",
+    "sha256": "5c69e2fed3e3ae3eee020bf340424fe403a43db1f963f7d52b46247752434512",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-04",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031004.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031004.nc",
+    "sha256": "9b57d95dae866fe913c0f01b0f0df192cac6bc7889c184fa98776ef9c271cede",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-05",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031005.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031005.nc",
+    "sha256": "bdffdf190a007e19dc4f3982e9dbcee344abeffec9bbc28204b25cededabe16b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-06",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031006.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031006.nc",
+    "sha256": "a21a4b9561e457e42f1234abfe163ada1e70e962ab27a138fa7576cb4b300e43",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-07",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031007.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031007.nc",
+    "sha256": "e67a6c1fe682e855e6c830bc07b44066daf0485466567ad427626bff147c1381",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-08",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031008.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031008.nc",
+    "sha256": "6df67c23ad94b4051e36a1f434d22b3a14c606090a6e616c0849ec0db3a526d7",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-09",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031009.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031009.nc",
+    "sha256": "908d9db73fcdf8ad2c60d96ff33374a7da327c7c5a8e067489a299ec638262eb",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-10",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031010.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031010.nc",
+    "sha256": "303e308ee4ac207cbe9515d7eb706b056d73683dd5603fe6eac28b86b1fe1c11",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-11",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031011.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031011.nc",
+    "sha256": "13d0b1eb2c07f800168484f812cb9b1402ffb702bfdda0745762d7155bec5f47",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-12",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031012.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031012.nc",
+    "sha256": "fd331a3fdf92dc1850f5ea471850437cb939ffc0e902e7e4b4fe160949adaad1",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-13",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031013.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031013.nc",
+    "sha256": "96e2ee95f0b9b5fe99d3dcc2aad251905d0d32702cf286eee6b9cbcbf8227a75",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-14",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031014.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031014.nc",
+    "sha256": "e87ab5208548d1fb99e8c6405b654078fd36351d4361c4c9a223ef007d1d8edb",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-15",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031015.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031015.nc",
+    "sha256": "e8723caa7798efc8fef5d499701b930109e975b74680a7e274285161815a21e2",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-16",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031016.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031016.nc",
+    "sha256": "7b650d7224a3c5c5b099240696469c6eda77e2f3a2fe7f6a32daf9d69984c945",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-17",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031017.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031017.nc",
+    "sha256": "23bc4c29aedb2dfe74dcff4de0b1530f8b75574153c4731a9319086e3e3f0b29",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031018.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031018.nc",
+    "sha256": "c721a7ee44cb916a7f74a9693c80e49492721c2b01659c94071083936d8af034",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031019.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031019.nc",
+    "sha256": "05ec9066d781b416eebc9ffec12fbe2b5b313554e39db9e9e05548978da173d8",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031020.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031020.nc",
+    "sha256": "0253ae2b4cdea4cbc481efe42b2b824f22c346cf7621f9dd89b3223991f2b64e",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031021.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031021.nc",
+    "sha256": "5a5e63f50aaf04bc821909608eadcf46776cc1ff3854bacb5addae82f7ad8850",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031022.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031022.nc",
+    "sha256": "dc1d79d06f5c669e16214a4d7a12498e268d73b655afc120ad7a7a02bc5db339",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031023.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031023.nc",
+    "sha256": "d6617f70c74393041b695c9212962d0b670f4779022e8d5fdaeeb6f86fcef7f7",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031024.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031024.nc",
+    "sha256": "fd05cb8b588d15a17f1286100d84b94f7bebc3143ec78345d2380b860a846cca",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031025.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031025.nc",
+    "sha256": "09286c5116054fd29eb43eefb040f6c4318aae6824ed9ccda09c8cd2dd3185c9",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031026.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031026.nc",
+    "sha256": "b4f9ef71c72a09fda1bf0d77183943f7e86788596a3abe70abd1bf477f1e597b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031027.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031027.nc",
+    "sha256": "f2a8aa89f516f7b5941597485d38867f85cac0e99aae634740aa0db9c6d26ced",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031028.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031028.nc",
+    "sha256": "deb3c7ffe2d62462c5524f3b722de130e7935003cbd49048ea21459851056f78",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031029.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031029.nc",
+    "sha256": "72f941ac639e40b799934d37bcd52cae1d1c42d61bd23e9426d599628052c174",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031030.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031030.nc",
+    "sha256": "52a3b15020bc6c2440480a7c13e9dc66da047ed97990959345bacf66257f3ab9",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-10-31",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/10/cfarr-gbs_chilbolton_20031031.nc?download=1",
+    "target": "chilbolton/2003/10/cfarr-gbs_chilbolton_20031031.nc",
+    "sha256": "f620c82b7be5d2808cb2f08bb4266669d31ee4bbc533d8462c3ce35f2f915204",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-01",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031101.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031101.nc",
+    "sha256": "0adb0a815fc83e8fefb2ead5d33760979db5e68bf7a2b486e72440a8a8784ef6",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-02",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031102.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031102.nc",
+    "sha256": "878eda0bae450c636e963e15102fa694426dd746c3247f7bbc9ab4eccdcadbc2",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-03",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031103.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031103.nc",
+    "sha256": "980f20471bdf3f372d9ff02f452d3b1eeb0efd090b720f6ba1b38aa6ddc7003f",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-04",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031104.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031104.nc",
+    "sha256": "755dc3bda6f38591202ec3c3b3442eb1c161285452349a3290557b24ffdf827d",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-05",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031105.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031105.nc",
+    "sha256": "04df8e23246e27fac259604449b46c70fee115f02daa1fa4020f080346c71fe2",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-06",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031106.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031106.nc",
+    "sha256": "7612934f19660dcdc1e03d7448a6e6ee6af27246da4693a083ba6dd3221010ae",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-07",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031107.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031107.nc",
+    "sha256": "c7b465fb6a35f23e9da1b98df730228551f3f204604b984bd3e3387d566d752b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-08",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031108.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031108.nc",
+    "sha256": "25c152d2a690cae477e8b870a591a6f973b0813eb5bdf7f34b2c8f7a38cbd8db",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-09",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031109.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031109.nc",
+    "sha256": "a69b89f1810065668c23338b661115b7c0bde12287aff12487b10e60978697b8",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-10",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031110.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031110.nc",
+    "sha256": "6f22e03635c70f463e1952095873f3a8eb15078e110babfad4e9f0c703a9b78b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-11",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031111.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031111.nc",
+    "sha256": "bdc6ec0346fbe8a836bcb0ee4a3d017a334c5e3316ddef232a3ee6f72eafed8a",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-12",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031112.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031112.nc",
+    "sha256": "d081886faa9062a17ed158c0db99cd15310267151755ac9f2eece9dae6bcb5d8",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-13",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031113.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031113.nc",
+    "sha256": "7e3de6c655aea9b668fc34c302bb2e4d9427e25dce59275d9aab69865134e24a",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-14",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031114.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031114.nc",
+    "sha256": "de26d8f306855525f9b0c14d764f4b3d4f51b0eb9db89538a799acf9f0b54523",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-15",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031115.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031115.nc",
+    "sha256": "3e4f16ac7a607e2f9cd105e582a1b24eead1342c0a7564a09c978ce19737fc34",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-16",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031116.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031116.nc",
+    "sha256": "794329c68ebce8c06fb0e6d812470504b2159d2225356f3ea0b91b5f4037d36b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-17",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031117.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031117.nc",
+    "sha256": "3c11b86991c0fdf4dfadc9da5d48bede20fc499b79508328fffe4766c1807cba",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031118.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031118.nc",
+    "sha256": "2a687de157b35f1d21f1b433718b992c832017e38b8f12cec850cf6f60868ae1",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031119.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031119.nc",
+    "sha256": "b33a09a753b3008ae884926b623e2af7294aa7338c21c61ef05f60d1fbccf1b8",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031120.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031120.nc",
+    "sha256": "30506bc3986342f9b9c1765dde5ed8754a6ac796a2f08e42772533c3d35d32a4",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031121.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031121.nc",
+    "sha256": "a4669d40b4d31909e8f1ed77cd9842d52ae326b3523103e6366c3c9fc3083d2d",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031122.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031122.nc",
+    "sha256": "9cfc6c8f3a6afd2530f5e0fe97c36fff9621a1939ff2bdeea4712f2828f77cac",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031123.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031123.nc",
+    "sha256": "76196e6a38136c2dd9adbcd2770b533f3d011ea934f47899b9e1413e1975b59c",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031124.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031124.nc",
+    "sha256": "ec1e57394f97d68b2097373da3a48eb921cc0b80b76f3b61c9d2cd2ea0f20aa2",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031125.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031125.nc",
+    "sha256": "2c482363ff61640a3049c0d935c2fb9a589c0de5393459d34ab21f4efbd836f4",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031126.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031126.nc",
+    "sha256": "1f6c6a2d19e4083f911c661172b94bb702d6f37b49c403143ff735a2d01b2fae",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031127.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031127.nc",
+    "sha256": "60f118b268bd767c0e9bbb750d23bd9260a141a4c24c94282ee6d85e5dabfeb4",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031128.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031128.nc",
+    "sha256": "3437e3920015359cbb8adfe3859c2014b9407cfda921b899af711997ae5c8fa5",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031129.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031129.nc",
+    "sha256": "d2f6c1d931b03bd05ee386bd5a6eb42e28a6ff5749e2b3e8a492f6e7309fd76b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2003-11-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2003/11/cfarr-gbs_chilbolton_20031130.nc?download=1",
+    "target": "chilbolton/2003/11/cfarr-gbs_chilbolton_20031130.nc",
+    "sha256": "052fec0b13af4c3dae575b923e4b49e540e11be6096c11b7427ea565cfad8a13",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-02-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040218.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040218.nc",
+    "sha256": "0365dea817a3cad3111ebeac8c3221851e4adbaf0bbc268a101c14cfaa2eaa35",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-02-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040219.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040219.nc",
+    "sha256": "80d1e6d964a1c927c3149713c5d69763f54dd7ae7b4114cf35f264f214b632a6",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-02-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040220.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040220.nc",
+    "sha256": "ab7787fa4e73fe81732ab25e0418eebee47a13a04da3befe22436a2f26cc4b60",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-02-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040221.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040221.nc",
+    "sha256": "0b97f274fa18b2b72cd6d4a9d85ff4c59e61b43497227a81a8216a579cbb7b84",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-02-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040225.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040225.nc",
+    "sha256": "e692a1a234446bf2569f9867e3a2be853b26b2f03d7bb0c50f4bd58cc86ecfac",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-02-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040226.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040226.nc",
+    "sha256": "b2c79012ea4a452545987631686b7f69892fe59a5ed948698fe5eb85d01e4f81",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-02-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040227.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040227.nc",
+    "sha256": "0bedd6ffeafaae470cae511c848d4c06aac823d768d98bfb38e99a7f4cd55389",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-02-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/02/cfarr-gbs_chilbolton_20040228.nc?download=1",
+    "target": "chilbolton/2004/02/cfarr-gbs_chilbolton_20040228.nc",
+    "sha256": "501a57afd67480667a9596121f9bef2b1ab735441f184eacd2188a7987f7a8c9",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-01",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040301.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040301.nc",
+    "sha256": "44be98506172d447eb09da32583a57dfe224e9ebe47f11328d8cffeceec916ba",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-02",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040302.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040302.nc",
+    "sha256": "5586078ceff3b57e9301e1ae418618a543b5cecdec81651e9afd53bbe36da358",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-03",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040303.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040303.nc",
+    "sha256": "273b3ddcb11d892e5053828055d156104de694b39baf3f072db4b51267a625a9",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-04",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040304.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040304.nc",
+    "sha256": "6e0f28b4d4e9c4917e36480f4fd0008659ffb20aec191f8e43350ee6d7de16f9",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-03-05",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040305.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040305.nc",
+    "sha256": "898a728bbb3da1cbf1600c0ad4e416df3a09c4bc1edfdb4d9539c8912117cffe",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-03-06",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040306.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040306.nc",
+    "sha256": "b67e3876850a385eb21ce554595f063d0d39883bf26ed5ff98f4c488eb3c480f",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-03-07",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040307.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040307.nc",
+    "sha256": "f703ad4b7ca7d13e573be047e82dd5954d37edf53d0541973d47dc335a4a225b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-08",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040308.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040308.nc",
+    "sha256": "440118397625f6453efd4d9585a7a95a56113591df56bd7d2d6411e93a19907a",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-09",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040309.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040309.nc",
+    "sha256": "d4820fe22cc3cdb03f85ae29ef131ca6fee4252878dc77354868e38dc1a1fed5",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-10",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040310.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040310.nc",
+    "sha256": "7857afd1cb0cc0770189469e83f63744ce6a7bf80318c25059a3980c671a3cc8",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-11",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040311.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040311.nc",
+    "sha256": "da7eaf455adb0e536ea701d48b1aa5e4661b958497add75f155ef9cd804a6768",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-12",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040312.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040312.nc",
+    "sha256": "8db228dae1d20dd24b4314a7942d30bd3015ceeb412ce9c7718e105a18ebc903",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-13",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040313.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040313.nc",
+    "sha256": "d8432b4bb0a0bbbc034202b4c5ff9c9ff4a82c36eced1ca2cd10b8433acbf27b",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-14",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040314.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040314.nc",
+    "sha256": "5e5d117640b41ae2723ae578cc75b0b711b0d96d7bed280f383121d86bbec8a6",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-15",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040315.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040315.nc",
+    "sha256": "c5b90526c9de113f231861c634efb324b2651eb1d1ef3d0ce969f65680073e1d",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-16",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040316.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040316.nc",
+    "sha256": "1c5743b4b446c987752701d9ee37d17ecd93bdc096ed6b3de17bfdb2098d16ca",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-17",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040317.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040317.nc",
+    "sha256": "45d820f2ab255ec2e241ac3095712e0f35d727e6219f52a5703f8012f014f192",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040318.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040318.nc",
+    "sha256": "2948e20f102e274162f7ec1a65b61aadf7a0d5e09bd290236eaa2e244d705c65",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040319.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040319.nc",
+    "sha256": "73aae806ed738a4e53e56e66ddb7e2703ef3e82f43581b22b73a0dedc968d052",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040320.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040320.nc",
+    "sha256": "3463ef93f436fab78f81ab64e45bd802b57d2a783986b636477dadf6f76c5d2f",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040321.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040321.nc",
+    "sha256": "5a51654f70bce67b8334f49fc9f5b6456e3e216a0fd235f543efbcfcf2526967",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040322.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040322.nc",
+    "sha256": "adff2e86375c581c93f86dd8378a3b5b819d376bfe5cb1ebec431809225b5ba8",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040323.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040323.nc",
+    "sha256": "e020456663a324340b168b794d505b8810e2d8d58ab440f4dc282846aaaefaa3",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-03-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040324.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040324.nc",
+    "sha256": "f1a7ea20f18f163bbd8ee50142aca7f11582846870cfe09b39dceca15c7af87d",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-03-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040325.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040325.nc",
+    "sha256": "29cc720887b7d275bb51dd21c1f6d7f59187c2fcbed3ccef7b67f81d8d90cece",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-03-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040326.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040326.nc",
+    "sha256": "011c778009754743efb3a5f54bc846332ad1c6f0ee9ef938c4d54e2037c62586",
+    "bytes": 694744
+  },
+  {
+    "id": "chilbolton_2004-03-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040327.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040327.nc",
+    "sha256": "e0bc4900ab1db6562aafde4e7e947cc96565059da46b36eaee9462133d3d2213",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040328.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040328.nc",
+    "sha256": "57463095add916d081f1ab7e4b50f80a2178cd3d9d6466a50d025225fffd97ff",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040329.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040329.nc",
+    "sha256": "57feaf3a7eaab3d3fa83ad252fc68a3bfa3a060e1e430150e05d1a48d60a55b4",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040330.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040330.nc",
+    "sha256": "352ed2fa3ea57be42fa6f28feba9a8d8c9c7c89fadd465effb886a5a010b7cc1",
+    "bytes": 694748
+  },
+  {
+    "id": "chilbolton_2004-03-31",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_chilbolton/2004/03/cfarr-gbs_chilbolton_20040331.nc?download=1",
+    "target": "chilbolton/2004/03/cfarr-gbs_chilbolton_20040331.nc",
+    "sha256": "c18407de18651579adacc953ab205a3fc9613dd9dc903efdee480f50ace79d8f",
+    "bytes": 694748
+  },
+  {
+    "id": "sparsholt_2003-10-08",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031008.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031008.nc",
+    "sha256": "11f5eedd909f7d3936a12f58d364e5bc9467acd1f27b5c3669179ff6850d6b0a",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-09",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031009.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031009.nc",
+    "sha256": "f941a5130bc8483b08848c09c270869597cff14fcadeb14b0100807eb45298a5",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-10",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031010.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031010.nc",
+    "sha256": "00e17b3f052851445394f40beadd577f84630d3d99f330db9480196755754519",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-11",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031011.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031011.nc",
+    "sha256": "451d765eff210a413e5aa4f8554f6a62010b2421912da2ed54ab8f598dd28012",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-12",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031012.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031012.nc",
+    "sha256": "aa493af3bf4a7c3ec4aa350776738221e79d124a55d868a8fd5c8a4b68eab55d",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-13",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031013.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031013.nc",
+    "sha256": "9cdec10d4885ee6778c939fcf41ecbec1ae1f17103b7d400308bd80eed06a5d6",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-14",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031014.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031014.nc",
+    "sha256": "3ca0e024d2acdff46936ee5cd057cf2dbd73f29b6c991d694892bc36e57e8a2b",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-15",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031015.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031015.nc",
+    "sha256": "ad5904ae7aca7b58e1af705705afa0255755c6e275f81276c894f871ba412eb7",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-16",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031016.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031016.nc",
+    "sha256": "cc9015c921b3b11e82a8ad2a7a3c11e4d4aaf505a78ee05f49b4392519bbb27f",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-17",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031017.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031017.nc",
+    "sha256": "e7b31252843448a824c88be393f3582ccdd170dfda58d8943852d966c899af54",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031018.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031018.nc",
+    "sha256": "eb14c2d35b7ba04441e2b8d9ef5132c3891dd8f46600bf8f275d099ca37a20fa",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031019.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031019.nc",
+    "sha256": "759d1c2fa4b025d94721b2c1c7a4fb5f4ce29de05b277cfcb5660793bb3c2f03",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031020.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031020.nc",
+    "sha256": "1445aec17f735fd4975e88ec18964d3a497946513e7afe01896abdabfbb23d05",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031021.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031021.nc",
+    "sha256": "978a27dfa2086c0bef59e2739783a283b18f9175463104d95b787ca29454c814",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031022.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031022.nc",
+    "sha256": "3873353a4faef1f4bab5846ed730098b1ba58de44e86b278f60b2dba382b27f6",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031023.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031023.nc",
+    "sha256": "a0dd0c871dd25df14afaef62eb8441ceaee5f5210b04f34743d454ffb2449251",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031024.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031024.nc",
+    "sha256": "3c3f5654e2ef6ec94c7a08f3221c3e94ab5e060d0ec461c237617fbb89dfcd08",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031025.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031025.nc",
+    "sha256": "a1bb7d74b38fb22d292313bdddd21e191174a76375fe621cb8f0f7272e9ff5bd",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031026.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031026.nc",
+    "sha256": "b93f8448270603ea56bf970194fb1866a15d56295cb3afba5664fa73be93e44c",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031027.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031027.nc",
+    "sha256": "d5ac385c5fc470462a2b276456eb1932dfc4fe4f3e0fdb4f48ca6105ca2327cd",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031028.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031028.nc",
+    "sha256": "53d1593dbf0013ac8fa1c50dd9a02ea82d9ad65db346eec7bb545522cc6b4ace",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031029.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031029.nc",
+    "sha256": "d5fb1d335e802c2be0b098a3e79be24a71343b9d4730b97d0b08bd3dc8cf74c2",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031030.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031030.nc",
+    "sha256": "b5a7db2b5b0469e6e07e396e16dca48595db423686bdac4f95eebafcefe5fa4e",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-10-31",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/10/cfarr-gbs_sparsholt_20031031.nc?download=1",
+    "target": "sparsholt/2003/10/cfarr-gbs_sparsholt_20031031.nc",
+    "sha256": "fdf16f9af6427a70ea836e9115a9ad14f5a5e39183e191ff63c0226e7c4fa907",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-01",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031101.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031101.nc",
+    "sha256": "faf56af81372517def28824709f987e89bfab3a7a319c8207cf3bc715e78ba18",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-02",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031102.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031102.nc",
+    "sha256": "305b8c44f9e8cbd5cd711d2cb88b6ef9c23d7cb1a72b66184753ffe249ae65ac",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-03",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031103.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031103.nc",
+    "sha256": "b6b9b4ce0213cda46704c5cf42bed1a016611f451391d24c034209a1bffa9083",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-04",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031104.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031104.nc",
+    "sha256": "fa378369b8148ebbc88176d6b1b08082e29ae2409634c6c9971ff2bc0fd9fdec",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-05",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031105.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031105.nc",
+    "sha256": "065956eb1a1d72268dfed052f21fe1c6c727cf53c2cfdab8725c4e2bb5426859",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-06",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031106.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031106.nc",
+    "sha256": "5ff11b8ebb262f7cf8642ce71153630f803bc77eadecd84514cfcfb1cbad163d",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-07",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031107.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031107.nc",
+    "sha256": "b365be17f7cfc4d37194d671ebea80c60bd1c3aaa37dc151586670d06213f3d4",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-08",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031108.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031108.nc",
+    "sha256": "be15c21da5dd40f04a92c2e8b4fe9347b8177b752ff48174d745eefb029430f5",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-09",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031109.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031109.nc",
+    "sha256": "b3c242e0582476513f10e60549f281b8a93a6a0a2169a8abc1195e40a6033723",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-10",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031110.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031110.nc",
+    "sha256": "8bc9794ea8efc6ed696a845789516864d278cb42cfaf67932cdaf54a7331baff",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-11",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031111.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031111.nc",
+    "sha256": "849e9c64d86d1b5b279ca4af7e267a81d1aef1f4471afbaf30909f9857d85d04",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-12",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031112.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031112.nc",
+    "sha256": "bb3873cd78e5401fc97e47af002017b8d89c7d7a107fc1a9b523c2955d3aa869",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-13",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031113.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031113.nc",
+    "sha256": "d93dcbf860cc6315a15551b11a3edeb3590f6214ed2ed901c630a163bc5cf761",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-14",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031114.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031114.nc",
+    "sha256": "6753fa924ac2e88082d8bd2b8d18e17b22a71b11f05afa96316249b60600e1ab",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-15",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031115.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031115.nc",
+    "sha256": "c64cb47a95d1eb929a9c09c7e96ff6dc3f2a97fc83f1997cbf5e221202fd185a",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-16",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031116.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031116.nc",
+    "sha256": "ed4f8b126f8875880c41732ca927f768fb6f524631405de325a3a1bcde7f0860",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-17",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031117.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031117.nc",
+    "sha256": "4e7cdfa8b86a3fafe984dee14f24aad17d3b3eeab764ff77a2474cd9e4997ed5",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031118.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031118.nc",
+    "sha256": "bbf57ed01b56169385ec70d548552d8e5adfe894d30c5f792b0a57bb2552449b",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031119.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031119.nc",
+    "sha256": "cec37bd49e8f4dc368b9b487b5dda1c6797a5f6c435b3ac3c4cb4d8596dc4435",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031120.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031120.nc",
+    "sha256": "845e352bd38f152a59e6a71e782485556efdfdff92a42aea1deb6ef975c393c6",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031121.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031121.nc",
+    "sha256": "afe55726ff1a3e16770b4afee75b395223d333498852df7f7c0f1b0670172ca6",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031122.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031122.nc",
+    "sha256": "6169b028b1c9d5bd91b6dc3f99a8cd5f9ba7b440d9130cc980a39678b45467ef",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031123.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031123.nc",
+    "sha256": "f97dfd5159e560728f5a2cc858272a2e9a8d91129d0f94615f287c743638cfc8",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031124.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031124.nc",
+    "sha256": "754872c93031f981de732271591a5763e2007a85e3f39a572ee59261d0677937",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031125.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031125.nc",
+    "sha256": "d5964d0475b4e82930f3cafba81d157e98ad560fa94a31de6573c4f9ee6a3af9",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031126.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031126.nc",
+    "sha256": "3591d3fb3aad09669a524002b5445439c9a115c6b9516fe1c2ae02480dc4ccca",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031127.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031127.nc",
+    "sha256": "25207b0ece913225e561ef46a844ab7f8d17f44eda24208dcf567460acd8ba59",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031128.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031128.nc",
+    "sha256": "34c8011faf44cbfea606315749965302f8ffe621c113cc173fe0ece68f56f8df",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031129.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031129.nc",
+    "sha256": "9fa9bea3c3224c059637f32fc01f895596ff044b5adaa55a62ec01920019ab8f",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2003-11-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2003/11/cfarr-gbs_sparsholt_20031130.nc?download=1",
+    "target": "sparsholt/2003/11/cfarr-gbs_sparsholt_20031130.nc",
+    "sha256": "f148a0c4cd8d66e2dc52f5857fed1acf2ad0bce70d64516184e444e32a3ff410",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040218.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040218.nc",
+    "sha256": "fca799b2276446b2f6003a3dc2c1f47d8c799e773da7a736bd635e3fca656013",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040219.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040219.nc",
+    "sha256": "5e9ec732140d17858131c726e690fb74388c656a5b50d1a3166edc477e74357b",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040220.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040220.nc",
+    "sha256": "9e8c42896027e5e0ee79c8e73da90e2171b4a37110dc85fc12dfdb66c4e18166",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040221.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040221.nc",
+    "sha256": "83c9a66ad229da42571ff6514f4599da9242709b119b76ad1340795f53590d10",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040225.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040225.nc",
+    "sha256": "cd834c9d4b26e78773df84dab3e81ca7b07c1360ab2891eed50445a7c457a150",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040226.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040226.nc",
+    "sha256": "8bf738cc9839ac99dba57428f912e2b98cc5c96b8e8790ae8e4800178c0b0045",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040227.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040227.nc",
+    "sha256": "e3b628149b3ee6a2fc89b63323ae289123b889bff8b73edab59d0271bf5a79f8",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-02-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/02/cfarr-gbs_sparsholt_20040228.nc?download=1",
+    "target": "sparsholt/2004/02/cfarr-gbs_sparsholt_20040228.nc",
+    "sha256": "da41a2f91a9e18f1cfac459a855eb437d99003a5fbc8c4172e41059117a24884",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-01",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040301.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040301.nc",
+    "sha256": "8168c8820a8882f9f375c50b647850b3ae9a755efc55a78919c8e95b6bae247c",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-02",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040302.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040302.nc",
+    "sha256": "9b466a5d51e69d5c8bdf1b698cca34df7398676189b8af81da8cfb90449f0353",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-03",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040303.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040303.nc",
+    "sha256": "e76eab09826261d9bf0f297f3acba9dafe5220a306ffaf3c79d7060b9b5b730c",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-04",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040304.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040304.nc",
+    "sha256": "c8aeb16beea7da3f3b492c85db9588c071179a6a99ac370ac066b687a502fb4f",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-05",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040305.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040305.nc",
+    "sha256": "f81bc9f5594bec91e0f1ceec968dd78a5ada209cc65bc0c586039ce8fe92f6b4",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-06",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040306.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040306.nc",
+    "sha256": "8234fed9efde5dc83dc5394facd66633599c97ecf6e0474882060f42743b0877",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-07",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040307.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040307.nc",
+    "sha256": "f65b55d6d84d5a4e16508a32de6a0e4ebceb302f3f703f2542e308a7e9505968",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-08",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040308.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040308.nc",
+    "sha256": "5dec3b414093598fea36ab175fbbbe9ef0a23cddfeda3e62a3f06540018e7a59",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-09",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040309.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040309.nc",
+    "sha256": "611a646175d91d70246ae848a15ac3056ac6ef774f45a175e00ca9e68a38bbe6",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-10",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040310.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040310.nc",
+    "sha256": "9169da4ab67b643a1bb6993d642f6cb80c0fe65222116713dee0627d20f36493",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-11",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040311.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040311.nc",
+    "sha256": "3c757a34bd7c5b7d56dd51cc7ba12ae95165bf9c20a1b60fd1340f99e20926f1",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-12",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040312.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040312.nc",
+    "sha256": "20973f4882ce6fc0803835df65b47ef759ae2bd54a4f5f4bbb285bc113b595b7",
+    "bytes": 694736
+  },
+  {
+    "id": "sparsholt_2004-03-13",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040313.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040313.nc",
+    "sha256": "b4d76df0385b1b6067b2487213692a42128904ca576ec7ddaa1f38d77924c52f",
+    "bytes": 694736
+  },
+  {
+    "id": "sparsholt_2004-03-14",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040314.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040314.nc",
+    "sha256": "dc098ab7cea7769871541e78fb1b2989e19ef250a15df4eaed0f3d71e0170e10",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-15",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040315.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040315.nc",
+    "sha256": "38ee89f4cd9c4d77770ed49dd87d9897bff5e90190873172f30e6fde7cbb5246",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-16",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040316.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040316.nc",
+    "sha256": "7a0d86b0228018861557302fdd48b405179ac579b4b3b8512dd4326b0f84e61f",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-17",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040317.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040317.nc",
+    "sha256": "c60388b24fa8f54d7ec4c7f82ca727c80353c666483f57b3aa223059390c3c8e",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-18",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040318.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040318.nc",
+    "sha256": "a885eac13deb1b1044389afcb8f4f2ae27a71e421a9c31bc937bba352fd27c03",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-19",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040319.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040319.nc",
+    "sha256": "ac2920e72e8a10d2e8298a5f7beed93b362e3ab05d3073bbf175b8905220cf97",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-20",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040320.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040320.nc",
+    "sha256": "5fdf1357b82219195f09f14869ae86a950f5d89693fc56bfd05bd94eac1950d9",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-21",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040321.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040321.nc",
+    "sha256": "30a3ffa10ae37bea19dd4d0965126cd82704e4e44a2b8ac6821e384f346ab170",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-22",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040322.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040322.nc",
+    "sha256": "b38fb947212987e1122853ed18851f3dc820e96df66ead48e37e857e8f2e9251",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-23",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040323.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040323.nc",
+    "sha256": "9e1c7b7cd1817375cb44495055fe9353ef2a152af07aa1b79c031dc903f70118",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-24",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040324.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040324.nc",
+    "sha256": "008ab0a371231db5d08389bdb0ec238e1a4de896de016bb6d2e4e8950b1cbde3",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-25",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040325.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040325.nc",
+    "sha256": "133babf8cebd6dac554069be764119e657609c71656a4be853d518cdec78ca6e",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-26",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040326.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040326.nc",
+    "sha256": "6c635a5772960ff620a22427e4b9485debf1352c89c65f8d7019607296643ddb",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-27",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040327.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040327.nc",
+    "sha256": "96ac819cfda5a8b44ceecee205bde33566f865638e849170310a65aef29cb2a8",
+    "bytes": 694736
+  },
+  {
+    "id": "sparsholt_2004-03-28",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040328.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040328.nc",
+    "sha256": "9afcc05be437aaa410b12dc2339c93cfdfbdefc11efad4a9016916a2622b4199",
+    "bytes": 694736
+  },
+  {
+    "id": "sparsholt_2004-03-29",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040329.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040329.nc",
+    "sha256": "e7ba553276efd97b086d2319553559673c8b40aeaa31067e970aafc288bf5c7c",
+    "bytes": 694736
+  },
+  {
+    "id": "sparsholt_2004-03-30",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040330.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040330.nc",
+    "sha256": "cff8040308f360826d90c1b3239dceb506e165b98fc6037039fbe997f15c021f",
+    "bytes": 694740
+  },
+  {
+    "id": "sparsholt_2004-03-31",
+    "url": "https://dap.ceda.ac.uk/badc/chilbolton/data/gbs_sparsholt/2004/03/cfarr-gbs_sparsholt_20040331.nc?download=1",
+    "target": "sparsholt/2004/03/cfarr-gbs_sparsholt_20040331.nc",
+    "sha256": "58662b80f4e08e617a292ab5ed97cd998286f467d713925718070eb147ea76ba",
+    "bytes": 694740
+  }
+]

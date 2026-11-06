@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "task": "T015",
+  "recorded_utc": "2026-10-24T00:20:26Z",
+  "review_completed_utc": "2026-10-24T00:17:46Z",
+  "reviewer": "Codex assistant in thread 01a0bda1-92d1-7832-9508-60f4e0ec1634",
+  "status": "PASS_WITHIN_PNG_VISUAL_REVIEW_SCOPE",
+  "visual_review_complete": true,
+  "method": "Opened each of the six delivered PNG files using the local image viewer at original resolution; directly inspected the rendered content. No plots were regenerated or edited.",
+  "scope": {
+    "pngs_actually_viewed": 6,
+    "pdfs_hash_verified": 6,
+    "pdfs_independently_rendered_and_viewed": false,
+    "journal_specific_compliance_checked": false,
+    "formal_accessibility_or_colour_vision_certification": false,
+    "human_acceptance_performed": false
+  },
+  "shared_checks": {
+    "integer_x_ticks_1_through_10": true,
+    "ten_model_legend_entries": true,
+    "ten_curve_states_per_figure_confirmed_by_artist_qa": true,
+    "consistent_model_colours_markers_and_line_types": true,
+    "tabm_thick_blue_with_cyan_glow": true,
+    "glow_disclosed_as_emphasis_not_uncertainty": true,
+    "chinese_titles_axes_captions_readable": true,
+    "no_visible_text_legend_or_marker_clipping": true,
+    "no_legend_covering_data": true,
+    "rmse_units_db_and_zero_origin": true,
+    "negative_r2_values_preserved": true
+  },
+  "figures": [
+    {
+      "file": "E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction/Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE/figures/F01_rain_R2.png",
+      "id": "F01_rain_R2",
+      "metric": "r2",
+      "weather": "rain",
+      "scoring_hours": 735,
+      "review_status": "PASS",
+      "observations": "k=1–10 visible; all ten legend entries present; TabM blue/cyan highlight clear; negative R² range and zero reference retained; captions, ticks and labels fully visible. Large negative values compress near-zero curves on the full-scale view; exact values remain available in the result table."
+    },
+    {
+      "file": "E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction/Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE/figures/F02_overcast_R2.png",
+      "id": "F02_overcast_R2",
+      "metric": "r2",
+      "weather": "dry_overcast",
+      "scoring_hours": 2317,
+      "review_status": "PASS",
+      "observations": "k=1–10 visible; all ten legend entries present; TabM blue/cyan highlight clear; negative R² range and zero reference retained; captions, ticks and labels fully visible. Large negative values compress near-zero curves on the full-scale view; exact values remain available in the result table."
+    },
+    {
+      "file": "E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction/Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE/figures/F03_overall_R2.png",
+      "id": "F03_overall_R2",
+      "metric": "r2",
+      "weather": "overall",
+      "scoring_hours": 5593,
+      "review_status": "PASS",
+      "observations": "k=1–10 visible; all ten legend entries present; TabM blue/cyan highlight clear; negative R² range and zero reference retained; captions, ticks and labels fully visible. Large negative values compress near-zero curves on the full-scale view; exact values remain available in the result table."
+    },
+    {
+      "file": "E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction/Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE/figures/F04_rain_RMSE.png",
+      "id": "F04_rain_RMSE",
+      "metric": "rmse_db",
+      "weather": "rain",
+      "scoring_hours": 735,
+      "review_status": "PASS",
+      "observations": "k=1–10 visible; all ten legend entries present; TabM blue/cyan highlight clear; RMSE axis in dB begins at zero; no visible title, legend, caption, tick or marker clipping."
+    },
+    {
+      "file": "E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction/Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE/figures/F05_overcast_RMSE.png",
+      "id": "F05_overcast_RMSE",
+      "metric": "rmse_db",
+      "weather": "dry_overcast",
+      "scoring_hours": 2317,
+      "review_status": "PASS",
+      "observations": "k=1–10 visible; all ten legend entries present; TabM blue/cyan highlight clear; RMSE axis in dB begins at zero; no visible title, legend, caption, tick or marker clipping."
+    },
+    {
+      "file": "E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction/Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE/figures/F06_overall_RMSE.png",
+      "id": "F06_overall_RMSE",
+      "metric": "rmse_db",
+      "weather": "overall",
+      "scoring_hours": 5593,
+      "review_status": "PASS",
+      "observations": "k=1–10 visible; all ten legend entries present; TabM blue/cyan highlight clear; RMSE axis in dB begins at zero; no visible title, legend, caption, tick or marker clipping."
+    }
+  ],
+  "rendered_r2_caption_negative_counts": {
+    "rain": 99,
+    "dry_overcast": 100,
+    "overall": 100,
+    "total_states_per_panel": 100
+  },
+  "interpretation": "Visual and numerical QA verify faithful computation and presentation, not good UK prediction accuracy. Negative R² outcomes are retained without clipping, smoothing, refitting, reselection or result changes.",
+  "artifact_hash_checks": [
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F01_rain_R2.pdf",
+      "sha256": "9e88aeeae178f8c42c990ee19755665c896d22646de4faec15ae4ab0045b1f30",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F01_rain_R2.png",
+      "sha256": "022f22573d82c7c385c68a87fd8668f7b81f5fca085e210110965ea9e6a561eb",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F02_overcast_R2.pdf",
+      "sha256": "c9a7217e1b6cab151fb61027a961d5d953370ee70dd53f2558121ed4f6569b30",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F02_overcast_R2.png",
+      "sha256": "007440b5195181488a980a5273536267c7fba6d89117e8334a4ca2d4b7a54a5b",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F03_overall_R2.pdf",
+      "sha256": "382033141cb6d2ac7514d004e376b32699816e021f8dfa8974450dd659931986",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F03_overall_R2.png",
+      "sha256": "de8244385388fde60ece7f837d1bc9953d5ef9c564280890d1268e3778c2d9aa",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F04_rain_RMSE.pdf",
+      "sha256": "056d0264220496fb93afbb63c163a3a9f1253868ad0de1456cc98fc4f9757e5f",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F04_rain_RMSE.png",
+      "sha256": "a0a98af6047113c53abbcc6e6d363784c98dcd1c2db60ae2d125043ae8ec62a2",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F05_overcast_RMSE.pdf",
+      "sha256": "5e6c7c86f612942489f3326c2aa25e9364da99103ce886bbb06a7df387406f44",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F05_overcast_RMSE.png",
+      "sha256": "ee61114b06a620e8afc89c87edf3a28b718f6668eb53c93c20981c4ba81fffda",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F06_overall_RMSE.pdf",
+      "sha256": "0b0d3f21c01daaaca02bbee84a28bf8458636bebc6a75782bbef134a4cd722cc",
+      "matches_recorded_export_hash": true
+    },
+    {
+      "file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\figures\\F06_overall_RMSE.png",
+      "sha256": "ebd7d7642c8a66988b63fdd9a5550115c64818f285dbcd5b81485b90a19b218b",
+      "matches_recorded_export_hash": true
+    }
+  ],
+  "automatic_figure_qa": {
+    "file": "figures/FIGURE_QA.json",
+    "sha256": "a3615b023162ea010c6a0f2e38eb2a4017e9a6e90cbee2ff23a3d1c37e36bbee",
+    "original_status": "ARTIST_AND_EXPORT_QA_PASS_PENDING_VISUAL_REVIEW",
+    "all_600_artist_values_exact": true
+  },
+  "source_metric_table": {
+    "file": "evaluation/UK_100_states_six_metrics.csv",
+    "sha256": "d15a732cc676b58484930178b9db23073d7d8f7936da4c4bf7c3dfe40e97047b"
+  },
+  "preservation": "Append-only review receipt. Original FIGURE_QA.json, delivery_status.json, continuation_status.json, Chinese report, numerical outputs, PNG/PDF files and all frozen sources are unchanged; their earlier pending-visual state is historical and this dated receipt records the subsequent actual review.",
+  "execution_record": {
+    "holder": "T015 same-thread Codex visual review",
+    "mode": "READ_ONLY_DELIVERABLES; WRITE_NEW_ABSENT_RECEIPT_ONLY",
+    "output": "Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE/VISUAL_REVIEW_20261024_081833.json",
+    "source_edit_occupation": "NONE",
+    "completion": "REVIEW_FINISHED; NO_BACKGROUND_WORKER_STARTED_OR_TERMINATED"
+  },
+  "based_on_rule_sha256": "39741aa8c69136661b4b02948b29714a3654f3f989ab7b488a54f0c02f93f7c7",
+  "based_on_handoff_sha256": "992d9fd1d8bedf20408fb6745542a76be8b5b37f8681b9d7cb9459c5fb8dea7d"
+}

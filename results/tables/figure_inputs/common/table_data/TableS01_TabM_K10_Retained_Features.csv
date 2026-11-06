@@ -1,0 +1,21 @@
+Starting pool,Position,Feature,Vertical level
+156-pool,1,convective available potential energy,Base
+156-pool,2,maximum 2m temperature since previous post processing,Base
+156-pool,3,k index,Base
+156-pool,4,vertical integral of eastward water vapour flux,Base
+156-pool,5,total column ozone,Base
+156-pool,6,ozone mass mixing ratio,850 hPa
+156-pool,7,specific humidity,650 hPa
+156-pool,8,temperature,300 hPa
+156-pool,9,u component of wind,5 hPa
+156-pool,10,u component of wind,1 hPa
+50-pool,1,surface pressure,Base
+50-pool,2,convective available potential energy,Base
+50-pool,3,mean large scale precipitation rate,Base
+50-pool,4,maximum 2m temperature since previous post processing,Base
+50-pool,5,k index,Base
+50-pool,6,vertical integral of eastward mass flux,Base
+50-pool,7,vertical integral of eastward ozone flux,Base
+50-pool,8,vertical integral of eastward water vapour flux,Base
+50-pool,9,vertical integral of northward heat flux,Base
+50-pool,10,total column ozone,Base

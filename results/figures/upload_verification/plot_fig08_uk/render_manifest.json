@@ -1,0 +1,192 @@
+{
+  "inputs": {
+    "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\Outputs\\GitHub_Publication_20261106_002\\repository\\results\\tables\\figure_inputs\\common\\frozen_exports\\uk_metrics.csv": "ce419929a8543dd6ed98e8ea8ad518703ba3f625eb570d7cfd73f77dc7ec762a",
+    "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\Outputs\\GitHub_Publication_20261106_002\\repository\\results\\tables\\reference_project\\Outputs\\Experiments\\Hourly_Attenuation_Revision_037_UK_Frozen_RFE\\evaluation\\all_hourly_predictions.parquet": "58ec0daa5d3e5b65a24b93981bedb25f73114be8d0085d702f7fcf453e422fb6"
+  },
+  "script": {
+    "path": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\Outputs\\GitHub_Publication_20261106_002\\repository\\figsrc\\upstream\\build_fig08_and_audit.py",
+    "sha256": "1e0bec5903fda970bce20cab2ed5c74adfe4587d37e3bd92247ef21da9c6075a"
+  },
+  "versions": {
+    "python": "3.12.11",
+    "matplotlib": "3.10.8",
+    "pandas": "2.3.3",
+    "numpy": "2.3.0"
+  },
+  "layout": {
+    "figsize": [
+      7.15,
+      3.05
+    ],
+    "left": 0.065,
+    "right": 0.985,
+    "bottom": 0.18,
+    "top": 0.73,
+    "wspace": 0.16,
+    "font_size": 9,
+    "tick_size": 8,
+    "legend_size": 8,
+    "line_width": 1.0,
+    "tabm_width": 2.0,
+    "glow_width": 3.8
+  },
+  "figure_point_checks": [
+    {
+      "station": "ALL",
+      "model": "tabm",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "bilstm",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "mlp",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "gcn",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "svr_rbf",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "bai_lstm",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "transformer",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "catboost",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "random_forest",
+      "points": 10
+    },
+    {
+      "station": "ALL",
+      "model": "elastic_net",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "tabm",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "bilstm",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "mlp",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "gcn",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "svr_rbf",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "bai_lstm",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "transformer",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "catboost",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "random_forest",
+      "points": 10
+    },
+    {
+      "station": "chilbolton",
+      "model": "elastic_net",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "tabm",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "bilstm",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "mlp",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "gcn",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "svr_rbf",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "bai_lstm",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "transformer",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "catboost",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "random_forest",
+      "points": 10
+    },
+    {
+      "station": "sparsholt",
+      "model": "elastic_net",
+      "points": 10
+    }
+  ],
+  "outputs": {
+    "Fig08_UK_Frozen_Model_Comparison.pdf": "a3119accbcd892bcc2256600a259136b583d416e799b434498915343c40c450d",
+    "Fig08_UK_Frozen_Model_Comparison.png": "c1eec3ca2d279270d28e1327aeb756990d054e0409bde4203934bd2034a12d73",
+    "uk_prediction_diagnostics.csv": "1db13f87bdbc1676ee51ec6506a0b64fde01027746dfc3d95b7d172ef771e7bc",
+    "uk_k10_diagnostics.csv": "883ce7ffda4d98a54f6f11cc6cc90711ce3ed36cf013ed91c547cd7a42f24d19",
+    "diagnostic_findings.json": "ac62c30fc8221bdccf0ceacc2df61afc72b550fc0f36ad721e115ba65c7f1643"
+  }
+}

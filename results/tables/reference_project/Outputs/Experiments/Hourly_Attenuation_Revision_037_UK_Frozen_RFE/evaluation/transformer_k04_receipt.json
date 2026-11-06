@@ -1,0 +1,7 @@
+{
+  "model": "transformer",
+  "k": 4,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "7c59cf7f4f2459157f570da5c84bee2d2e1ea91c02319617f0707fe1400fe74a",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

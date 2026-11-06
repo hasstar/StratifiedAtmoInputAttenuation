@@ -1,0 +1,58 @@
+[
+  {
+    "order": 1,
+    "label": "tab:Table01_Measurement_Configuration",
+    "path": "results/tables/manuscript/table_01_tab_Table01_Measurement_Configuration.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  },
+  {
+    "order": 2,
+    "label": "tab:Table02_Dataset_Overview",
+    "path": "results/tables/manuscript/table_02_tab_Table02_Dataset_Overview.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  },
+  {
+    "order": 3,
+    "label": "tab:Table03_Training_And_RFE_Protocol",
+    "path": "results/tables/manuscript/table_03_tab_Table03_Training_And_RFE_Protocol.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  },
+  {
+    "order": 4,
+    "label": "tab:Table04_Local_Ten_Model_Comparison",
+    "path": "results/tables/manuscript/table_04_tab_Table04_Local_Ten_Model_Comparison.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  },
+  {
+    "order": 5,
+    "label": "tab:Table05_TabM_Independent_Pool_Comparison",
+    "path": "results/tables/manuscript/table_05_tab_Table05_TabM_Independent_Pool_Comparison.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  },
+  {
+    "order": 6,
+    "label": "tab:fast_block_selection",
+    "path": "results/tables/manuscript/table_06_tab_fast_block_selection.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  },
+  {
+    "order": 7,
+    "label": "tab:fast_amplitude_temporal",
+    "path": "results/tables/manuscript/table_07_tab_fast_amplitude_temporal.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  },
+  {
+    "order": 8,
+    "label": "tab:slow_fast_crps",
+    "path": "results/tables/manuscript/table_08_tab_slow_fast_crps.tex",
+    "source": "results/logs/provenance/manuscript/main.tex",
+    "source_sha256": "78096333bda70b0af66c271e7f307e01a47ac1d684ad39402a057f02ccb45b69"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "task": "T026 Revision003",
+  "created_date_bjt": "2026-10-30",
+  "sources": [
+    {
+      "path": "最终提交的修改材料\\Section03_Hourly_Modeling_20261030_001\\section03.tex",
+      "sha256": "5a19f360ab9b28324158a28540579321ab056b7e6580404ae04d3a2bdd99b8c6"
+    },
+    {
+      "path": "最终提交的修改材料\\Fig05_TabM_Revision_002\\build_figure.mjs",
+      "sha256": "34458d6c71ecaed86aca99736faa8999c926ddcccc5064798ea569bb29eae437"
+    },
+    {
+      "path": "Code\\Hourly_Attenuation_Experiments\\Revision_031\\core.py",
+      "sha256": "3502b518bcd6902d8c9abeb3b73b5978737acfe257cb91157026a63d62927e23"
+    },
+    {
+      "path": "Code\\Hourly_Attenuation_Experiments\\Revision_032\\run.py",
+      "sha256": "aaf0575b7c255468dd029feaa2b3d58b17dfbbdaf67e9bcfcd8d6d5e2ce5f821"
+    },
+    {
+      "path": "Code\\Hourly_Attenuation_Experiments\\Revision_041\\PROTOCOL.md",
+      "sha256": "f57ba19120f4907a8903d7605cc38ef7e3255a2b3df1999b3f44c406e45613f7"
+    },
+    {
+      "path": "最终提交的修改材料\\论文图表_20261030_001\\04_Source_Data\\Table03_model_configs.json",
+      "sha256": "ef8dbb5f44e2fdffaf7749a12f0b0e66e8c481f61ece98e5895976d1515f6071"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Fig05_TabM_Architecture_And_Protocol.pdf",
+      "sha256": "a0936784b71ac959420d03f29adabdbfffd1b0bae8fcac0c081fa15668448712"
+    },
+    {
+      "path": "editable\\Fig05_TabM_Architecture_And_Protocol_Editable.pptx",
+      "sha256": "9ebc46cbd73d83900719bc6fafba4fd2f82164a123c14b7be4ebc7e7750f7d37"
+    },
+    {
+      "path": "tabm_architecture_text.tex",
+      "sha256": "0fceb32a2e3b7292a65359e7bc5bb7849d5a39d63546dfd146a151396d51e18f"
+    },
+    {
+      "path": "manuscript\\section03.tex",
+      "sha256": "522e2e9f75374b9a468cadd4831fdb336ae8591c392daa8c916bc3afcefbfbb6"
+    },
+    {
+      "path": "build_figure.mjs",
+      "sha256": "c5af1e44f4485692331939a1c41dada647a3ea849bda52b8e92165976f058d95"
+    },
+    {
+      "path": "export_and_align.py",
+      "sha256": "b04893f663a081bfac8437f5ea97fcaa890a10431f803c5fa057adc896664be3"
+    },
+    {
+      "path": "prepare_revision.py",
+      "sha256": "51bdf1df69eb26f82e4c090ef124b6259e0db232528a19018195bdcd700ca1ae"
+    }
+  ],
+  "unchanged_section_tail_sha256": "94e514a593f33f8f89318dec80ec3d52b690d9b3d3ad649eb9e572b365067f8c",
+  "change": "Remove non-structural protocol panel and displayed equation; explain all remaining nodes in the manuscript."
+}

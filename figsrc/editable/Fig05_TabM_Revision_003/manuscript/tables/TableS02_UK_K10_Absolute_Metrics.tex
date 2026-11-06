@@ -1,0 +1,150 @@
+\begingroup
+\renewcommand{\thetable}{S2}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{longtable}{lllrrrrr}
+\caption{Station-specific absolute frozen metrics at $k=10$.}\label{tab:TableS02}\\
+\toprule
+Station & Weather & Model & $n_h$ & RMSE & MAE & Bias & $R^2$ \\
+\midrule
+\endfirsthead
+\toprule
+Station & Weather & Model & $n_h$ & RMSE & MAE & Bias & $R^2$ \\
+\midrule
+\endhead
+Pooled & Overall & TabM & 5593 & 0.4946 & 0.2380 & 0.1503 & -7.5048 \\
+Pooled & Overall & BiLSTM & 5593 & 1.8286 & 0.7265 & 0.6882 & -115.2604 \\
+Pooled & Overall & MLP & 5593 & 0.7179 & 0.4883 & 0.4748 & -16.9175 \\
+Pooled & Overall & GCN & 5593 & 1.3477 & 0.7060 & 0.6280 & -62.1513 \\
+Pooled & Overall & SVR-RBF & 5593 & 0.3530 & 0.2457 & 0.2080 & -3.3321 \\
+Pooled & Overall & Bai LSTM & 5593 & 0.6959 & 0.5756 & 0.5272 & -15.8398 \\
+Pooled & Overall & Transformer & 5593 & 0.5684 & 0.2686 & 0.1752 & -10.2323 \\
+Pooled & Overall & CatBoost & 5593 & 0.5836 & 0.4425 & 0.4218 & -10.8413 \\
+Pooled & Overall & Random Forest & 5593 & 0.6782 & 0.3665 & 0.2794 & -14.9944 \\
+Pooled & Overall & Elastic Net & 5593 & 0.4916 & 0.3991 & 0.2927 & -7.4040 \\
+\midrule
+Pooled & Rain & TabM & 735 & 0.5802 & 0.3177 & 0.1082 & -1.3935 \\
+Pooled & Rain & BiLSTM & 735 & 1.4469 & 0.6417 & 0.4962 & -13.8851 \\
+Pooled & Rain & MLP & 735 & 1.2274 & 0.9574 & 0.8886 & -9.7109 \\
+Pooled & Rain & GCN & 735 & 1.2968 & 0.7008 & 0.4845 & -10.9574 \\
+Pooled & Rain & SVR-RBF & 735 & 0.4390 & 0.3131 & 0.1247 & -0.3704 \\
+Pooled & Rain & Bai LSTM & 735 & 0.7538 & 0.6418 & 0.5016 & -3.0403 \\
+Pooled & Rain & Transformer & 735 & 0.4166 & 0.2858 & 0.1210 & -0.2339 \\
+Pooled & Rain & CatBoost & 735 & 0.7010 & 0.5853 & 0.4921 & -2.4938 \\
+Pooled & Rain & Random Forest & 735 & 0.7819 & 0.4627 & 0.2793 & -3.3470 \\
+Pooled & Rain & Elastic Net & 735 & 0.5269 & 0.4405 & 0.2556 & -0.9741 \\
+\midrule
+Pooled & Overcast & TabM & 2317 & 0.5380 & 0.2643 & 0.2051 & -23.2894 \\
+Pooled & Overcast & BiLSTM & 2317 & 1.8911 & 0.7836 & 0.7657 & -299.0826 \\
+Pooled & Overcast & MLP & 2317 & 0.6172 & 0.4421 & 0.4348 & -30.9643 \\
+Pooled & Overcast & GCN & 2317 & 1.3877 & 0.7737 & 0.7325 & -160.5976 \\
+Pooled & Overcast & SVR-RBF & 2317 & 0.3585 & 0.2570 & 0.2389 & -9.7849 \\
+Pooled & Overcast & Bai LSTM & 2317 & 0.7747 & 0.6542 & 0.6194 & -49.3628 \\
+Pooled & Overcast & Transformer & 2317 & 0.6633 & 0.3013 & 0.2482 & -35.9218 \\
+Pooled & Overcast & CatBoost & 2317 & 0.6093 & 0.4947 & 0.4857 & -30.1548 \\
+Pooled & Overcast & Random Forest & 2317 & 0.8481 & 0.4516 & 0.3933 & -59.3594 \\
+Pooled & Overcast & Elastic Net & 2317 & 0.5443 & 0.4553 & 0.3904 & -23.8588 \\
+\midrule
+Pooled & Other & TabM & 2541 & 0.4208 & 0.1911 & 0.1126 & -32.9942 \\
+Pooled & Other & BiLSTM & 2541 & 1.8691 & 0.6990 & 0.6730 & -669.6382 \\
+Pooled & Other & MLP & 2541 & 0.5926 & 0.3947 & 0.3915 & -66.4166 \\
+Pooled & Other & GCN & 2541 & 1.3249 & 0.6458 & 0.5743 & -335.9728 \\
+Pooled & Other & SVR-RBF & 2541 & 0.3183 & 0.2159 & 0.2039 & -18.4464 \\
+Pooled & Other & Bai LSTM & 2541 & 0.5953 & 0.4849 & 0.4506 & -67.0362 \\
+Pooled & Other & Transformer & 2541 & 0.5096 & 0.2338 & 0.1244 & -48.8457 \\
+Pooled & Other & CatBoost & 2541 & 0.5186 & 0.3536 & 0.3431 & -50.6268 \\
+Pooled & Other & Random Forest & 2541 & 0.4240 & 0.2612 & 0.1755 & -33.5133 \\
+Pooled & Other & Elastic Net & 2541 & 0.4261 & 0.3360 & 0.2142 & -33.8568 \\
+\midrule
+Chilbolton & Overall & TabM & 3382 & 0.6136 & 0.3052 & 0.2189 & -9.7209 \\
+Chilbolton & Overall & BiLSTM & 3382 & 2.2861 & 0.9753 & 0.9355 & -147.8072 \\
+Chilbolton & Overall & MLP & 3382 & 0.6596 & 0.4452 & 0.4263 & -11.3889 \\
+Chilbolton & Overall & GCN & 3382 & 1.6775 & 0.9428 & 0.8625 & -79.1293 \\
+Chilbolton & Overall & SVR-RBF & 3382 & 0.4142 & 0.2819 & 0.2375 & -3.8859 \\
+Chilbolton & Overall & Bai LSTM & 3382 & 0.7141 & 0.5966 & 0.5467 & -13.5218 \\
+Chilbolton & Overall & Transformer & 3382 & 0.7060 & 0.3365 & 0.2446 & -13.1910 \\
+Chilbolton & Overall & CatBoost & 3382 & 0.6027 & 0.4586 & 0.4345 & -9.3431 \\
+Chilbolton & Overall & Random Forest & 3382 & 0.6714 & 0.3800 & 0.2971 & -11.8347 \\
+Chilbolton & Overall & Elastic Net & 3382 & 0.4997 & 0.4096 & 0.3055 & -6.1112 \\
+\midrule
+Chilbolton & Rain & TabM & 408 & 0.7291 & 0.4152 & 0.1779 & -1.9709 \\
+Chilbolton & Rain & BiLSTM & 408 & 1.8664 & 0.8315 & 0.6567 & -18.4685 \\
+Chilbolton & Rain & MLP & 408 & 1.1261 & 0.8510 & 0.7463 & -6.0864 \\
+Chilbolton & Rain & GCN & 408 & 1.6478 & 0.9069 & 0.6512 & -14.1737 \\
+Chilbolton & Rain & SVR-RBF & 408 & 0.5141 & 0.3595 & 0.1247 & -0.4771 \\
+Chilbolton & Rain & Bai LSTM & 408 & 0.7612 & 0.6472 & 0.4789 & -2.2381 \\
+Chilbolton & Rain & Transformer & 408 & 0.4662 & 0.3107 & 0.0993 & -0.2148 \\
+Chilbolton & Rain & CatBoost & 408 & 0.7243 & 0.5987 & 0.4728 & -1.9315 \\
+Chilbolton & Rain & Random Forest & 408 & 0.7850 & 0.4939 & 0.2830 & -2.4438 \\
+Chilbolton & Rain & Elastic Net & 408 & 0.5423 & 0.4521 & 0.2272 & -0.6437 \\
+\midrule
+Chilbolton & Overcast & TabM & 1440 & 0.6619 & 0.3382 & 0.2813 & -27.4707 \\
+Chilbolton & Overcast & BiLSTM & 1440 & 2.3529 & 1.0467 & 1.0289 & -358.7948 \\
+Chilbolton & Overcast & MLP & 1440 & 0.5902 & 0.4202 & 0.4098 & -21.6423 \\
+Chilbolton & Overcast & GCN & 1440 & 1.6983 & 1.0139 & 0.9700 & -186.4479 \\
+Chilbolton & Overcast & SVR-RBF & 1440 & 0.4205 & 0.2954 & 0.2719 & -10.4920 \\
+Chilbolton & Overcast & Bai LSTM & 1440 & 0.7945 & 0.6779 & 0.6418 & -40.0235 \\
+Chilbolton & Overcast & Transformer & 1440 & 0.8197 & 0.3816 & 0.3282 & -42.6706 \\
+Chilbolton & Overcast & CatBoost & 1440 & 0.6469 & 0.5193 & 0.5085 & -26.1950 \\
+Chilbolton & Overcast & Random Forest & 1440 & 0.8287 & 0.4648 & 0.4096 & -43.6324 \\
+Chilbolton & Overcast & Elastic Net & 1440 & 0.5473 & 0.4628 & 0.3982 & -18.4669 \\
+\midrule
+Chilbolton & Other & TabM & 1534 & 0.5268 & 0.2450 & 0.1712 & -39.6575 \\
+Chilbolton & Other & BiLSTM & 1534 & 2.3235 & 0.9465 & 0.9219 & -790.0088 \\
+Chilbolton & Other & MLP & 1534 & 0.5431 & 0.3608 & 0.3567 & -42.2182 \\
+Chilbolton & Other & GCN & 1534 & 1.6657 & 0.8856 & 0.8179 & -405.5519 \\
+Chilbolton & Other & SVR-RBF & 1534 & 0.3768 & 0.2487 & 0.2352 & -19.8087 \\
+Chilbolton & Other & Bai LSTM & 1534 & 0.6146 & 0.5069 & 0.4755 & -54.3491 \\
+Chilbolton & Other & Transformer & 1534 & 0.6405 & 0.3010 & 0.2048 & -59.1035 \\
+Chilbolton & Other & CatBoost & 1534 & 0.5182 & 0.3644 & 0.3549 & -38.3459 \\
+Chilbolton & Other & Random Forest & 1534 & 0.4303 & 0.2700 & 0.1952 & -26.1364 \\
+Chilbolton & Other & Elastic Net & 1534 & 0.4373 & 0.3484 & 0.2392 & -27.0162 \\
+\midrule
+Sparsholt & Overall & TabM & 2211 & 0.2070 & 0.1353 & 0.0455 & -1.2564 \\
+Sparsholt & Overall & BiLSTM & 2211 & 0.6817 & 0.3459 & 0.3099 & -23.4721 \\
+Sparsholt & Overall & MLP & 2211 & 0.7988 & 0.5541 & 0.5489 & -32.6033 \\
+Sparsholt & Overall & GCN & 2211 & 0.5386 & 0.3439 & 0.2693 & -14.2765 \\
+Sparsholt & Overall & SVR-RBF & 2211 & 0.2296 & 0.1902 & 0.1628 & -1.7762 \\
+Sparsholt & Overall & Bai LSTM & 2211 & 0.6671 & 0.5435 & 0.4975 & -22.4401 \\
+Sparsholt & Overall & Transformer & 2211 & 0.2343 & 0.1648 & 0.0691 & -1.8899 \\
+Sparsholt & Overall & CatBoost & 2211 & 0.5531 & 0.4179 & 0.4023 & -15.1095 \\
+Sparsholt & Overall & Random Forest & 2211 & 0.6886 & 0.3460 & 0.2523 & -23.9738 \\
+Sparsholt & Overall & Elastic Net & 2211 & 0.4790 & 0.3831 & 0.2730 & -11.0823 \\
+\midrule
+Sparsholt & Rain & TabM & 327 & 0.3056 & 0.1961 & 0.0212 & -0.0365 \\
+Sparsholt & Rain & BiLSTM & 327 & 0.5993 & 0.4049 & 0.2958 & -2.9865 \\
+Sparsholt & Rain & MLP & 327 & 1.3431 & 1.0902 & 1.0662 & -19.0206 \\
+Sparsholt & Rain & GCN & 327 & 0.6265 & 0.4437 & 0.2765 & -3.3559 \\
+Sparsholt & Rain & SVR-RBF & 327 & 0.3216 & 0.2552 & 0.1247 & -0.1479 \\
+Sparsholt & Rain & Bai LSTM & 327 & 0.7445 & 0.6350 & 0.5299 & -5.1520 \\
+Sparsholt & Rain & Transformer & 327 & 0.3448 & 0.2548 & 0.1482 & -0.3191 \\
+Sparsholt & Rain & CatBoost & 327 & 0.6708 & 0.5686 & 0.5163 & -3.9944 \\
+Sparsholt & Rain & Random Forest & 327 & 0.7781 & 0.4237 & 0.2747 & -5.7184 \\
+Sparsholt & Rain & Elastic Net & 327 & 0.5071 & 0.4260 & 0.2910 & -1.8534 \\
+\midrule
+Sparsholt & Overcast & TabM & 877 & 0.2132 & 0.1430 & 0.0800 & -6.3458 \\
+Sparsholt & Overcast & BiLSTM & 877 & 0.5985 & 0.3515 & 0.3334 & -56.8748 \\
+Sparsholt & Overcast & MLP & 877 & 0.6591 & 0.4781 & 0.4758 & -69.1831 \\
+Sparsholt & Overcast & GCN & 877 & 0.5935 & 0.3793 & 0.3426 & -55.9053 \\
+Sparsholt & Overcast & SVR-RBF & 877 & 0.2219 & 0.1939 & 0.1846 & -6.9540 \\
+Sparsholt & Overcast & Bai LSTM & 877 & 0.7411 & 0.6153 & 0.5827 & -87.7469 \\
+Sparsholt & Overcast & Transformer & 877 & 0.2433 & 0.1695 & 0.1168 & -8.5624 \\
+Sparsholt & Overcast & CatBoost & 877 & 0.5421 & 0.4543 & 0.4483 & -46.4800 \\
+Sparsholt & Overcast & Random Forest & 877 & 0.8791 & 0.4300 & 0.3665 & -123.8705 \\
+Sparsholt & Overcast & Elastic Net & 877 & 0.5393 & 0.4430 & 0.3775 & -45.9974 \\
+\midrule
+Sparsholt & Other & TabM & 1007 & 0.1554 & 0.1089 & 0.0233 & -7.7912 \\
+Sparsholt & Other & BiLSTM & 1007 & 0.7692 & 0.3219 & 0.2940 & -214.3725 \\
+Sparsholt & Other & MLP & 1007 & 0.6610 & 0.4463 & 0.4445 & -158.0197 \\
+Sparsholt & Other & GCN & 1007 & 0.4502 & 0.2807 & 0.2032 & -72.7906 \\
+Sparsholt & Other & SVR-RBF & 1007 & 0.1982 & 0.1659 & 0.1562 & -13.2988 \\
+Sparsholt & Other & Bai LSTM & 1007 & 0.5647 & 0.4513 & 0.4127 & -115.0763 \\
+Sparsholt & Other & Transformer & 1007 & 0.1742 & 0.1314 & 0.0018 & -10.0458 \\
+Sparsholt & Other & CatBoost & 1007 & 0.5192 & 0.3372 & 0.3252 & -97.1234 \\
+Sparsholt & Other & Random Forest & 1007 & 0.4142 & 0.2476 & 0.1456 & -61.4439 \\
+Sparsholt & Other & Elastic Net & 1007 & 0.4086 & 0.3170 & 0.1762 & -59.7584 \\
+\midrule
+\bottomrule
+\end{longtable}
+\footnotesize RMSE, MAE and signed bias are in dB. All negative $R^2$ values are retained. This table is a descriptive comparison on the same eligible UK hours; no UK fitting was performed.
+\endgroup

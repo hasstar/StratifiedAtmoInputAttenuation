@@ -1,0 +1,36 @@
+% Exact table extracted from the pinned manuscript; needs booktabs/amsmath.
+\begin{table}[t]
+\centering
+\caption{CRPS of hourly-only and combined second-scale attenuation.}
+\label{tab:slow_fast_crps}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & Hours & Hourly only & Combined & Reduction (\%) &
+$\Delta$ (dB) & 95\% CI for $\Delta$ \\
+\midrule
+Local validation & 343 & 0.1413 & 0.1139 & 19.38 & -0.0274 & [-0.0294, -0.0256] \\
+Local test & 687 & 0.1469 & 0.1190 & 18.96 & -0.0279 & [-0.0298, -0.0261] \\
+UK pooled & 5593 & 0.2891 & 0.2474 & 14.41 & -0.0417 & [-0.0437, -0.0398] \\
+Chilbolton & 3382 & 0.3514 & 0.3074 & 12.51 & -0.0439 & [-0.0463, -0.0417] \\
+Sparsholt & 2211 & 0.1938 & 0.1556 & 19.69 & -0.0381 & [-0.0402, -0.0362] \\
+\bottomrule
+\end{tabular}
+}
+\par\smallskip
+\begin{minipage}{\linewidth}\footnotesize
+CRPS is in dB and uses identical valid seconds for both methods,
+with equal weight per hour. The hourly-only distribution is the
+frozen TabM $k=10$ point estimate; the combined distribution adds
+32 generated fluctuations. $\Delta=C_{\mathrm{combined}}-
+C_{\mathrm{hourly}}$; negative values favor the combination.
+Relative reduction is calculated from unrounded mean scores.
+Confidence intervals are paired date-cluster percentile bootstrap
+intervals (2000 draws, seed 20261024), with both UK sites clustered
+jointly by UTC date. These are intervals for the mean score
+difference, not predictive bands for individual seconds.
+\end{minipage}
+\end{table}

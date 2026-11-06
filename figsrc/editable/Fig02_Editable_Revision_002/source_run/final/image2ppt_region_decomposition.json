@@ -1,0 +1,58 @@
+{
+  "schema_version": "image2ppt-region-decomposition-report-v1",
+  "passed": true,
+  "pages": [
+    {
+      "manifest": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\manifest.json",
+      "passed": true,
+      "page_complexity": "structured",
+      "region_count": 3,
+      "regions": [
+        {
+          "id": "a",
+          "strategy": "mixed-reconstruction",
+          "risk_level": "high",
+          "manifest_object_count": 78,
+          "protected_anchor_count": 59,
+          "compound_diagram": true,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "b",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 22,
+          "protected_anchor_count": 12,
+          "compound_diagram": true,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "c",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 15,
+          "protected_anchor_count": 4,
+          "compound_diagram": true,
+          "passed": true,
+          "errors": []
+        }
+      ],
+      "summary": {
+        "manifest_objects": 115,
+        "assigned_objects": 115,
+        "protected_anchors": 75,
+        "compound_regions": 3
+      },
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "regions": 3,
+    "compound_regions": 3
+  },
+  "errors": []
+}

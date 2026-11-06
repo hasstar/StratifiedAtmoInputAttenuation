@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "run_id": "source_run",
+  "page_id": "page_001",
+  "jobs": [
+    {
+      "job_id": "pictorial-assets",
+      "role": "asset_sheet",
+      "status": "processed",
+      "source_image": "C:\\Users\\SDR_HH\\.codex\\generated_images\\01a0bda1-92d1-7832-9508-60f4e0ec1634\\exec-34ee6ccc-5498-44da-a307-1cd58434974b.png",
+      "output": "assets/pictorial-sheet.png",
+      "output_sha256": "0bfdc9732f51286ff336b9d83f675c8d955672a2326da4f46a7df77be97e0d5a",
+      "prompt_file": "prompts/asset_separation.txt",
+      "backend": "builtin-imagegen",
+      "model": null,
+      "fallback_reason": null,
+      "note": null,
+      "recorded_at": "2026-10-30T08:19:49Z",
+      "processed_at": "2026-10-30T08:20:19Z",
+      "alpha": "assets/pictorial-sheet.png",
+      "assets_dir": "assets",
+      "split_manifest": "assets/pictorial-assets.split-report.json"
+    }
+  ],
+  "updated_at": "2026-10-30T08:20:19Z"
+}

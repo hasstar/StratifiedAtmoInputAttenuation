@@ -1,0 +1,273 @@
+primary_seed: 17
+cpu_threads: 2
+paths:
+  reference_results: results/tables/reference_project
+  ceda_raw: data/raw/ceda
+  era5_local: data/raw/era5/local
+  era5_uk: data/raw/era5/uk
+  logs: results/logs
+  new_runs: results/tables/reproductions
+  figures: results/figures
+  figure_inputs: results/tables/figure_inputs
+  figure_sources: figsrc/upstream
+  manuscript: results/logs/provenance/manuscript/main.tex
+environment:
+  python: '3.12'
+  packages:
+    numpy: 2.3.0
+    pandas: 2.3.3
+    scipy: 1.16.2
+    scikit-learn: 1.7.2
+    torch: 2.8.0
+    catboost: 1.2.8
+    xgboost: 3.1.1
+    lightgbm: 4.6.0
+    pyarrow: 22.0.0
+    netCDF4: 1.7.4
+    xarray: 2025.12.0
+    cdsapi: 0.7.7
+    ecmwf-datastores-client: 0.5.1
+    requests: 2.32.5
+    PyYAML: 6.0.2
+    matplotlib: 3.10.8
+    seaborn: 0.13.2
+    pillow: 11.1.0
+    joblib: 1.5.2
+    psutil: 7.0.0
+    h5py: 3.14.0
+    shap: 0.50.0
+    sympy: 1.14.0
+  cpu_only: true
+hourly:
+  models:
+    tabm:
+      config:
+        id: 0
+        name: official_base
+        width: 256
+        blocks: 3
+        k: 32
+        dropout: 0.1
+        lr: 0.002
+        weight_decay: 0.01
+        embedding: 0
+        gate: false
+      epochs: 54
+      weight_policy: uniform
+    bilstm:
+      config_id: 2
+      choice:
+        estimator:
+          epochs: 160
+          lr: 0.001
+          dropout: 0.2
+          weight_decay: 0.001
+        override: {}
+        weight_policy: uniform
+        gated_fusion: false
+      formal_rounds: 53
+      validation_objective_db: 0.2895693626255448
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+    mlp:
+      config_id: 4
+      choice:
+        estimator:
+          epochs: 160
+          lr: 0.001
+          dropout: 0.2
+          weight_decay: 0.001
+        override: {}
+        weight_policy: balanced
+        gated_fusion: false
+      formal_rounds: 48
+      validation_objective_db: 0.3259913515190826
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+    gcn:
+      config_id: 6
+      choice:
+        estimator:
+          epochs: 160
+          lr: 0.001
+          dropout: 0.30000000000000004
+          weight_decay: 0.01
+        override: {}
+        weight_policy: balanced
+        gated_fusion: true
+      formal_rounds: 56
+      validation_objective_db: 0.29814210151468473
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+    svr_rbf:
+      config_id: 0
+      choice:
+        estimator:
+          C: 1.0
+          epsilon: 0.1
+          gamma: scale
+        override: {}
+        weight_policy: uniform
+        gated_fusion: false
+      formal_rounds: null
+      validation_objective_db: 0.3387547028845054
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+    bai_lstm:
+      epochs: 32
+      max_epochs: 1000
+      patience: 5
+      batch: 128
+      lr: 0.0001
+      alpha: 0.9
+      eps: 1.0e-06
+      weight_policy: uniform
+    transformer:
+      config_id: 0
+      choice:
+        estimator:
+          epochs: 160
+          lr: 0.001
+          dropout: 0.1
+          weight_decay: 0.0001
+        override: {}
+        weight_policy: uniform
+        gated_fusion: false
+      formal_rounds: 41
+      validation_objective_db: 0.28704333401503873
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+    catboost:
+      config_id: 7
+      choice:
+        estimator:
+          iterations: 500
+          depth: 6
+          learning_rate: 0.05
+        override:
+          l2_leaf_reg: 10.0
+        weight_policy: balanced
+        gated_fusion: false
+      formal_rounds: 500
+      validation_objective_db: 0.32635335048588404
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+    random_forest:
+      config_id: 5
+      choice:
+        estimator:
+          n_estimators: 500
+          max_depth: 16
+          min_samples_leaf: 5
+        override: {}
+        weight_policy: balanced
+        gated_fusion: false
+      formal_rounds: 7
+      validation_objective_db: 0.3181079519775965
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+    elastic_net:
+      config_id: 2
+      choice:
+        estimator:
+          alpha: 0.01
+          l1_ratio: 0.75
+        override: {}
+        weight_policy: uniform
+        gated_fusion: false
+      formal_rounds: null
+      validation_objective_db: 0.5963429692794824
+      formal_round_reason: selected by validation three-MSE objective; fixed before
+        formal refits and test
+  candidate_pools:
+  - 156
+  - 50
+  group_folds: 3
+  splits:
+    train: 2404
+    validation: 343
+    test: 687
+  primary_seed: 17
+  permutation_namespace: cdda7a1eaa7e14477a8edef39702d5b5e34e03f2a29a337d01b91c88ba57b4cd
+  external_dimensions:
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  combination_model: tabm
+  combination_k: 10
+fast:
+  weather:
+  - clear_dry
+  - rain
+  - dry_overcast
+  - other
+  hour_seconds: 3600
+  block_seconds: 256
+  group_folds: 5
+  selection_replicates: 16
+  half_budget_replicates: 8
+  evaluation_replicates: 32
+  lags_seconds:
+  - 1
+  - 2
+  - 5
+  - 10
+  - 30
+  - 60
+  - 120
+  - 300
+  - 600
+  - 900
+  - 1800
+  candidate_lengths_seconds:
+  - 2
+  - 4
+  - 8
+  - 16
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+  - 3600
+  candidates:
+  - iid
+  - gaussian_ar1
+  - block_0002
+  - block_0004
+  - block_0008
+  - block_0016
+  - block_0032
+  - block_0064
+  - block_0128
+  - block_0256
+  - block_0512
+  - block_1024
+  - block_2048
+  - block_3600
+  primary_records_per_second: 9
+  tail_probabilities:
+  - 0.95
+  - 0.99
+historical_seeds:
+  hourly_fit: 17
+  local_hour_split: 20260928
+  fast_dynamics_namespace: 20261007
+  fast_window_bootstrap: 20261006
+  combination_date_bootstrap: 20261024
+  shap_plot_jitter: 20261103
+  shap_background: 20261103
+  shap_permutations: [20261105, 20261106]
+safety:
+  reference_outputs_read_only: true
+  remote_downloads_default: false
+  overwrite_reference: false

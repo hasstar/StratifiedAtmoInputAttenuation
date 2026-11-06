@@ -1,0 +1,7 @@
+﻿dataset,subset,station,hours,start,end,dates,timezone,rain,dry_overcast,clear_dry,other
+LOCAL,train,local,2404,2025-10-09,2026-08-20,162,BJT,179,553,1127,545
+LOCAL,validation,local,343,2025-10-20,2026-08-14,140,BJT,25,79,161,78
+LOCAL,test,local,687,2025-10-10,2026-08-20,156,BJT,51,158,322,156
+UK,external,chilbolton,3382,2003-08-19,2004-03-31,143,UTC,408,1440,593,941
+UK,external,sparsholt,2211,2003-10-08,2004-03-31,93,UTC,327,877,423,584
+UK,external,pooled,5593,2003-08-19,2004-03-31,143,UTC,735,2317,1016,1525

@@ -1,0 +1,116 @@
+% Insert in Section III-B, before the data-driven model comparison.
+% Requires amsmath and graphicx. Merge ITU_References.bib into the manuscript bibliography.
+% Copy the revised Fig04 PDF into the manuscript's Picture/ folder.
+% Figure numbering is automatic; do not force the number with \renewcommand.
+
+\subsubsection{Comparison with an ITU-based combined attenuation model}
+\label{subsubsec:itu_combined_reference}
+
+An ITU-based physical baseline combines gaseous, cloud, and rain
+attenuation using the concurrent ERA5 inputs. Its hourly prediction is
+\begin{equation}
+\widehat{A}_{h}^{\mathrm{ITU}}
+= A_{g,h}-A_{g,\mathrm{ref}}+A_{c,h}+A_{r,h},
+\label{eq:itu_hourly_combination}
+\end{equation}
+where $A_{g,h}$, $A_{c,h}$, and $A_{r,h}$ denote the three path
+attenuation components in decibels. The fixed gaseous reference
+$A_{g,\mathrm{ref}}$ places the prediction on a relative-attenuation
+scale without fitting an offset to the measured attenuation.
+
+Gaseous attenuation follows the instantaneous oxygen and water-vapour
+methods in Annex~2 of ITU-R P.676-13 \cite{ITU676_13}:
+\begin{equation}
+A_{g,h}
+= \frac{\gamma_{o,h}H_{o,h}+K_{v,h}V_h}{\sin\theta},
+\label{eq:itu_gaseous_hourly}
+\end{equation}
+where $\gamma_{o,h}$ is the oxygen specific attenuation in dB/km,
+$H_{o,h}$ is its equivalent height in kilometres, $V_h$ is the
+integrated water-vapour content in kg/m$^2$, and $K_{v,h}$ is the
+water-vapour mass absorption coefficient in dB/(kg/m$^2$).
+The angle $\theta$ is the link elevation.
+The coefficients depend on frequency and the surface atmospheric
+state. Water-vapour density is obtained from dewpoint and temperature
+using ITU-R P.453-14 \cite{ITU453_14}.
+For the local link, the calculation uses 19.13~GHz, circular
+polarization, and the nominal link elevation of $42.969^{\circ}$.
+The fixed reference uses the sea-level state of ITU-R P.835-6
+\cite{ITU835_6}: 288.15~K, 1013.25~hPa, and 7.5~g/m$^3$ water-vapour
+density. Integrating an exponential humidity profile with a 2-km
+scale height gives a reference water-vapour column of 15~kg/m$^2$
+and $A_{g,\mathrm{ref}}=0.2750$~dB.
+
+Cloud attenuation is calculated from the ERA5 integrated cloud
+liquid-water content $L_h$ using ITU-R P.840-9 \cite{ITU840_9}:
+\begin{equation}
+A_{c,h}=\frac{K_L(f)L_h}{\sin\theta},
+\label{eq:itu_cloud_hourly}
+\end{equation}
+where $L_h$ is in kg/m$^2$ and $K_L(f)$ is the standard's
+instantaneous cloud mass absorption coefficient in dB/(kg/m$^2$).
+It includes the prescribed frequency correction to the liquid-water
+coefficient evaluated at 273.75~K.
+
+The rain component uses the specific-attenuation relation of
+ITU-R P.838-3 \cite{ITU838_3} and a geometric rain path:
+\begin{equation}
+\begin{aligned}
+\gamma_{r,h}&=k_R R_h^{\alpha_R},\\
+\ell_{r,h}&=\frac{H_{0,h}+0.36}{\sin\theta},\\
+A_{r,h}&=\gamma_{r,h}\ell_{r,h}.
+\end{aligned}
+\label{eq:itu_rain_hourly}
+\end{equation}
+Here, $\gamma_{r,h}$ is in dB/km and $\ell_{r,h}$ is in kilometres.
+The hourly liquid-rain rate $R_h$ is in mm/h, obtained from
+the time-aligned one-hour total precipitation minus snowfall water
+equivalent; $k_R$ and $\alpha_R$ are the frequency- and
+polarization-dependent coefficients. The nonnegative $H_{0,h}$ is
+the ERA5 zero-degree height above ground in kilometres; unavailable
+values use the fixed training-set median of 1.9724~km.
+The 0.36-km increment follows ITU-R P.839-4 \cite{ITU839_4}.
+Using an hourly zero-degree height and rain rate makes this an
+hourly geometric-path approximation, rather than an annual
+exceedance-probability calculation. The combined prediction does not
+include a separate scintillation component.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Picture/Fig04_All_Hourly_Observations_And_ITU_Test.pdf}
+\caption{Hourly attenuation observations and the ITU-based test
+comparison. (a) All 3434 local measured hours across the training,
+validation, and test partitions, with background colours denoting
+weather categories. (b) The measured attenuation and ITU-based
+combined predictions for the 684 test hours with valid physical
+inputs. Each panel has its own chronological sample index, with
+calendar gaps omitted. Panel (b) retains the enlarged vertical
+range; triangles mark 15 observations above its upper limit.
+Panel (a) retains the complete measured attenuation range.
+The reported scores use all 684 pairs without clipping.}
+\label{fig:itu_complete_hourly_sequence}
+\end{figure*}
+
+Figure~\ref{fig:itu_complete_hourly_sequence}(a) shows all 3434
+local hourly attenuation observations with their weather labels.
+Figure~\ref{fig:itu_complete_hourly_sequence}(b) compares the
+measured attenuation and the ITU-based combined predictions on
+the common 684-hour test subset. Three of the original 687 test hours have a negative
+total-precipitation-minus-snowfall difference and are excluded
+from this physical-baseline comparison. The combined model
+obtains an RMSE of 1.0090~dB, an MAE of 0.4317~dB, and
+$R^2=0.0281$. Its mean prediction-minus-observation bias is
+$-0.1193$~dB. The predicted sequence has a standard deviation of
+0.3304~dB, compared with 1.0234~dB for the observations, indicating
+that this hourly implementation reproduces substantially less
+variability than measured on the link.
+
+The discrepancy is not a uniform offset. For the 51 rainy test
+hours, the RMSE is 1.3559~dB and the mean bias is $+0.2951$~dB,
+although the larger observed attenuation excursions remain
+underrepresented. The RMSE is 0.9747~dB for the 156 dry-overcast
+hours. These results establish a physical reference for the
+following data-driven comparisons: the relevant question is how
+well concurrent atmospheric information can reproduce the
+measured link-specific hourly variations beyond this prescribed
+physical approximation.

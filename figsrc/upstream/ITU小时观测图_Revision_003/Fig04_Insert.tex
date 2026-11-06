@@ -1,0 +1,17 @@
+% Copy the PDF into the manuscript's Picture/ directory.
+% Replace the previous Fig04 environment; keep this existing label.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Picture/Fig04_All_Hourly_Observations_And_ITU_Test.pdf}
+\caption{Hourly attenuation observations and the ITU-based test
+comparison. (a) All 3434 local measured hours across the training,
+validation, and test partitions, with background colours denoting
+weather categories. (b) The measured attenuation and ITU-based
+combined predictions for the 684 test hours with valid physical
+inputs. Each panel has its own chronological sample index, with
+calendar gaps omitted. Panel (b) retains the enlarged vertical
+range; triangles mark 15 observations above its upper limit.
+Panel (a) retains the complete measured attenuation range.
+The reported scores use all 684 pairs without clipping.}
+\label{fig:itu_complete_hourly_sequence}
+\end{figure*}

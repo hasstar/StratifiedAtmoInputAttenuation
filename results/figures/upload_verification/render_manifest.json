@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 34.89100000006147,
+  "scripts": [
+    "plot_fig06_rfe.py",
+    "plot_fig07_independent_rfe.py",
+    "plot_fig08_uk.py",
+    "plot_fig10_fast_temporal.py"
+  ],
+  "output": "results\\figures\\upload_verification",
+  "scope": "Redraw from distributed aggregate/UK results; no training or generation."
+}

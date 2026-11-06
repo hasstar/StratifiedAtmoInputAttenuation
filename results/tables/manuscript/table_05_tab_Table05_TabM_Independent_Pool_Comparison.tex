@@ -1,0 +1,49 @@
+% Exact table extracted from the pinned manuscript; needs booktabs/amsmath.
+\begin{table}[t]
+\centering
+\caption{TabM performance along two independent RFE runs
+at equal retained feature counts on the local test set.}
+\label{tab:Table05_TabM_Independent_Pool_Comparison}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+
+\begin{tabular}{@{}l r r r r r@{}}
+\toprule
+Weather & $k$ & RMSE$_{156}$ & RMSE$_{50}$ &
+$R^2_{156}$ & $R^2_{50}$ \\
+\midrule
+Overall & 10 & 0.2891 & 0.3823 & 0.9199 & 0.8599 \\
+Overall & 9  & 0.2928 & 0.3288 & 0.9178 & 0.8964 \\
+Overall & 8  & 0.2872 & 0.3262 & 0.9210 & 0.8980 \\
+Overall & 7  & 0.3506 & 0.3240 & 0.8822 & 0.8994 \\
+Overall & 6  & 0.4186 & 0.3539 & 0.8320 & 0.8800 \\
+Overall & 5  & 0.4324 & 0.3503 & 0.8208 & 0.8824 \\
+\midrule
+Rain & 10 & 0.4708 & 0.4350 & 0.8688 & 0.8881 \\
+Rain & 9  & 0.4656 & 0.5369 & 0.8717 & 0.8294 \\
+Rain & 8  & 0.4403 & 0.5504 & 0.8853 & 0.8208 \\
+Rain & 7  & 0.4567 & 0.5479 & 0.8766 & 0.8224 \\
+Rain & 6  & 0.5579 & 0.6103 & 0.8158 & 0.7796 \\
+Rain & 5  & 0.5449 & 0.5973 & 0.8243 & 0.7889 \\
+\midrule
+Overcast & 10 & 0.3153 & 0.5500 & 0.8970 & 0.6865 \\
+Overcast & 9  & 0.3159 & 0.3366 & 0.8966 & 0.8826 \\
+Overcast & 8  & 0.2779 & 0.3298 & 0.9200 & 0.8873 \\
+Overcast & 7  & 0.3670 & 0.3392 & 0.8604 & 0.8808 \\
+Overcast & 6  & 0.4978 & 0.3418 & 0.7432 & 0.8789 \\
+Overcast & 5  & 0.5292 & 0.3218 & 0.7098 & 0.8927 \\
+
+\bottomrule
+\end{tabular}
+
+\par\smallskip
+\parbox{\columnwidth}{\footnotesize
+\textbf{Note:} Subscripts 156 and 50 identify the starting
+candidate sets; $k$ is the number of retained inputs at
+the evaluated state. RMSE is in dB. The 50-candidate base
+set contains surface, single-level diagnostic, and
+column-integrated variables. Overcast denotes dry-overcast
+conditions.}
+
+\end{table}

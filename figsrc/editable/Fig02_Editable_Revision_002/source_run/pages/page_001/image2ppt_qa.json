@@ -1,0 +1,554 @@
+{
+  "schema_version": "image2ppt-supplemental-page-qa-v1",
+  "passed": true,
+  "page_dir": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001",
+  "state_owner": "page_jobs.json",
+  "manifest": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\manifest.json",
+  "pptx": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+  "visual_review": {
+    "status": "reviewed",
+    "notes": "",
+    "source": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\source.png",
+    "rendered": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render\\rendered.png",
+    "evidence": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\visual-review-evidence.json",
+    "evidence_template": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\visual-review-evidence.template.json",
+    "evidence_payload": {
+      "schema_version": "image2ppt-visual-review-evidence-v1",
+      "pages": [
+        {
+          "page_id": "page_001",
+          "source": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\source.png",
+          "rendered": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render\\rendered.png",
+          "source_sha256": "c386b9487bfdce45d7309cb4ba5438d2d35f6e5a07096e32f5dc13d00ef5f117",
+          "rendered_sha256": "6d8879175d6302a5d29acd607af1ac44bc41494c18849dfe30dfc866a9ce5e77",
+          "reviewed": true,
+          "checks": {
+            "composition_layout": "Compared actual PowerPoint render to source: left pressure-layer scene occupies about two thirds; interpolation above feature cards on right; three panel letters retain their source anchors.",
+            "text_content": "Times New Roman renders correctly including G1–G4 subscript labels; all 10 pressure labels, 50 base features, 106 pressure-level features and total 156 are visible without clipping.",
+            "object_completeness": "Counted 10 pressure contours and 10 orange points on the diagonal path; four blue ERA5 corners, one orange interpolation point, two feature cards, the count box and all three pictorial assets appear once.",
+            "render_integrity": "Reviewed the PNG exported by installed PowerPoint; native serif labels and connector arrowheads differ from the builder's diagnostic preview, proving inspection uses actual PPT rendering; no full-page source bitmap is embedded.",
+            "arrow_geometry": "Downlink arrow points toward the receiver, with an intermediate direction arrow; orange dashed callout ends at the 300 hPa point; latitude/longitude arrows point upward/right; labels have native one-object arrow leaders.",
+            "raster_assets": "Satellite with two blue panels, roof dish/building and curved Earth were separated through imagegen and reinserted as bounded assets. Small texture/edge differences retained as noted; no text remains in these images.",
+            "compound_diagram": "Checked source/node geometry: all ten path points align with their native contours and diagonal link; grid target is off-center with orthogonal dashed guides; square grid and gently rounded cards remain independent shapes."
+          }
+        }
+      ]
+    }
+  },
+  "checks": {
+    "region_decomposition_command": {
+      "command": [
+        "C:\\Users\\SDR_HH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\SDR_HH\\.codex\\skills\\nature-image2ppt\\scripts\\inspect_region_decomposition.py",
+        "--manifest",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\manifest.json",
+        "--out",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\region_decomposition_report.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"schema_version\": \"image2ppt-region-decomposition-report-v1\",\n  \"passed\": true,\n  \"pages\": [\n    {\n      \"manifest\": \"E:\\\\0_Workflow_System\\\\01_PhD\\\\Papers\\\\0_TVT_GEO_Prediction\\\\\\u6700\\u7ec8\\u63d0\\u4ea4\\u7684\\u4fee\\u6539\\u6750\\u6599\\\\Fig02_Editable_Revision_002\\\\source_run\\\\pages\\\\page_001\\\\manifest.json\",\n      \"passed\": true,\n      \"page_complexity\": \"structured\",\n      \"region_count\": 3,\n      \"regions\": [\n        {\n          \"id\": \"a\",\n          \"strategy\": \"mixed-reconstruction\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 78,\n          \"protected_anchor_count\": 59,\n          \"compound_diagram\": true,\n          \"passed\": true,\n          \"errors\": []\n        },\n        {\n          \"id\": \"b\",\n          \"strategy\": \"native-object-decomposition\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 22,\n          \"protected_anchor_count\": 12,\n          \"compound_diagram\": true,\n          \"passed\": true,\n          \"errors\": []\n        },\n        {\n          \"id\": \"c\",\n          \"strategy\": \"native-object-decomposition\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 15,\n          \"protected_anchor_count\": 4,\n          \"compound_diagram\": true,\n          \"passed\": true,\n          \"errors\": []\n        }\n      ],\n      \"summary\": {\n        \"manifest_objects\": 115,\n        \"assigned_objects\": 115,\n        \"protected_anchors\": 75,\n        \"compound_regions\": 3\n      },\n      \"warnings\": [],\n      \"errors\": []\n    }\n  ],\n  \"summary\": {\n    \"pages\": 1,\n    \"regions\": 3,\n    \"compound_regions\": 3\n  },\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    "region_decomposition": {
+      "schema_version": "image2ppt-region-decomposition-report-v1",
+      "passed": true,
+      "pages": [
+        {
+          "manifest": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\manifest.json",
+          "passed": true,
+          "page_complexity": "structured",
+          "region_count": 3,
+          "regions": [
+            {
+              "id": "a",
+              "strategy": "mixed-reconstruction",
+              "risk_level": "high",
+              "manifest_object_count": 78,
+              "protected_anchor_count": 59,
+              "compound_diagram": true,
+              "passed": true,
+              "errors": []
+            },
+            {
+              "id": "b",
+              "strategy": "native-object-decomposition",
+              "risk_level": "high",
+              "manifest_object_count": 22,
+              "protected_anchor_count": 12,
+              "compound_diagram": true,
+              "passed": true,
+              "errors": []
+            },
+            {
+              "id": "c",
+              "strategy": "native-object-decomposition",
+              "risk_level": "high",
+              "manifest_object_count": 15,
+              "protected_anchor_count": 4,
+              "compound_diagram": true,
+              "passed": true,
+              "errors": []
+            }
+          ],
+          "summary": {
+            "manifest_objects": 115,
+            "assigned_objects": 115,
+            "protected_anchors": 75,
+            "compound_regions": 3
+          },
+          "warnings": [],
+          "errors": []
+        }
+      ],
+      "summary": {
+        "pages": 1,
+        "regions": 3,
+        "compound_regions": 3
+      },
+      "errors": []
+    },
+    "arrow_postprocess_command": {
+      "command": [
+        "C:\\Users\\SDR_HH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\SDR_HH\\.codex\\skills\\nature-image2ppt\\scripts\\postprocess_manifest_arrows.py",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+        "--manifest",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\manifest.json",
+        "--report",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\arrow_postprocess_report.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"schema_version\": \"image2ppt-manifest-arrow-postprocess-v1\",\n  \"passed\": true,\n  \"pptx\": \"E:\\\\0_Workflow_System\\\\01_PhD\\\\Papers\\\\0_TVT_GEO_Prediction\\\\\\u6700\\u7ec8\\u63d0\\u4ea4\\u7684\\u4fee\\u6539\\u6750\\u6599\\\\Fig02_Editable_Revision_002\\\\source_run\\\\pages\\\\page_001\\\\page.pptx\",\n  \"manifests\": [\n    \"E:\\\\0_Workflow_System\\\\01_PhD\\\\Papers\\\\0_TVT_GEO_Prediction\\\\\\u6700\\u7ec8\\u63d0\\u4ea4\\u7684\\u4fee\\u6539\\u6750\\u6599\\\\Fig02_Editable_Revision_002\\\\source_run\\\\pages\\\\page_001\\\\manifest.json\"\n  ],\n  \"operations\": [\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 40,\n      \"object_id\": 55,\n      \"name\": \"propagation_path\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 41,\n      \"object_id\": 56,\n      \"name\": \"path_direction\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 55,\n      \"object_id\": 49,\n      \"name\": \"local_sampling_callout\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 56,\n      \"object_id\": 50,\n      \"name\": \"path_label_leader\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 57,\n      \"object_id\": 51,\n      \"name\": \"sample_label_leader\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 58,\n      \"object_id\": 52,\n      \"name\": \"receiver_label_leader\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 68,\n      \"object_id\": 76,\n      \"name\": \"intersection_leader\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 69,\n      \"object_id\": 53,\n      \"name\": \"latitude_axis\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 70,\n      \"object_id\": 54,\n      \"name\": \"longitude_axis\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    }\n  ],\n  \"errors\": [],\n  \"preservation\": {\n    \"non_slide_parts_preserved\": true,\n    \"non_slide_part_count\": 15,\n    \"notes_parts_preserved\": true,\n    \"notes_part_count\": 0\n  },\n  \"input_sha256\": \"6541f0139288963841cce759fa7f482c148a9007ac5bd6b4f0839b3402d20600\",\n  \"output_sha256\": \"6541f0139288963841cce759fa7f482c148a9007ac5bd6b4f0839b3402d20600\",\n  \"summary\": {\n    \"slides\": 1,\n    \"profiled_arrows\": 9,\n    \"connectors\": 9,\n    \"filled_arrows\": 0\n  }\n}\n",
+      "stderr": ""
+    },
+    "arrow_postprocess": {
+      "schema_version": "image2ppt-manifest-arrow-postprocess-v1",
+      "passed": true,
+      "pptx": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+      "manifests": [
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\manifest.json"
+      ],
+      "operations": [
+        {
+          "slide_index": 1,
+          "shape_index": 40,
+          "object_id": 55,
+          "name": "propagation_path",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 41,
+          "object_id": 56,
+          "name": "path_direction",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 55,
+          "object_id": 49,
+          "name": "local_sampling_callout",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 56,
+          "object_id": 50,
+          "name": "path_label_leader",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 57,
+          "object_id": 51,
+          "name": "sample_label_leader",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 58,
+          "object_id": 52,
+          "name": "receiver_label_leader",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 68,
+          "object_id": 76,
+          "name": "intersection_leader",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 69,
+          "object_id": 53,
+          "name": "latitude_axis",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 70,
+          "object_id": 54,
+          "name": "longitude_axis",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        }
+      ],
+      "errors": [],
+      "preservation": {
+        "non_slide_parts_preserved": true,
+        "non_slide_part_count": 15,
+        "notes_parts_preserved": true,
+        "notes_part_count": 0
+      },
+      "input_sha256": "6541f0139288963841cce759fa7f482c148a9007ac5bd6b4f0839b3402d20600",
+      "output_sha256": "6541f0139288963841cce759fa7f482c148a9007ac5bd6b4f0839b3402d20600",
+      "summary": {
+        "slides": 1,
+        "profiled_arrows": 9,
+        "connectors": 9,
+        "filled_arrows": 0
+      }
+    },
+    "image2ppt_validation_command": {
+      "command": [
+        "C:\\Users\\SDR_HH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\SDR_HH\\.codex\\skills\\nature-image2ppt\\cli\\image2ppt\\cli.py",
+        "page",
+        "validate",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001",
+        "--report",
+        "validation.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"pptx\": \"E:\\\\0_Workflow_System\\\\01_PhD\\\\Papers\\\\0_TVT_GEO_Prediction\\\\最终提交的修改材料\\\\Fig02_Editable_Revision_002\\\\source_run\\\\pages\\\\page_001\\\\page.pptx\",\n  \"zip_ok\": true,\n  \"slides\": 1,\n  \"images\": 3,\n  \"editable_text_shapes\": 37,\n  \"shape_count\": 103,\n  \"all_text\": \"1 5 30 200 300 500 650 700 850 925 (a) Pressure (hPa) GEO satellite Slant propagation path Path sampling points Ground receiver (b) Local bilinear interpolation G₁ G₂ G₃ G₄ Path intersection Latitude Longitude Four neighboring ERA5 grid points (c) Retained meteorological inputs 50 base features Surface quantities Single-level diagnostics Column-integrated quantities 106 pressure-level features Variable-level pairs across 10 levels 50 + 106 = 156 features Base-only candidate pool: 50 Local sampling schematic; geometry not to scale.\",\n  \"required_text\": [\n    \"1\",\n    \"5\",\n    \"30\",\n    \"200\",\n    \"300\",\n    \"500\",\n    \"650\",\n    \"700\",\n    \"850\",\n    \"925\",\n    \"(a)\",\n    \"Pressure (hPa)\",\n    \"GEO satellite\",\n    \"Slant propagation path\",\n    \"Path sampling points\",\n    \"Ground receiver\",\n    \"(b)\",\n    \"Local bilinear interpolation\",\n    \"G₁\",\n    \"G₂\",\n    \"G₃\",\n    \"G₄\",\n    \"Path intersection\",\n    \"Latitude\",\n    \"Longitude\",\n    \"Four neighboring ERA5 grid points\",\n    \"(c)\",\n    \"Retained meteorological inputs\",\n    \"50 base features\",\n    \"Surface quantities\",\n    \"Single-level diagnostics\",\n    \"Column-integrated quantities\",\n    \"106 pressure-level\\nfeatures\",\n    \"Variable-level pairs across\\n10 levels\",\n    \"50 + 106 = 156 features\",\n    \"Base-only candidate pool: 50\",\n    \"Local sampling schematic; geometry not to scale.\"\n  ],\n  \"missing_required_text\": [],\n  \"missing_parts\": [],\n  \"missing_relationship_targets\": [],\n  \"missing_asset_provenance\": [],\n  \"missing_manifest_images\": [],\n  \"missing_provenance_sources\": [],\n  \"invalid_asset_provenance\": [],\n  \"media_hash_mismatches\": [],\n  \"asset_provenance_checked\": 3,\n  \"manifest_image_count\": 3,\n  \"media_manifest_mismatch\": false,\n  \"relationship_targets_checked\": 12,\n  \"warnings\": [],\n  \"page_contract_violations\": [],\n  \"passed\": true\n}\n",
+      "stderr": ""
+    },
+    "image2ppt_validation": {
+      "pptx": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+      "zip_ok": true,
+      "slides": 1,
+      "images": 3,
+      "editable_text_shapes": 37,
+      "shape_count": 103,
+      "all_text": "1 5 30 200 300 500 650 700 850 925 (a) Pressure (hPa) GEO satellite Slant propagation path Path sampling points Ground receiver (b) Local bilinear interpolation G₁ G₂ G₃ G₄ Path intersection Latitude Longitude Four neighboring ERA5 grid points (c) Retained meteorological inputs 50 base features Surface quantities Single-level diagnostics Column-integrated quantities 106 pressure-level features Variable-level pairs across 10 levels 50 + 106 = 156 features Base-only candidate pool: 50 Local sampling schematic; geometry not to scale.",
+      "required_text": [
+        "1",
+        "5",
+        "30",
+        "200",
+        "300",
+        "500",
+        "650",
+        "700",
+        "850",
+        "925",
+        "(a)",
+        "Pressure (hPa)",
+        "GEO satellite",
+        "Slant propagation path",
+        "Path sampling points",
+        "Ground receiver",
+        "(b)",
+        "Local bilinear interpolation",
+        "G₁",
+        "G₂",
+        "G₃",
+        "G₄",
+        "Path intersection",
+        "Latitude",
+        "Longitude",
+        "Four neighboring ERA5 grid points",
+        "(c)",
+        "Retained meteorological inputs",
+        "50 base features",
+        "Surface quantities",
+        "Single-level diagnostics",
+        "Column-integrated quantities",
+        "106 pressure-level\nfeatures",
+        "Variable-level pairs across\n10 levels",
+        "50 + 106 = 156 features",
+        "Base-only candidate pool: 50",
+        "Local sampling schematic; geometry not to scale."
+      ],
+      "missing_required_text": [],
+      "missing_parts": [],
+      "missing_relationship_targets": [],
+      "missing_asset_provenance": [],
+      "missing_manifest_images": [],
+      "missing_provenance_sources": [],
+      "invalid_asset_provenance": [],
+      "media_hash_mismatches": [],
+      "asset_provenance_checked": 3,
+      "manifest_image_count": 3,
+      "media_manifest_mismatch": false,
+      "relationship_targets_checked": 12,
+      "warnings": [],
+      "page_contract_violations": [],
+      "passed": true
+    },
+    "arrow_inspection_command": {
+      "command": [
+        "C:\\Users\\SDR_HH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\SDR_HH\\.codex\\skills\\nature-image2ppt\\scripts\\inspect_arrow_atomicity.py",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+        "--manifest",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\manifest.json",
+        "--out",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\arrow_inspection_report.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"schema_version\": \"image2ppt-manifest-arrow-inspection-v1\",\n  \"passed\": true,\n  \"pptx\": \"E:\\\\0_Workflow_System\\\\01_PhD\\\\Papers\\\\0_TVT_GEO_Prediction\\\\\\u6700\\u7ec8\\u63d0\\u4ea4\\u7684\\u4fee\\u6539\\u6750\\u6599\\\\Fig02_Editable_Revision_002\\\\source_run\\\\pages\\\\page_001\\\\page.pptx\",\n  \"errors\": [],\n  \"summary\": {\n    \"expected_arrows\": 9,\n    \"inspected_arrows\": 9,\n    \"connectors\": 9,\n    \"filled_arrows\": 0,\n    \"fragmented_or_missing\": 0\n  },\n  \"arrows\": [\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 40,\n      \"id\": \"propagation_path\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 41,\n      \"id\": \"path_direction\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 55,\n      \"id\": \"local_sampling_callout\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 56,\n      \"id\": \"path_label_leader\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 57,\n      \"id\": \"sample_label_leader\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 58,\n      \"id\": \"receiver_label_leader\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 68,\n      \"id\": \"intersection_leader\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 69,\n      \"id\": \"latitude_axis\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 70,\n      \"id\": \"longitude_axis\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    "arrow_inspection": {
+      "schema_version": "image2ppt-manifest-arrow-inspection-v1",
+      "passed": true,
+      "pptx": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+      "errors": [],
+      "summary": {
+        "expected_arrows": 9,
+        "inspected_arrows": 9,
+        "connectors": 9,
+        "filled_arrows": 0,
+        "fragmented_or_missing": 0
+      },
+      "arrows": [
+        {
+          "slide_index": 1,
+          "shape_index": 40,
+          "id": "propagation_path",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 41,
+          "id": "path_direction",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 55,
+          "id": "local_sampling_callout",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 56,
+          "id": "path_label_leader",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 57,
+          "id": "sample_label_leader",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 58,
+          "id": "receiver_label_leader",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 68,
+          "id": "intersection_leader",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 69,
+          "id": "latitude_axis",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 70,
+          "id": "longitude_axis",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        }
+      ]
+    },
+    "render_command": {
+      "command": [
+        "C:\\Users\\SDR_HH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\SDR_HH\\.codex\\skills\\nature-image2ppt\\scripts\\render_image2ppt_qa.py",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+        "--out-dir",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render",
+        "--report",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render_report.json",
+        "--source",
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\source.png",
+        "--timeout",
+        "120"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"rendered\", \"report\": \"E:\\\\0_Workflow_System\\\\01_PhD\\\\Papers\\\\0_TVT_GEO_Prediction\\\\\\u6700\\u7ec8\\u63d0\\u4ea4\\u7684\\u4fee\\u6539\\u6750\\u6599\\\\Fig02_Editable_Revision_002\\\\source_run\\\\pages\\\\page_001\\\\render_report.json\"}\n",
+      "stderr": ""
+    },
+    "render": {
+      "schema_version": "image2ppt-render-qa-v1",
+      "status": "rendered",
+      "renderer": "powerpoint-com",
+      "pptx": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx",
+      "out_dir": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render",
+      "rendered_png": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render\\rendered.png",
+      "rendered_slides": [
+        "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render\\rendered.png"
+      ],
+      "source_image": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\source.png",
+      "raw": {
+        "status": "rendered",
+        "renderer": "powerpoint-com",
+        "backend": "powerpoint-export-png",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "",
+        "command": [
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "-NoProfile",
+          "-NonInteractive",
+          "-Command",
+          "$ErrorActionPreference='Stop';$app=$null;$deck=$null;try{$app=New-Object -ComObject PowerPoint.Application;$deck=$app.Presentations.Open('E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\page.pptx',$true,$true,$false);$deck.Export('E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render','PNG')}finally{if($null -ne $deck){try{$deck.Close()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($deck)|Out-Null}catch{};$deck=$null};if($null -ne $app){try{$app.Quit()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app)|Out-Null}catch{};$app=$null}}"
+        ],
+        "slides": [
+          "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render\\rendered.png"
+        ]
+      },
+      "diff_metrics": {
+        "source_png": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\source.png",
+        "rendered_png": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render\\rendered.png",
+        "source_size": [
+          1634,
+          962
+        ],
+        "rendered_original_size": [
+          1634,
+          962
+        ],
+        "mean_abs_rgb_diff_0_255": 15.77,
+        "max_abs_rgb_diff_0_255": 255,
+        "note": "Indicative only; the page still requires visual review."
+      }
+    }
+  },
+  "errors": []
+}

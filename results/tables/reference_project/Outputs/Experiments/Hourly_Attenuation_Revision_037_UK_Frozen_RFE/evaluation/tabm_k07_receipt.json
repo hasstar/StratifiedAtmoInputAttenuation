@@ -1,0 +1,7 @@
+{
+  "model": "tabm",
+  "k": 7,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "a3bbef6aea40b6e90d99737da2ad17652ddc07a00713e3d29462c76f45509107",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

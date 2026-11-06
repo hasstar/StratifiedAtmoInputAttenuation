@@ -1,0 +1,4122 @@
+[
+  {
+    "model": "tabm",
+    "k": 10,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p850__ozone_mass_mixing_ratio",
+      "p650__specific_humidity",
+      "p300__temperature",
+      "p5__u_component_of_wind",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p5__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0010_fold0\\model_1792435100212729500.joblib",
+    "model_sha256": "0ae5b083a8c0f94b01f4a122cb94e2978a1f100b0cae7f62e5c0b27f25a0eccd",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0010\\state.json",
+    "state_sha256": "3e074701836044e1e1eea8f704e6688d7b9843c892fc68e5da1e2c8786e63234",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "p650__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 9,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p850__ozone_mass_mixing_ratio",
+      "p650__specific_humidity",
+      "p300__temperature",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p650__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0009_fold0\\model_1792435552434159700.joblib",
+    "model_sha256": "94d88c0c5321a38c40d241182c515bb42f7e58f6245d039f1e42c7c9cd2174c1",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0009\\state.json",
+    "state_sha256": "0faf8a54253d0f62ef8a447ecf81d50f26af2f99bfe71aae23ee617307eb315c",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "p650__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 8,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p850__ozone_mass_mixing_ratio",
+      "p300__temperature",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p850__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0008_fold0\\model_1792435986470433200.joblib",
+    "model_sha256": "a5fcd0d78b46552b8af13a7d3803aa914ece8ae4ea204e1ae23261d5da658d3a",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0008\\state.json",
+    "state_sha256": "0cb23eaf3d8b41e4427bd6ba7b06faa1a7284d3565c2efa61bddeaef03e4c991",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 7,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p300__temperature",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "surface__vertical_integral_of_eastward_water_vapour_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0007_fold0\\model_1792436429966190900.joblib",
+    "model_sha256": "a3bbef6aea40b6e90d99737da2ad17652ddc07a00713e3d29462c76f45509107",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0007\\state.json",
+    "state_sha256": "53a9973bad74c2b514d6b9ee6fb8746648c63bd449abd97359f7e35f006d091c",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 6,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "p300__temperature",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p300__temperature",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0006_fold0\\model_1792436877155321200.joblib",
+    "model_sha256": "95b1c39e356e267c06cb618aa40d9bd8ed8435740ccf66b50d34f0196bd71c68",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0006\\state.json",
+    "state_sha256": "d48e6a7e62c0f2fbc7ce7249ad2676997c0bb09f1e25166c11e3f95f46f6b637",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 5,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p1__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0005_fold0\\model_1792437301334243700.joblib",
+    "model_sha256": "e6602de70c53e550250dd9391d5924811f3f2540329fc1b8e2906f64b30c22b7",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0005\\state.json",
+    "state_sha256": "4e06a39924333b543e3ca88af53faa5b0080371edf9d7eeca8789c0c2cf98f20",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 4,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__maximum_2m_temperature_since_previous_post_processing",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0004_fold0\\model_1792437749994637200.joblib",
+    "model_sha256": "e2ef5a211ccf2d51890940738320b8d72bc14e0ab9122483875619312a3b1a6f",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0004\\state.json",
+    "state_sha256": "1ad9ba87a3dd85d10fe38d103051fc11f60cab382e6e9b5ab75670d8feb15d7b",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 3,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__convective_available_potential_energy",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0003_fold0\\model_1792438182832990300.joblib",
+    "model_sha256": "18426e2ce0c5dc9504ab01d9ea9dc07d7b6c8492f9ba18ec2564d44c043dc3af",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0003\\state.json",
+    "state_sha256": "f3db5e67a1b1f31f28ad0cb7413cdb03ea93901fa203946623f39dbcca16b889",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 2,
+    "feature_names": [
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0002_fold0\\model_1792438613442995900.joblib",
+    "model_sha256": "0b6c4aff968b724c014f3d6fc64548c92cdee5e3b68045275967cfee259dccdb",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0002\\state.json",
+    "state_sha256": "39c929b998a69f281245eef45d1774e9d704766833f890c673234a608c566bfb",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "tabm",
+    "k": 1,
+    "feature_names": [
+      "surface__total_column_ozone"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\tabm\\k_0001_fold0\\model_1792439044090642100.joblib",
+    "model_sha256": "4c98611fe66dc81b56352cded856ff957239e5d94f888c42a3daabad38c9e0f8",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\tabm\\k_0001\\state.json",
+    "state_sha256": "0388c046567b5be35a5df28df1a7eb53524dd481551bf58f1b42f9196b08d6c0",
+    "config": {
+      "config": {
+        "id": 0,
+        "name": "official_base",
+        "width": 256,
+        "blocks": 3,
+        "k": 32,
+        "dropout": 0.1,
+        "lr": 0.002,
+        "weight_decay": 0.01,
+        "embedding": 0,
+        "gate": false
+      },
+      "epochs": 54,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 10,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "p850__ozone_mass_mixing_ratio",
+      "p850__relative_humidity",
+      "p300__ozone_mass_mixing_ratio",
+      "p200__potential_vorticity",
+      "p30__specific_humidity",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__specific_humidity",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p30__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0010_fold0\\model_1792435224770198400.joblib",
+    "model_sha256": "3d1f56b6edbbcb726161309141d6a589a7c0eeffa17d04df0e60967911efcbb4",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0010\\state.json",
+    "state_sha256": "9de05dbf27064a40ca4014bce84760074b26b1b054418eb1a9ddeea8d26efdbf",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__potential_vorticity",
+      "p300__ozone_mass_mixing_ratio",
+      "p30__specific_humidity",
+      "p5__specific_humidity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 9,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "p850__ozone_mass_mixing_ratio",
+      "p850__relative_humidity",
+      "p300__ozone_mass_mixing_ratio",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__specific_humidity",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p850__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0009_fold0\\model_1792435672815215900.joblib",
+    "model_sha256": "ea1745167f7522c56ef84abb06720b9651faa6f8246533e3e3066f62a5526247",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0009\\state.json",
+    "state_sha256": "c16f08cf70db6ada5e310770614a1a72ae307e5751c58d8cacc5600a7236fdbd",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__potential_vorticity",
+      "p300__ozone_mass_mixing_ratio",
+      "p5__specific_humidity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 8,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "p850__relative_humidity",
+      "p300__ozone_mass_mixing_ratio",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__specific_humidity",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p5__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0008_fold0\\model_1792436108374036000.joblib",
+    "model_sha256": "e6ed5a40d013091857f81523ab5f837bf316d9928944183a48073ffbe02d78cd",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0008\\state.json",
+    "state_sha256": "5ca63e92a27dce11fd48f99e1b21c66b678f9f23d23f3bd7861a23d90b7c55e7",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__potential_vorticity",
+      "p300__ozone_mass_mixing_ratio",
+      "p5__specific_humidity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 7,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "p850__relative_humidity",
+      "p300__ozone_mass_mixing_ratio",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p300__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0007_fold0\\model_1792436550803036700.joblib",
+    "model_sha256": "cf48560bbc2c29da763dc0fe19228ae3893bf586588d9600deedc82dd1f41bd8",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0007\\state.json",
+    "state_sha256": "5d16bdf226687881364a27f1ab2c04ae17d4b4def8a889ef0349f13a6c7a2e1f",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__potential_vorticity",
+      "p300__ozone_mass_mixing_ratio"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 6,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "p850__relative_humidity",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "surface__convective_available_potential_energy",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0006_fold0\\model_1792436992868386600.joblib",
+    "model_sha256": "5a95930e7e58001ee0afe988922ddd2cd7fbf7a7b45942750432e6211a06a428",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0006\\state.json",
+    "state_sha256": "149bd2a671ff313b6f9a8929af2d40164dd2f7aac6ab458262e90a8e698e11f9",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__potential_vorticity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 5,
+    "feature_names": [
+      "surface__surface_pressure",
+      "p850__relative_humidity",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "surface__surface_pressure",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0005_fold0\\model_1792437419103944500.joblib",
+    "model_sha256": "35f664753f2639ac13c0b51f126fb18d90a9cd3b6133facf9f7abd805c12e4b8",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0005\\state.json",
+    "state_sha256": "3e792d94198d5fff948dd93fa931c3118351a2147cf3e85f0c0ef7a9b88dc242",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__potential_vorticity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 4,
+    "feature_names": [
+      "p850__relative_humidity",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p200__potential_vorticity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0004_fold0\\model_1792437870771667200.joblib",
+    "model_sha256": "2a6344ea5421ec224fbbb5379fd8f576af34f1296fe731687fe888b21e5d9b66",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0004\\state.json",
+    "state_sha256": "b872b36961708783b8264287fd6a30caf5dc3f6c400432c5a11be7412b7fd0f3",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__potential_vorticity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 3,
+    "feature_names": [
+      "p850__relative_humidity",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p1__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0003_fold0\\model_1792438300505023300.joblib",
+    "model_sha256": "c74c660ab521be1e9f0d1d7595a3e7e4710ea3c7ff01f78e546679563741e854",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0003\\state.json",
+    "state_sha256": "8c8b749945504f1f3d0e0663f51464efb0ecf10b5c31325271d0b7871f13ca30",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 2,
+    "feature_names": [
+      "p850__relative_humidity",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "p850__relative_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0002_fold0\\model_1792438732481670200.joblib",
+    "model_sha256": "7e763dd85037a462bf7faa8580122bc107dc7bae9394fd0357e557909fdec075",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0002\\state.json",
+    "state_sha256": "20ee8aca57730ea55f012426d1bd8ce624b6b8393d82ba3b0a446a8959ccd02b",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bai_lstm",
+    "k": 1,
+    "feature_names": [
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\bai_lstm\\k_0001_fold0\\model_1792439163296981200.joblib",
+    "model_sha256": "bd2d7173dcd0969d6354a624de50d2a6c13eb845a64482d66126f1c10a251348",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bai_lstm\\k_0001\\state.json",
+    "state_sha256": "32851baff0ae9c8606addaa5e98a1b0bb7f5fe14a9d50594a05acc2c118e807a",
+    "config": {
+      "epochs": 32,
+      "max_epochs": 1000,
+      "patience": 5,
+      "batch": 128,
+      "lr": 0.0001,
+      "alpha": 0.9,
+      "eps": 1e-06,
+      "weight_policy": "uniform"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 10,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "p850__ozone_mass_mixing_ratio",
+      "p850__relative_humidity",
+      "p650__u_component_of_wind",
+      "p500__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__u_component_of_wind",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p500__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0010.joblib",
+    "model_sha256": "b9eb8b7aa0f64b330dd0e6a23ac605afdceab8b7e34613011228a5015054c9e5",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0010\\state.json",
+    "state_sha256": "a73cbb30b334653084a650f626fed6622d1a091eaee4fc9634ec5aa93eb588b7",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 9,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "p850__ozone_mass_mixing_ratio",
+      "p850__relative_humidity",
+      "p650__u_component_of_wind",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__u_component_of_wind",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p5__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0009.joblib",
+    "model_sha256": "3fd78e89f48e4dd614c67b856d0cb9f1a64f044ee75bd996d75e9132b602f0d9",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0009\\state.json",
+    "state_sha256": "c0fd1c76c30e8c2c3ed6380a0518b7d230fc785558c45cb558be94c621e35ed1",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 8,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "p850__ozone_mass_mixing_ratio",
+      "p850__relative_humidity",
+      "p650__u_component_of_wind",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p850__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0008.joblib",
+    "model_sha256": "94d8bc868e95a86082e8944eaf67dc93a9ee13ee9bee99d4c68c52a481be3d56",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0008\\state.json",
+    "state_sha256": "8dd5c36283218f7b4bd24dca21efa1c717b045c1358e0926caf9bcb926e5b4b3",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 7,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "p850__relative_humidity",
+      "p650__u_component_of_wind",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p850__relative_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0007.joblib",
+    "model_sha256": "f8af28850f8a018520e27642fa920fe2c2578129d4ef15fea8320522a0b72e90",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0007\\state.json",
+    "state_sha256": "2646c72c0deb3f313dbaa0250b1d519249973fe0b2b0d4a478e4fb3e8951642c",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 6,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "p650__u_component_of_wind",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "surface__maximum_2m_temperature_since_previous_post_processing",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0006.joblib",
+    "model_sha256": "e957fcd017e5947e305c52a63c4daa85f943d38b2044f1576a2919203b4270d1",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0006\\state.json",
+    "state_sha256": "5bcaf6d0fe5bf3b0aa7b4bb8da19205475e36fe0f86f6970c1e70ef2638d3d07",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 5,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "p650__u_component_of_wind",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "surface__convective_available_potential_energy",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0005.joblib",
+    "model_sha256": "b45a526a3bc46179e631ed3e44652cfe91122b214cf3c88e7ff912c02813cd8b",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0005\\state.json",
+    "state_sha256": "a6b9a69f3a68b24ba0c4bf52ca7b16b5ed488a4d583b1d0d19ea3da3e642a018",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 4,
+    "feature_names": [
+      "p650__u_component_of_wind",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p650__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0004.joblib",
+    "model_sha256": "92fa2c39488568bf13ad3dbf1c84ceec6f426c15c338eb1c49ce06f7cc352b15",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0004\\state.json",
+    "state_sha256": "7757bdba8df2afb04f88d96da018891dd47ef643e45149026cf6f724c5436d9c",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 3,
+    "feature_names": [
+      "p5__ozone_mass_mixing_ratio",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p5__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0003.joblib",
+    "model_sha256": "41157c673d87b3473e6c1386d340d21636aaad6ca5fc7866d3db07aacdb9aca3",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0003\\state.json",
+    "state_sha256": "863802efb6943ada638dd6f764d2e56d23ebed7c0f0e071f295c6ecfa38efa53",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 2,
+    "feature_names": [
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p1__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0002.joblib",
+    "model_sha256": "ad3708121efbbbc0bd1d291b25a12204a81bdebf200b77e3461fdf185878e796",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0002\\state.json",
+    "state_sha256": "1235e536c6a0fcaed4c09210e2a82e5f0763d118de6ce33a8ebc8bc3cd0fae9c",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "bilstm",
+    "k": 1,
+    "feature_names": [
+      "p1__geopotential"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_029_BiLSTM53_Layer_RFE\\rfe\\models\\k_0001.joblib",
+    "model_sha256": "1df33b76440d9187af25ee452e5fa8a454d4dee8fa1038e6f150ff5affa79733",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\bilstm\\k_0001\\state.json",
+    "state_sha256": "1577a7acf83471df84893aecac5427a857c0da857f28299045999b8230844723",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 53,
+      "validation_objective_db": 0.2895693626255448,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "transformer",
+    "k": 10,
+    "feature_names": [
+      "surface__medium_cloud_cover",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__geopotential",
+      "p850__ozone_mass_mixing_ratio",
+      "p700__geopotential",
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "p700__geopotential",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0010_fold0\\model_1792435254661378900.joblib",
+    "model_sha256": "13c4a35327bc838e1432b113403d3f78e7543cb6890ebf48157d83241f6c904c",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0010\\state.json",
+    "state_sha256": "a77d38292e37ab3d724fd79a0d809cd2ecd7c31ef62a3577cf960133eebb651c",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p700__geopotential",
+      "p850__geopotential",
+      "surface__k_index",
+      "surface__medium_cloud_cover",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 9,
+    "feature_names": [
+      "surface__medium_cloud_cover",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__geopotential",
+      "p850__ozone_mass_mixing_ratio",
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "surface__medium_cloud_cover",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0009_fold0\\model_1792435700114314100.joblib",
+    "model_sha256": "9511a6da5fad429f07d19206783ff64417f7d15e13a1c574146a0aa96446af52",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0009\\state.json",
+    "state_sha256": "5795ebc6b08206335a7ac4b10189a9af95209151c3d58bef206716b1f1be5563",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p850__geopotential",
+      "surface__k_index",
+      "surface__medium_cloud_cover",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 8,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__geopotential",
+      "p850__ozone_mass_mixing_ratio",
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "p850__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0008_fold0\\model_1792436134579417400.joblib",
+    "model_sha256": "7be758d7e237e996c7bbcf27258166a8bc35b0a3e66b715063c2f59133997561",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0008\\state.json",
+    "state_sha256": "c8d5433018f4e931c143f4124b854fd222621f59d8aacf46ccd4d63b59670b02",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p850__geopotential",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 7,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__geopotential",
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0007_fold0\\model_1792436577793068800.joblib",
+    "model_sha256": "3f1c6138548530d02541c3c501336d3c8587873c5e65a58efa25add50686b0db",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0007\\state.json",
+    "state_sha256": "49641e83188a007bbf67a7060977837f8b5429be906eb9f6445985ad6340e634",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p850__geopotential",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 6,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__geopotential",
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "surface__maximum_2m_temperature_since_previous_post_processing",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0006_fold0\\model_1792437020376065000.joblib",
+    "model_sha256": "7facd26754a945b0602610df845bb64cdc068abfc1bfe6ef8bad4148b7a1ea5e",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0006\\state.json",
+    "state_sha256": "4a1d8e49ab25e3a2bfe635567526ad0208a443511a716797dbfa0741c78eebe6",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p850__geopotential",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 5,
+    "feature_names": [
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__geopotential",
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "surface__vertical_integral_of_eastward_water_vapour_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0005_fold0\\model_1792437447427040400.joblib",
+    "model_sha256": "26d660d600fa67720d0c86554da7a7d46c40f20866c028ede58e54271a1aa4cb",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0005\\state.json",
+    "state_sha256": "116e0f565c645c1a8aede6b734299e13d2d5f154555a3e71f36806a6b6713386",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p850__geopotential",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 4,
+    "feature_names": [
+      "p850__geopotential",
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "p200__potential_vorticity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0004_fold0\\model_1792437897569386500.joblib",
+    "model_sha256": "7c59cf7f4f2459157f570da5c84bee2d2e1ea91c02319617f0707fe1400fe74a",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0004\\state.json",
+    "state_sha256": "ea5213a8bfb7c518b470569f061611e7c8da6f846c215e4b7728662ada96c61c",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p200__specific_humidity",
+      "p850__geopotential"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 3,
+    "feature_names": [
+      "p850__geopotential",
+      "p200__specific_humidity",
+      "p1__geopotential"
+    ],
+    "removed_next": "p200__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0003_fold0\\model_1792438327110402700.joblib",
+    "model_sha256": "b07a4bf048e25dd593ea8de3fa87d4c72fb01b4772058b1f7929c19e47e84d20",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0003\\state.json",
+    "state_sha256": "fd4b7df3adbf406f057584ea90f37d4c3b63d09d2ea6c58d1a33a8cdc0d87e41",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__specific_humidity",
+      "p850__geopotential"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 2,
+    "feature_names": [
+      "p850__geopotential",
+      "p1__geopotential"
+    ],
+    "removed_next": "p850__geopotential",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0002_fold0\\model_1792438757354734000.joblib",
+    "model_sha256": "b2442a5e5b0fc9da316844ff608907cbf6a9a56b246b4da9c8a443de5677587e",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0002\\state.json",
+    "state_sha256": "efb531d9f55c81433865b58ca6d9a80afece8b528cb7ab2d43a96499f5132cb6",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p850__geopotential"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "transformer",
+    "k": 1,
+    "feature_names": [
+      "p1__geopotential"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\transformer\\k_0001_fold0\\model_1792439184755709600.joblib",
+    "model_sha256": "30cb972ff838504bd01200f17956b4a8c26f14b23d57222d7a86b9c1fdabaca1",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\transformer\\k_0001\\state.json",
+    "state_sha256": "79e4e8dfe00e5d4e4c4ac922807f46101364ef88eb87be8fface98d67cb4bbcc",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.1,
+          "weight_decay": 0.0001
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": 41,
+      "validation_objective_db": 0.28704333401503873,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "mlp",
+    "k": 10,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "surface__vertical_integral_of_northward_cloud_liquid_water_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p850__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__specific_humidity",
+      "p1__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p850__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0010_fold0\\model_1792435273441083200.joblib",
+    "model_sha256": "7035e98e7dac8916406975259832499794cd26ff38a136ec59a79b73f6050cef",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0010\\state.json",
+    "state_sha256": "58074689e30fd8d22223f1052a05e80515e73241fc03d0551589e65db3bfda3a",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p5__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_cloud_liquid_water_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 9,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "surface__vertical_integral_of_northward_cloud_liquid_water_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__specific_humidity",
+      "p1__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p1__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0009_fold0\\model_1792435717472555300.joblib",
+    "model_sha256": "627be1a11a1d78f9af39f513a66da4b83c2f0f5fd41b36abc485de61e6af9243",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0009\\state.json",
+    "state_sha256": "fd145be8355f323c5854b1515bdcac122788617fae37a64255f7de044582535c",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p5__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_cloud_liquid_water_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 8,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "surface__vertical_integral_of_northward_cloud_liquid_water_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "surface__vertical_integral_of_northward_cloud_liquid_water_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0008_fold0\\model_1792436152026205400.joblib",
+    "model_sha256": "bc86118b8000d25f33d17ef3003b9bdb11436b915573e213f9129852f6379f49",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0008\\state.json",
+    "state_sha256": "887caac43744c61a1b5eb3e8040ee390a5a1a28d5e9383f5731979a8ca98dbb0",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_cloud_liquid_water_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 7,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p5__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0007_fold0\\model_1792436595322441900.joblib",
+    "model_sha256": "b2afe9c7b8fd806bdfe05de18ac617bacb8aead7270f249cbf6b0bfc9c09cdd8",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0007\\state.json",
+    "state_sha256": "43499381b9440d01058d065bc2111ec1c6f260e8a50102f2f6f43149fac71d9e",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 6,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p5__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "surface__convective_available_potential_energy",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0006_fold0\\model_1792437038193103000.joblib",
+    "model_sha256": "b99dc38c91c8309a9da9c1d5c4e56ba8fafd9afbb7394430d2d219eed47de8d8",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0006\\state.json",
+    "state_sha256": "e137930f9215a4e5a0fecca69d7db4cde6555fd54623f52ed0336e8b62a1bbf0",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 5,
+    "feature_names": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p5__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p1__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0005_fold0\\model_1792437465770898100.joblib",
+    "model_sha256": "53f837843fc5c4d858002e897ce87f5b2514db2efe20e70d5d7672d3c589001c",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0005\\state.json",
+    "state_sha256": "dbaab8b2591e3c52a072cb25f47860a5d4ccb6abdeb25d8f29aa60c40ef4d1f6",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 4,
+    "feature_names": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone",
+      "p5__specific_humidity"
+    ],
+    "removed_next": "p5__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0004_fold0\\model_1792437914837430800.joblib",
+    "model_sha256": "794f129a82e9e74d07fe8566a7368f496e56bb4ba83d47657a0e871540933ea2",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0004\\state.json",
+    "state_sha256": "1e6f7ff50c0c101c7d466221fa094ae07ec498bae3c822a2af68fdb0c9c91bc9",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 3,
+    "feature_names": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__vertical_integral_of_eastward_water_vapour_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0003_fold0\\model_1792438344264861900.joblib",
+    "model_sha256": "1e43f60b39d77f91bb2d849d2acc0f60882bd38cabc435bc27845639a149029d",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0003\\state.json",
+    "state_sha256": "4a407edefe16fcdce60267f23eea8eaba2d06d07b1c93fe825ca7d484c783920",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 2,
+    "feature_names": [
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0002_fold0\\model_1792438773566129700.joblib",
+    "model_sha256": "c17852db0799b030d2d9460bd6fb4926f379aa17e7275601b380e7d33746c77e",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0002\\state.json",
+    "state_sha256": "95c55697d41be50a72b61203b0c97c186358266fe86140e59a0017f67994a23e",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "mlp",
+    "k": 1,
+    "feature_names": [
+      "surface__total_column_ozone"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\mlp\\k_0001_fold0\\model_1792439199561561300.joblib",
+    "model_sha256": "301187d8052c31ba95011da1a054276983ecb4e5771cf73e013e82bfc33dd5c7",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\mlp\\k_0001\\state.json",
+    "state_sha256": "17596755bae1dfd30d34c73b1e288f7b4233594a3c3a6492c6810b87c347acf2",
+    "config": {
+      "config_id": 4,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.2,
+          "weight_decay": 0.001
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 48,
+      "validation_objective_db": 0.3259913515190826,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__total_column_ozone"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 10,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__relative_humidity",
+      "p650__u_component_of_wind",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__relative_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p1__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0010_fold0\\model_1792435283411711200.joblib",
+    "model_sha256": "45447d55a48bf3d65d3e53691100722c6238dd9e77d4890bf9e3d7d7ff3409d1",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0010\\state.json",
+    "state_sha256": "15ed756e83ada4e38c2e62288b2f4931d68f3317df8ee20d28b7fc6856ef7ac6",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__relative_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 9,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__relative_humidity",
+      "p650__u_component_of_wind",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__relative_humidity"
+    ],
+    "removed_next": "p850__relative_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0009_fold0\\model_1792435727232130100.joblib",
+    "model_sha256": "a4be83fe15e933d71e673b922386655c29268210227b6d5250a075d84b0945d5",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0009\\state.json",
+    "state_sha256": "8e4e74aab64b10976a870807b0e32e496a5b381a585a9797c43913fe187fcff8",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__relative_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 8,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__u_component_of_wind",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p1__relative_humidity"
+    ],
+    "removed_next": "p1__relative_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0008_fold0\\model_1792436161541452400.joblib",
+    "model_sha256": "39ce67982e1421065198b9e9250d65c153a8ae5abe868f92423b02e2af600e43",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0008\\state.json",
+    "state_sha256": "650e13f875fdd315ce144ae6f3fdfb96ac859cf5045ddfb94b61ba94381d9d9e",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__relative_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 7,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__u_component_of_wind",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "p650__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0007_fold0\\model_1792436604654623500.joblib",
+    "model_sha256": "f736be28578bd41d515a623e3190daf33d06aaca42d1a559b9cd0eeebc0a9ca2",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0007\\state.json",
+    "state_sha256": "05bf1def424dcbb4c13c17953d02969e906037fa4dc0b3d96c994dd8c97c9500",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__ozone_mass_mixing_ratio",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 6,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "p200__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0006_fold0\\model_1792437047135882900.joblib",
+    "model_sha256": "afe74600dfa0f70d7ac9a4a42babee3ab708f0a187d450ea8160878598d990c5",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0006\\state.json",
+    "state_sha256": "86656f5c77210a0f68fdfe58368679ff936b5c8f923636d7b1f545cc73899602",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__ozone_mass_mixing_ratio",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 5,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "surface__surface_pressure",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0005_fold0\\model_1792437474675534100.joblib",
+    "model_sha256": "75d804915eaa73024d726955dc83a0754371030a9a1934b9235a88ec71cbb433",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0005\\state.json",
+    "state_sha256": "f8a8fe54fd5707fcb7132e69bdc4a4b28773ea0dfbeb10e87a886e7fc3c0bf1e",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 4,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "surface__maximum_2m_temperature_since_previous_post_processing",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0004_fold0\\model_1792437922729208200.joblib",
+    "model_sha256": "b092f8ed09f3d9f6c268676b451f2f55ab1ea6413a3082c9d7c6ca3bcfb61d44",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0004\\state.json",
+    "state_sha256": "1a5f4bd5a239291f412352619de390de9f414754877064e01da7fdeb4bc97561",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 3,
+    "feature_names": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "p5__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0003_fold0\\model_1792438351860153600.joblib",
+    "model_sha256": "7308c38ab0ab786a0cfbbafe477e732ab25f11ab2dbde0896ded4a8fc2372507",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0003\\state.json",
+    "state_sha256": "3bcc2110ed71fcb42127260911d051fa8243b0daab04a6462380aedc165ab29e",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 2,
+    "feature_names": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0002_fold0\\model_1792438780792743200.joblib",
+    "model_sha256": "f93ae40ca29fc0fbede90f82c00f15f423b337b192a61ab3696e442e52406784",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0002\\state.json",
+    "state_sha256": "a9dab2b0915a3c68f393b6ace82d85b7dd9a958915e663c82f65e52792e2c679",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "catboost",
+    "k": 1,
+    "feature_names": [
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\catboost\\k_0001_fold0\\model_1792439206535652300.joblib",
+    "model_sha256": "4809f8746aa8b7abe7574f823eb9cc659d83629518f1873c595579997379c774",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\catboost\\k_0001\\state.json",
+    "state_sha256": "b52d39e2c835ee9fead28c77b0621eb650cda153d7c7ecaf598301eacc113064",
+    "config": {
+      "config_id": 7,
+      "choice": {
+        "estimator": {
+          "iterations": 500,
+          "depth": 6,
+          "learning_rate": 0.05
+        },
+        "override": {
+          "l2_leaf_reg": 10.0
+        },
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 500,
+      "validation_objective_db": 0.32635335048588404,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 10,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__precipitation_type",
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__total_totals_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_ozone_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__precipitation_type",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0010_fold0\\model_1792435295797857700.joblib",
+    "model_sha256": "01a985eb4bcdf791ddbd91032f38671c0ea75aacd93a335ec322d6a655890b58",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0010\\state.json",
+    "state_sha256": "3f3033efdc5f00065f6c4a78ed080eb0ca50dcae793ad28fe35000f5d239eea8",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__precipitation_type",
+      "surface__total_column_ozone",
+      "surface__total_totals_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_ozone_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 9,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__total_totals_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_ozone_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__total_totals_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0009_fold0\\model_1792435739896547500.joblib",
+    "model_sha256": "446249aeed96a3b894857e658051d39eadfa473504205f452b2c2e09e0a096ee",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0009\\state.json",
+    "state_sha256": "cbe80b75af4aa62b30f1eb5b350753e8f4d685332146126119d0786f3dfc1d05",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__total_totals_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_ozone_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 8,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_ozone_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__vertical_integral_of_northward_ozone_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0008_fold0\\model_1792436173959978500.joblib",
+    "model_sha256": "47a002eaf7b58212ce945c0454ede8b3510ea41e80a96fd260bdc4dd625e6083",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0008\\state.json",
+    "state_sha256": "a48af1e773588fe080a8329e40fe8004c93946baae58a28cd1d2f03fe3cc3ed1",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__vertical_integral_of_northward_ozone_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 7,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__convective_available_potential_energy",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__convective_available_potential_energy",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0007_fold0\\model_1792436616873484900.joblib",
+    "model_sha256": "9efdd249bf4211b2a8b337480c6a9700f756ed5d4b038452ab93954a727772e8",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0007\\state.json",
+    "state_sha256": "e60adcedd79680559c5bf13b52f99e456dc0962002bf37bbb2123f5d2de6d44f",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 6,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0006_fold0\\model_1792437059405703000.joblib",
+    "model_sha256": "1b552c4ed7d1bbf048b4fef2afac7ff64a7871380a29d1461393f06659d91aa3",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0006\\state.json",
+    "state_sha256": "ee4668e3cd2d7da31e3997ce05f6269fb7caed986159e99a9871566368ecb7e7",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__k_index",
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 5,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__vertical_integral_of_eastward_water_vapour_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0005_fold0\\model_1792437487361086600.joblib",
+    "model_sha256": "3cd49bdace5bc15572fdc5cf085e4a0b0f8560530a6958faea3c7d79adc8a252",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0005\\state.json",
+    "state_sha256": "163c3cf81a181f80d2b25014e53f2d045df77ea0d1d7b2cc4aac5588e672f9a9",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 4,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__maximum_2m_temperature_since_previous_post_processing",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0004_fold0\\model_1792437934380464400.joblib",
+    "model_sha256": "dd0d1084daf225c84000fdd9912cf4df15426ddf77c306d3f5fc1402effd5977",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0004\\state.json",
+    "state_sha256": "b414b40cb8c859aa7113f98249e7a07526b8240f7360717fbac2783bc4989b30",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_ozone_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 3,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__total_column_ozone"
+    ],
+    "removed_next": "surface__total_column_ozone",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0003_fold0\\model_1792438363625289700.joblib",
+    "model_sha256": "dfe5cd87f31c6bc5b0a90c5d8d6d3dd802f62e6aec4ad4c318a6e06eb3305c91",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0003\\state.json",
+    "state_sha256": "a1872717dcb6a097180eb9a02ae8d80f60e7a12ca6daf02c71ee8698ac3336ec",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__total_column_ozone",
+      "surface__vertical_integral_of_eastward_ozone_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 2,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__vertical_integral_of_eastward_ozone_flux"
+    ],
+    "removed_next": "surface__surface_pressure",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0002_fold0\\model_1792438792288934700.joblib",
+    "model_sha256": "6855b514b3533954247e3e563e5255974a1ebf7e02759ab7c663eb581c14cd91",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0002\\state.json",
+    "state_sha256": "8ed6d93b4fab621247f524379e77cdd4285d57cbb0687aaf75fa96b18ac0c9ea",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__vertical_integral_of_eastward_ozone_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "gcn",
+    "k": 1,
+    "feature_names": [
+      "surface__vertical_integral_of_eastward_ozone_flux"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\gcn\\k_0001_fold0\\model_1792439217887205900.joblib",
+    "model_sha256": "3697a9e42b6c2cb1fe13f59eb67bda34c5187642f47e5072bcf5ac0d6284f5fc",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\gcn\\k_0001\\state.json",
+    "state_sha256": "2c8bff4ba3d60b9bd349eeff31a83c96fafeb3470ea69fa0f03647bbbaf7a361",
+    "config": {
+      "config_id": 6,
+      "choice": {
+        "estimator": {
+          "epochs": 160,
+          "lr": 0.001,
+          "dropout": 0.30000000000000004,
+          "weight_decay": 0.01
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": true
+      },
+      "formal_rounds": 56,
+      "validation_objective_db": 0.29814210151468473,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "surface__vertical_integral_of_eastward_ozone_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 10,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__total_column_cloud_ice_water",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__specific_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature",
+      "p5__u_component_of_wind",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p5__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0010_fold0\\model_1792435301563412300.joblib",
+    "model_sha256": "6d8520a2d88619df214793a47026ed622f546db1c12a1629f5808cc781f6ffda",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0010\\state.json",
+    "state_sha256": "0d942de8ac0a4b6f6a8714273f17feeedf3587aa8c64f46fa4881885320ee1aa",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__temperature",
+      "p650__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_cloud_ice_water",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 9,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__total_column_cloud_ice_water",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__specific_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature",
+      "p1__specific_humidity"
+    ],
+    "removed_next": "p1__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0009_fold0\\model_1792435745835497400.joblib",
+    "model_sha256": "a4db8693bfd3255d249a63192dae777ed8a7ec764cbb82ea27a4f272744897fd",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0009\\state.json",
+    "state_sha256": "b36a764b1be5accf8b0173e7835f1ddd43eb1b722c3863023ad2fc0c14c8c336",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__temperature",
+      "p650__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_cloud_ice_water",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 8,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__total_column_cloud_ice_water",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__specific_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0008_fold0\\model_1792436179623846800.joblib",
+    "model_sha256": "a667cc2a50697799bf7dbb67b0d62aa2ec39a0408237d97a51b44cb1aa7d96d3",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0008\\state.json",
+    "state_sha256": "443ced1f87f58252baff46148979067b59c1985d07b6cfe3bc5336315e7b42ff",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__ozone_mass_mixing_ratio",
+      "p5__temperature",
+      "p650__specific_humidity",
+      "surface__k_index",
+      "surface__total_column_cloud_ice_water",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 7,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__total_column_cloud_ice_water",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__specific_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature"
+    ],
+    "removed_next": "surface__total_column_cloud_ice_water",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0007_fold0\\model_1792436622599485500.joblib",
+    "model_sha256": "6e0bcb44f8eba8f459346a248de140aeff92f797085b601eef357087a6bc0ef5",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0007\\state.json",
+    "state_sha256": "688b10475d735e030f3420e58b285368752b31f6b892c0b55cc03d687f5b38e4",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__ozone_mass_mixing_ratio",
+      "p5__temperature",
+      "p650__specific_humidity",
+      "surface__total_column_cloud_ice_water",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 6,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__specific_humidity",
+      "p200__ozone_mass_mixing_ratio",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature"
+    ],
+    "removed_next": "p200__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0006_fold0\\model_1792437065226475300.joblib",
+    "model_sha256": "d10f7258a19ef09b42cb0b69a596e4011593bf7e705dcdc471e618124ad3a9f9",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0006\\state.json",
+    "state_sha256": "d7530ffac20cb5bf605c45010162ebf63935fced31688c13647e823f5cac6c36",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__ozone_mass_mixing_ratio",
+      "p5__temperature",
+      "p650__specific_humidity",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 5,
+    "feature_names": [
+      "surface__surface_pressure",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p650__specific_humidity",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature"
+    ],
+    "removed_next": "surface__vertical_integral_of_eastward_water_vapour_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0005_fold0\\model_1792437493278105200.joblib",
+    "model_sha256": "3acf93e3e275f89cf34f86a4bc940000d9f758cba8fecaf5757472653b9ce2a9",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0005\\state.json",
+    "state_sha256": "12a7ed94fbb17a328ff2516d8744284c62cffa9a6627621ce5876fc3199f7b12",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__temperature",
+      "p650__specific_humidity",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 4,
+    "feature_names": [
+      "surface__surface_pressure",
+      "p650__specific_humidity",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature"
+    ],
+    "removed_next": "surface__surface_pressure",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0004_fold0\\model_1792437939897584700.joblib",
+    "model_sha256": "5d2b0a7a520c4db6bf6ac7ee419ac99ae04b1c9709d2112c0c46566bffba4836",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0004\\state.json",
+    "state_sha256": "55d9617e203dc7f40e92bd09790903476ddf0bd918a1fcfc609939f227136157",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__temperature",
+      "p650__specific_humidity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 3,
+    "feature_names": [
+      "p650__specific_humidity",
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature"
+    ],
+    "removed_next": "p650__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0003_fold0\\model_1792438369111081600.joblib",
+    "model_sha256": "e2b9d92279b57126b5a1e53c27db52224e2d6401f56f240da70ea3844cda1de6",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0003\\state.json",
+    "state_sha256": "6f0d1200d6769aac2fe6ce890a185f89b84e5970872776ca7ffdf5e14dc02715",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__temperature",
+      "p650__specific_humidity"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 2,
+    "feature_names": [
+      "p5__ozone_mass_mixing_ratio",
+      "p5__temperature"
+    ],
+    "removed_next": "p5__temperature",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0002_fold0\\model_1792438797807498600.joblib",
+    "model_sha256": "165e9d4a803c6098cd1d0c8837686e55f6c812ac1318e48498d530a04c825dd8",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0002\\state.json",
+    "state_sha256": "17a1bb863fcc01474fecfa4e533a9f80202de7cfc290f8a32907ae25930d28a8",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p5__temperature"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "random_forest",
+    "k": 1,
+    "feature_names": [
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\random_forest\\k_0001_fold0\\model_1792439223116438800.joblib",
+    "model_sha256": "2047dabf989bbb83e5016c3781194d5a02c38a3402215e8bb5a1945384c2f255",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\random_forest\\k_0001\\state.json",
+    "state_sha256": "97aa8d0835c214b920c18ddef63ce2c239d15e89d22b802d5bce9d8ac893439a",
+    "config": {
+      "config_id": 5,
+      "choice": {
+        "estimator": {
+          "n_estimators": 500,
+          "max_depth": 16,
+          "min_samples_leaf": 5
+        },
+        "override": {},
+        "weight_policy": "balanced",
+        "gated_fusion": false
+      },
+      "formal_rounds": 7,
+      "validation_objective_db": 0.3181079519775965,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 10,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__ozone_mass_mixing_ratio",
+      "p700__relative_humidity",
+      "p300__temperature",
+      "p1__geopotential",
+      "p1__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p700__relative_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0010_fold0\\model_1792435304453894900.joblib",
+    "model_sha256": "d1c42c99f5ce1d5179b2b1dda578c48bcc16463d6f76aa5bb28635099cb40f49",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0010\\state.json",
+    "state_sha256": "af759cb4f82139ffc064557e92bcfed759c16fd1c7e4d00989e6530dda7f0a38",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p300__temperature",
+      "p700__relative_humidity",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 9,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__ozone_mass_mixing_ratio",
+      "p300__temperature",
+      "p1__geopotential",
+      "p1__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "surface__vertical_integral_of_eastward_ozone_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0009_fold0\\model_1792435748571493100.joblib",
+    "model_sha256": "664b5e86bc10ef9b52b65bce726cf42e627173c25bd0afed253565324bdf157c",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0009\\state.json",
+    "state_sha256": "7862f9819165cb9a94362caa3eea61cbfadb02c17ed68825e2a5ea83cdd88408",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p300__temperature",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_ozone_flux",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 8,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p850__ozone_mass_mixing_ratio",
+      "p300__temperature",
+      "p1__geopotential",
+      "p1__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p850__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0008_fold0\\model_1792436182387936700.joblib",
+    "model_sha256": "171099558457a011f5c956cb2e20588bce1de739946a5447aa32b517445f6efb",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0008\\state.json",
+    "state_sha256": "28a9407d2ca440781ca7a4b23f619d02429d31e407f7e10e895beff64f7f7a3a",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p300__temperature",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 7,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p300__temperature",
+      "p1__geopotential",
+      "p1__specific_humidity",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p1__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0007_fold0\\model_1792436625410620400.joblib",
+    "model_sha256": "fcd1983d67d94a8a54fbbda37489df19e33ed38547fc89a206634785dc647b78",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0007\\state.json",
+    "state_sha256": "1626b00ea6870cc96655abc2b9d0197803321dd573eb75f0878dc4f5578f29a4",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p1__specific_humidity",
+      "p300__temperature",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 6,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p300__temperature",
+      "p1__geopotential",
+      "p1__u_component_of_wind"
+    ],
+    "removed_next": "p1__u_component_of_wind",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0006_fold0\\model_1792437068197251800.joblib",
+    "model_sha256": "2bf733522107d20d95d9c41f27ddc919055ef26ead907942a3252ff4836521a5",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0006\\state.json",
+    "state_sha256": "ba7f1b5aa2e14b6999cf35a1a64d9787c7e28003427738f251039d4f8f9c9ac2",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 5,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux",
+      "p300__temperature",
+      "p1__geopotential"
+    ],
+    "removed_next": "surface__vertical_integral_of_eastward_water_vapour_flux",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0005_fold0\\model_1792437496340403800.joblib",
+    "model_sha256": "e0d8fe5d4ea3e1be27e3403a1f8ad6a15f7894e0cec8f5667dc370149a39d316",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0005\\state.json",
+    "state_sha256": "0bbc80d71a7e093976e2d9c8f9c97c1bdc921f6ac0832e94e66794d70982fbb2",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "surface__k_index",
+      "surface__vertical_integral_of_eastward_water_vapour_flux"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 4,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "surface__k_index",
+      "p300__temperature",
+      "p1__geopotential"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0004_fold0\\model_1792437942625826400.joblib",
+    "model_sha256": "960b4e155e4df810df701da2468ca2d29df77099e3e7b1a87e9a6cc2eb0d00fb",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0004\\state.json",
+    "state_sha256": "e4871df841931790b34e22c9f7c86c821ebf1aec175fef00d80702fe7ff1d9d1",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature",
+      "surface__k_index"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 3,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "p300__temperature",
+      "p1__geopotential"
+    ],
+    "removed_next": "p300__temperature",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0003_fold0\\model_1792438371848456400.joblib",
+    "model_sha256": "832ee6c99a13901e620448d83f48364daa98ec1829f3f3e3c9747c16dd72bff6",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0003\\state.json",
+    "state_sha256": "31d061e5e9d916d7cee6c5eff2e935b15d400d8d5e5e04a2ec60adf20d9d4c05",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p300__temperature"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 2,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing",
+      "p1__geopotential"
+    ],
+    "removed_next": "p1__geopotential",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0002_fold0\\model_1792438800917491500.joblib",
+    "model_sha256": "ec74b19b145f09237b7fc02e289b088b27a97ac9027cfb7aa96dbc33f12293c4",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0002\\state.json",
+    "state_sha256": "e6f5356f110aa90be17015a2196d362143d827ec9dcea278f078556e146d42a5",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "svr_rbf",
+    "k": 1,
+    "feature_names": [
+      "surface__maximum_2m_temperature_since_previous_post_processing"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\svr_rbf\\k_0001_fold0\\model_1792439225420616400.joblib",
+    "model_sha256": "6a4865c963e6ececa78c72af596ed665236740a18bf3f1654b7a5e8864ec6e9c",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\svr_rbf\\k_0001\\state.json",
+    "state_sha256": "40d5aba3115463c06d5931e8d471d5a62457ed44023db4b3f1a93ad8631687d3",
+    "config": {
+      "config_id": 0,
+      "choice": {
+        "estimator": {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.3387547028845054,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [],
+    "input_gate": "READY"
+  },
+  {
+    "model": "elastic_net",
+    "k": 10,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "p925__ozone_mass_mixing_ratio",
+      "p850__ozone_mass_mixing_ratio",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p300__ozone_mass_mixing_ratio",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "p300__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0010_fold0\\model_1792435306778749700.joblib",
+    "model_sha256": "1053694dc49701ab32e6d75961e8d392a2036e5af5bf3afa728aec6804c76b0f",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0010\\state.json",
+    "state_sha256": "43adf8ffcf4cb5273c19d0ba56081e278be72696fbd8e7fdc3a8115203072cdf",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p300__ozone_mass_mixing_ratio",
+      "p500__specific_rain_water_content",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p925__ozone_mass_mixing_ratio",
+      "surface__k_index"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 9,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "surface__k_index",
+      "p925__ozone_mass_mixing_ratio",
+      "p850__ozone_mass_mixing_ratio",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "surface__k_index",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0009_fold0\\model_1792435750794849900.joblib",
+    "model_sha256": "cc406d18d777a3efd4ce0549dd2eb48b4c608d6c3aadcc72bf1abe3a06143057",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0009\\state.json",
+    "state_sha256": "d47dfa380465b3b2f8437ebe68c526c0029683f4c0cf50f47c78ca5a49711af7",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p500__specific_rain_water_content",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p925__ozone_mass_mixing_ratio",
+      "surface__k_index"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 8,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "p925__ozone_mass_mixing_ratio",
+      "p850__ozone_mass_mixing_ratio",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "p925__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0008_fold0\\model_1792436184644769500.joblib",
+    "model_sha256": "4009b1cc9e90eb837a1e0c53e8c4098f9a1823d312ee1e9e81a193e833287436",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0008\\state.json",
+    "state_sha256": "ce975e95b9158eef8807cc17ddc74cc5fe466b124b1c080756142945e67a8c09",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p500__specific_rain_water_content",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p925__ozone_mass_mixing_ratio"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 7,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "p850__ozone_mass_mixing_ratio",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p200__potential_vorticity",
+      "p5__ozone_mass_mixing_ratio"
+    ],
+    "removed_next": "p5__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0007_fold0\\model_1792436627819418100.joblib",
+    "model_sha256": "e58df889c2e0d6dbf4f40e03921e2bcab83319bd970cd3d4ba26259adee701c1",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0007\\state.json",
+    "state_sha256": "4a04320e52507442e3e017d84888a34df678204caecc119151cad1cc8d237740",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p500__specific_rain_water_content",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 6,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "p850__ozone_mass_mixing_ratio",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p200__potential_vorticity"
+    ],
+    "removed_next": "p850__ozone_mass_mixing_ratio",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0006_fold0\\model_1792437070899180100.joblib",
+    "model_sha256": "8f97798fbac8de754f43315d15349e2db8e686a64bc82b3e0a5d512641db1d19",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0006\\state.json",
+    "state_sha256": "1222f2d0c817aee512ecc3620ff837be6a55a5f06af74443b1b5612a9896d0ff",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p500__specific_rain_water_content",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 5,
+    "feature_names": [
+      "surface__convective_available_potential_energy",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p200__potential_vorticity"
+    ],
+    "removed_next": "surface__convective_available_potential_energy",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0005_fold0\\model_1792437499137323700.joblib",
+    "model_sha256": "0d488eced92c805838f92223b1bd1e45a3f8f866917e15d660ad8d765fbda23d",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0005\\state.json",
+    "state_sha256": "33c4e6854c289d034f4aec6b9214c88e3fac1349ec269500dd624cf6fe23b69a",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p500__specific_rain_water_content",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 4,
+    "feature_names": [
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p200__potential_vorticity"
+    ],
+    "removed_next": "p650__specific_humidity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0004_fold0\\model_1792437945189140400.joblib",
+    "model_sha256": "299e5112a8292e4582b98c03f20a6af72a847168b028f4ea33007efbb13b5cce",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0004\\state.json",
+    "state_sha256": "945c14bc1b7c9cf000467830dc94329c8d85f6cc6a44dd1dda47a595c8d47a85",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p500__specific_rain_water_content",
+      "p650__specific_humidity",
+      "p650__specific_rain_water_content"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 3,
+    "feature_names": [
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content",
+      "p200__potential_vorticity"
+    ],
+    "removed_next": "p200__potential_vorticity",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0003_fold0\\model_1792438374575380100.joblib",
+    "model_sha256": "88289cc28c8d7fed21d3edf4be8fa8f6e74b3fe9c60fc4e8ce8d4bf90820f07a",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0003\\state.json",
+    "state_sha256": "6d28d326fc997ddc356a786637f1834d6e5bf88ff212be9b658c871b109c1dd8",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p200__potential_vorticity",
+      "p500__specific_rain_water_content",
+      "p650__specific_rain_water_content"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 2,
+    "feature_names": [
+      "p650__specific_rain_water_content",
+      "p500__specific_rain_water_content"
+    ],
+    "removed_next": "p500__specific_rain_water_content",
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0002_fold0\\model_1792438803514161000.joblib",
+    "model_sha256": "a8c5f8d6a8db1c1dbfe4f047374ed719269f28310646365434b0615895cc0dda",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0002\\state.json",
+    "state_sha256": "16eb9a91974fdf77904fffc747ea79eb2a4cd20e9d11d9c811f6937060bfca65",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p500__specific_rain_water_content",
+      "p650__specific_rain_water_content"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  },
+  {
+    "model": "elastic_net",
+    "k": 1,
+    "feature_names": [
+      "p650__specific_rain_water_content"
+    ],
+    "removed_next": null,
+    "model_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\fits\\elastic_net\\k_0001_fold0\\model_1792439227875749200.joblib",
+    "model_sha256": "57698c9cc41eba4db167043af866713b8f422515af9943c77ccec36d09bca024",
+    "format": "joblib",
+    "state_file": "Outputs\\Experiments\\Hourly_Attenuation_Revision_032_Multi_Model_RFE\\models\\elastic_net\\k_0001\\state.json",
+    "state_sha256": "4ab469081f52b7ce3a2a2cacaf1cf15a92ad0b1f19fd47fe09a2d86c6be99d57",
+    "config": {
+      "config_id": 2,
+      "choice": {
+        "estimator": {
+          "alpha": 0.01,
+          "l1_ratio": 0.75
+        },
+        "override": {},
+        "weight_policy": "uniform",
+        "gated_fusion": false
+      },
+      "formal_rounds": null,
+      "validation_objective_db": 0.5963429692794824,
+      "formal_round_reason": "selected by validation three-MSE objective; fixed before formal refits and test"
+    },
+    "seed": 17,
+    "fit_hour_sha256": "a7d004f9917633d3b3bebc6d1603119f47e7e8b392b55ec8a112374d208c8651",
+    "missing_uk_fields": [
+      "p650__specific_rain_water_content"
+    ],
+    "input_gate": "MISSING_INPUTS"
+  }
+]

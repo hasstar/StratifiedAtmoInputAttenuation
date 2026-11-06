@@ -1,0 +1,5 @@
+{
+  "checked_text_files": 3884,
+  "findings": [],
+  "scope": "Known token formats, PEM private keys and signed URLs; filenames only are logged."
+}

@@ -1,0 +1,18 @@
+{
+  "checked_core_text_files": 2186,
+  "candidate_locations": [
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_006/vendor/huggingface_hub/inference/_client.py",
+      "line": 2702,
+      "review": "Credential-shaped literal in a third-party documentation example replaced with REPLACE_ME in this upload copy; original source untouched.",
+      "action": "redact_example_literal"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_006/vendor/huggingface_hub/inference/_generated/_async_client.py",
+      "line": 2760,
+      "review": "Credential-shaped literal in a third-party documentation example replaced with REPLACE_ME in this upload copy; original source untouched.",
+      "action": "redact_example_literal"
+    }
+  ],
+  "unresolved": 0
+}

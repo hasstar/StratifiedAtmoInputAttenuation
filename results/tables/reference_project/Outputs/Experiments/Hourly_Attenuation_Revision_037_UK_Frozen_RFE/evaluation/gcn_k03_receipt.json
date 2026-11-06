@@ -1,0 +1,7 @@
+{
+  "model": "gcn",
+  "k": 3,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "dfe5cd87f31c6bc5b0a90c5d8d6d3dd802f62e6aec4ad4c318a6e06eb3305c91",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

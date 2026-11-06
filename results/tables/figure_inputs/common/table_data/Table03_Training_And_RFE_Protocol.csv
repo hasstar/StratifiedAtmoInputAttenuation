@@ -1,0 +1,11 @@
+Model,Selected configuration,Formal training length,Weight policy
+TabM,"3 blocks, width 256, 32 members; dropout 0.1; AdamW, lr $2\times10^{-3}$, WD 0.01",54 epochs,Uniform
+BiLSTM,lr $10^{-3}$; dropout 0.2; WD $10^{-3}$,53 epochs,Uniform
+MLP,lr $10^{-3}$; dropout 0.2; WD $10^{-3}$,48 epochs,Balanced
+GCN,Gated fusion; lr $10^{-3}$; dropout 0.3; WD 0.01,56 epochs,Balanced
+SVR-RBF,"$C=1$, $\epsilon=0.1$, RBF $\gamma=\mathrm{scale}$",Solver convergence,Uniform
+Bai LSTM,"LSTM hidden 32; dense 16--32--64--1; RMSprop, lr $10^{-4}$; batch 128",32 epochs,Uniform
+Transformer,lr $10^{-3}$; dropout 0.1; WD $10^{-4}$,41 epochs,Uniform
+CatBoost,Depth 6; learning rate 0.05; leaf L2 regularization 10,500 iterations,Balanced
+Random Forest,Depth 16; minimum leaf size 5; selected 7-tree prefix,7 trees,Balanced
+Elastic Net,$\alpha=0.01$; L1 ratio 0.75,Solver convergence,Uniform

@@ -1,0 +1,7 @@
+{
+  "model": "catboost",
+  "k": 4,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "b092f8ed09f3d9f6c268676b451f2f55ab1ea6413a3082c9d7c6ca3bcfb61d44",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "states": 1610,
+  "fit_roles": 6440,
+  "metric_rows": 24150,
+  "maximum_metric_error": 0.0,
+  "audit": "Recomputed from saved predictions and checked every RFE transition; this does not rerun 6440 training roles."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "event": "clear_dry",
+    "threshold": "F95",
+    "db": 0.12880982854692274
+  },
+  {
+    "event": "clear_dry",
+    "threshold": "F99",
+    "db": 0.24177404336120892
+  },
+  {
+    "event": "dry_overcast",
+    "threshold": "F95",
+    "db": 0.1858704726603981
+  },
+  {
+    "event": "dry_overcast",
+    "threshold": "F99",
+    "db": 0.4218246819571145
+  },
+  {
+    "event": "other",
+    "threshold": "F95",
+    "db": 0.17021073646860518
+  },
+  {
+    "event": "other",
+    "threshold": "F99",
+    "db": 0.47636290512376667
+  },
+  {
+    "event": "rain",
+    "threshold": "F95",
+    "db": 0.40334831230249285
+  },
+  {
+    "event": "rain",
+    "threshold": "F99",
+    "db": 1.4848174378046868
+  }
+]

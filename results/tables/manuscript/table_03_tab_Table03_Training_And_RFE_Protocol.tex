@@ -1,0 +1,36 @@
+% Exact table extracted from the pinned manuscript; needs booktabs/amsmath.
+\begin{table}[!htbp]
+\centering
+\caption{Selected model configurations and common evaluation protocol.}
+\label{tab:Table03_Training_And_RFE_Protocol}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}l l@{}}
+\toprule
+Model & Key configuration \\
+\midrule
+TabM & 3 blocks, 32 members, dropout 0.1, AdamW \\
+MLP & 2 hidden layers (64, 32), dropout 0.2 \\
+BiLSTM & Hidden 32 per direction, head dropout 0.2 \\
+GCN & 2 layers, gated fusion, head dropout 0.3 \\
+Transformer & 2 encoder layers, 4 heads, dropout 0.1 \\
+Bai LSTM & LSTM 32, dense 16--32--64--1, RMSprop \\
+SVR-RBF & $C=1$, $\epsilon=0.1$, RBF $\gamma=\mathrm{scale}$ \\
+CatBoost & Depth 6, lr 0.05, leaf L2 reg 10 \\
+Random Forest & Depth 16, min leaf 5, selected 7-tree prefix \\
+Elastic Net & $\alpha=0.01$, L1 ratio 0.75 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\columnwidth}{\footnotesize
+\textbf{Note:}
+During training, MLP, GCN, CatBoost, and Random Forest
+assign greater weights to rainy and non-rainy overcast
+hours. The remaining models give each training hour
+equal weight.
+TabM trains for 54 epochs
+(lr $2\times10^{-3}$, weight decay 0.01).
+SVR-RBF and Elastic Net run until solver convergence.
+}
+\end{table}

@@ -1,0 +1,14 @@
+Parameter,Value
+Beacon frequency,19.13 GHz
+Satellite longitude / latitude,$125.0^{\circ}$E / $0.0^{\circ}$
+Receiver longitude / latitude,$116.3^{\circ}$E / $39.9^{\circ}$N
+Satellite EIRP (nominal),13.0 dBW
+Receive-antenna gain (nominal),35.0 dBi
+Feeder loss (nominal),7.8 dB
+LNB amplification gain (nominal),60.0 dB
+Acquisition module,NI PXIe-5841
+Original IQ sampling specification,4 kHz; 4000 samples per 1-s snapshot
+Current power-record interval,100 ms
+Second-scale aggregation,1 s; at least 9 valid records per second
+Hourly aggregation,"1 h; at least 34,200 valid 100-ms records"
+Clear-sky reference (training only),$-76.193629$ dBm; median of 1127 clear/dry hours

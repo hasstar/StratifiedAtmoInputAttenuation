@@ -1,0 +1,545 @@
+{
+  "status": "ARTIST_AND_EXPORT_QA_PASS_PENDING_VISUAL_REVIEW",
+  "utc": "2026-10-24T00:08:08.668320+00:00",
+  "figures": 6,
+  "curves_per_figure": 10,
+  "points_per_curve": 10,
+  "all_600_artist_values_exact": true,
+  "clipping": false,
+  "smoothing": false,
+  "source_sha256": "d15a732cc676b58484930178b9db23073d7d8f7936da4c4bf7c3dfe40e97047b",
+  "figures_detail": [
+    {
+      "id": "F01_rain_R2",
+      "metric": "r2",
+      "weather": "rain",
+      "scoring_hours": 735,
+      "curves": [
+        {
+          "model": "tabm",
+          "points": 10,
+          "minimum": -18.205473079855285,
+          "maximum": -0.7069520801739559,
+          "negative": 10
+        },
+        {
+          "model": "bai_lstm",
+          "points": 10,
+          "minimum": -3.604795864638426,
+          "maximum": -0.3877842825152251,
+          "negative": 10
+        },
+        {
+          "model": "bilstm",
+          "points": 10,
+          "minimum": -13.885139347058384,
+          "maximum": -0.6482410724394938,
+          "negative": 10
+        },
+        {
+          "model": "transformer",
+          "points": 10,
+          "minimum": -4.74399723049374,
+          "maximum": -0.19478817309913632,
+          "negative": 10
+        },
+        {
+          "model": "mlp",
+          "points": 10,
+          "minimum": -23.69269305894798,
+          "maximum": -0.5410625233586712,
+          "negative": 10
+        },
+        {
+          "model": "catboost",
+          "points": 10,
+          "minimum": -21.158163164270704,
+          "maximum": -0.4616126577329722,
+          "negative": 10
+        },
+        {
+          "model": "gcn",
+          "points": 10,
+          "minimum": -47.268870020362804,
+          "maximum": -0.26027153101356526,
+          "negative": 10
+        },
+        {
+          "model": "random_forest",
+          "points": 10,
+          "minimum": -3.347007265483243,
+          "maximum": -0.32599254496453645,
+          "negative": 10
+        },
+        {
+          "model": "svr_rbf",
+          "points": 10,
+          "minimum": -0.5561394516071432,
+          "maximum": 0.01096683816138011,
+          "negative": 9
+        },
+        {
+          "model": "elastic_net",
+          "points": 10,
+          "minimum": -1.2953759728757106,
+          "maximum": -0.006809067812465486,
+          "negative": 10
+        }
+      ],
+      "xlim": [
+        0.7,
+        10.3
+      ],
+      "ylim": [
+        -51.051256969044736,
+        3.793353786843315
+      ]
+    },
+    {
+      "id": "F02_overcast_R2",
+      "metric": "r2",
+      "weather": "dry_overcast",
+      "scoring_hours": 2317,
+      "curves": [
+        {
+          "model": "tabm",
+          "points": 10,
+          "minimum": -48.01892381349409,
+          "maximum": -13.50040620229562,
+          "negative": 10
+        },
+        {
+          "model": "bai_lstm",
+          "points": 10,
+          "minimum": -67.54919938425064,
+          "maximum": -3.461996302994714,
+          "negative": 10
+        },
+        {
+          "model": "bilstm",
+          "points": 10,
+          "minimum": -299.0826418878669,
+          "maximum": -18.612285597173354,
+          "negative": 10
+        },
+        {
+          "model": "transformer",
+          "points": 10,
+          "minimum": -171.00261848950555,
+          "maximum": -29.17718446632486,
+          "negative": 10
+        },
+        {
+          "model": "mlp",
+          "points": 10,
+          "minimum": -57.32053383292512,
+          "maximum": -11.233019995631041,
+          "negative": 10
+        },
+        {
+          "model": "catboost",
+          "points": 10,
+          "minimum": -770.5781258744852,
+          "maximum": -9.135442551727468,
+          "negative": 10
+        },
+        {
+          "model": "gcn",
+          "points": 10,
+          "minimum": -1160.8615330348237,
+          "maximum": -11.266031587701017,
+          "negative": 10
+        },
+        {
+          "model": "random_forest",
+          "points": 10,
+          "minimum": -59.35935362400713,
+          "maximum": -3.4977087946290863,
+          "negative": 10
+        },
+        {
+          "model": "svr_rbf",
+          "points": 10,
+          "minimum": -12.780414551943508,
+          "maximum": -3.789773791936587,
+          "negative": 10
+        },
+        {
+          "model": "elastic_net",
+          "points": 10,
+          "minimum": -36.745237093312035,
+          "maximum": -2.9545001899550956,
+          "negative": 10
+        }
+      ],
+      "xlim": [
+        0.7,
+        10.3
+      ],
+      "ylim": [
+        -1253.4940956624132,
+        89.6780624376344
+      ]
+    },
+    {
+      "id": "F03_overall_R2",
+      "metric": "r2",
+      "weather": "overall",
+      "scoring_hours": 5593,
+      "curves": [
+        {
+          "model": "tabm",
+          "points": 10,
+          "minimum": -22.85285731763049,
+          "maximum": -6.575144403746585,
+          "negative": 10
+        },
+        {
+          "model": "bai_lstm",
+          "points": 10,
+          "minimum": -20.548388662380244,
+          "maximum": -1.5165911369752587,
+          "negative": 10
+        },
+        {
+          "model": "bilstm",
+          "points": 10,
+          "minimum": -115.26038776415099,
+          "maximum": -6.420539025794141,
+          "negative": 10
+        },
+        {
+          "model": "transformer",
+          "points": 10,
+          "minimum": -64.6256605058956,
+          "maximum": -7.488701662577208,
+          "negative": 10
+        },
+        {
+          "model": "mlp",
+          "points": 10,
+          "minimum": -29.132138448242983,
+          "maximum": -3.8669299956127903,
+          "negative": 10
+        },
+        {
+          "model": "catboost",
+          "points": 10,
+          "minimum": -290.2553384718419,
+          "maximum": -2.8629627362973236,
+          "negative": 10
+        },
+        {
+          "model": "gcn",
+          "points": 10,
+          "minimum": -404.00442708077765,
+          "maximum": -4.451855698642069,
+          "negative": 10
+        },
+        {
+          "model": "random_forest",
+          "points": 10,
+          "minimum": -14.994408466110421,
+          "maximum": -1.444877778800648,
+          "negative": 10
+        },
+        {
+          "model": "svr_rbf",
+          "points": 10,
+          "minimum": -4.637439071740805,
+          "maximum": -1.31736586823599,
+          "negative": 10
+        },
+        {
+          "model": "elastic_net",
+          "points": 10,
+          "minimum": -12.082326742319351,
+          "maximum": -1.0141699808739348,
+          "negative": 10
+        }
+      ],
+      "xlim": [
+        0.7,
+        10.3
+      ],
+      "ylim": [
+        -436.2436476487699,
+        31.225050587118364
+      ]
+    },
+    {
+      "id": "F04_rain_RMSE",
+      "metric": "rmse_db",
+      "weather": "rain",
+      "scoring_hours": 735,
+      "curves": [
+        {
+          "model": "tabm",
+          "points": 10,
+          "minimum": 0.48997766734666,
+          "maximum": 1.643531854636929,
+          "negative": 0
+        },
+        {
+          "model": "bai_lstm",
+          "points": 10,
+          "minimum": 0.4418009073577906,
+          "maximum": 0.8047682096323021,
+          "negative": 0
+        },
+        {
+          "model": "bilstm",
+          "points": 10,
+          "minimum": 0.48147748936591267,
+          "maximum": 1.4469118502178704,
+          "negative": 0
+        },
+        {
+          "model": "transformer",
+          "points": 10,
+          "minimum": 0.40993129894793817,
+          "maximum": 0.8988200095482624,
+          "negative": 0
+        },
+        {
+          "model": "mlp",
+          "points": 10,
+          "minimum": 0.4655600978075259,
+          "maximum": 1.8635877636210538,
+          "negative": 0
+        },
+        {
+          "model": "catboost",
+          "points": 10,
+          "minimum": 0.4534002642537539,
+          "maximum": 1.7653568180842314,
+          "negative": 0
+        },
+        {
+          "model": "gcn",
+          "points": 10,
+          "minimum": 0.4210151113826832,
+          "maximum": 2.6055486538716384,
+          "negative": 0
+        },
+        {
+          "model": "random_forest",
+          "points": 10,
+          "minimum": 0.43185322024477807,
+          "maximum": 0.7819172679399726,
+          "negative": 0
+        },
+        {
+          "model": "svr_rbf",
+          "points": 10,
+          "minimum": 0.37296755023137507,
+          "maximum": 0.4678319496937488,
+          "negative": 0
+        },
+        {
+          "model": "elastic_net",
+          "points": 10,
+          "minimum": 0.3763042994730082,
+          "maximum": 0.5681886274275959,
+          "negative": 0
+        }
+      ],
+      "xlim": [
+        0.7,
+        10.3
+      ],
+      "ylim": [
+        0.0,
+        2.7841551421628594
+      ]
+    },
+    {
+      "id": "F05_overcast_RMSE",
+      "metric": "rmse_db",
+      "weather": "dry_overcast",
+      "scoring_hours": 2317,
+      "curves": [
+        {
+          "model": "tabm",
+          "points": 10,
+          "minimum": 0.4156995452602515,
+          "maximum": 0.7643131846846579,
+          "negative": 0
+        },
+        {
+          "model": "bai_lstm",
+          "points": 10,
+          "minimum": 0.23059722053621076,
+          "maximum": 0.9038381295927098,
+          "negative": 0
+        },
+        {
+          "model": "bilstm",
+          "points": 10,
+          "minimum": 0.4834522320687434,
+          "maximum": 1.891080004292711,
+          "negative": 0
+        },
+        {
+          "model": "transformer",
+          "points": 10,
+          "minimum": 0.5996927853430949,
+          "maximum": 1.4317163826395864,
+          "negative": 0
+        },
+        {
+          "model": "mlp",
+          "points": 10,
+          "minimum": 0.38181792053740166,
+          "maximum": 0.8336815887904419,
+          "negative": 0
+        },
+        {
+          "model": "catboost",
+          "points": 10,
+          "minimum": 0.3475448228029969,
+          "maximum": 3.032350640391255,
+          "negative": 0
+        },
+        {
+          "model": "gcn",
+          "points": 10,
+          "minimum": 0.3823327535646729,
+          "maximum": 3.7210598205818344,
+          "negative": 0
+        },
+        {
+          "model": "random_forest",
+          "points": 10,
+          "minimum": 0.2315181971955524,
+          "maximum": 0.8481286917633366,
+          "negative": 0
+        },
+        {
+          "model": "svr_rbf",
+          "points": 10,
+          "minimum": 0.23891695274032493,
+          "maximum": 0.40524774462805335,
+          "negative": 0
+        },
+        {
+          "model": "elastic_net",
+          "points": 10,
+          "minimum": 0.21708772409627597,
+          "maximum": 0.6706880125230019,
+          "negative": 0
+        }
+      ],
+      "xlim": [
+        0.7,
+        10.3
+      ],
+      "ylim": [
+        0.0,
+        4.001377588300679
+      ]
+    },
+    {
+      "id": "F06_overall_RMSE",
+      "metric": "rmse_db",
+      "weather": "overall",
+      "scoring_hours": 5593,
+      "curves": [
+        {
+          "model": "tabm",
+          "points": 10,
+          "minimum": 0.4667661977961354,
+          "maximum": 0.8282742214609808,
+          "negative": 0
+        },
+        {
+          "model": "bai_lstm",
+          "points": 10,
+          "minimum": 0.26903592184692465,
+          "maximum": 0.7872475901139813,
+          "negative": 0
+        },
+        {
+          "model": "bilstm",
+          "points": 10,
+          "minimum": 0.4619783958420715,
+          "maximum": 1.8286046648401466,
+          "negative": 0
+        },
+        {
+          "model": "transformer",
+          "points": 10,
+          "minimum": 0.4941110599077414,
+          "maximum": 1.3738546358143784,
+          "negative": 0
+        },
+        {
+          "model": "mlp",
+          "points": 10,
+          "minimum": 0.37413771501902493,
+          "maximum": 0.9309340531261939,
+          "negative": 0
+        },
+        {
+          "model": "catboost",
+          "points": 10,
+          "minimum": 0.33332216896275485,
+          "maximum": 2.894282288453808,
+          "negative": 0
+        },
+        {
+          "model": "gcn",
+          "points": 10,
+          "minimum": 0.3959826118894091,
+          "maximum": 3.412980641952403,
+          "negative": 0
+        },
+        {
+          "model": "random_forest",
+          "points": 10,
+          "minimum": 0.2651749626939536,
+          "maximum": 0.6782472338211513,
+          "negative": 0
+        },
+        {
+          "model": "svr_rbf",
+          "points": 10,
+          "minimum": 0.25816730596279197,
+          "maximum": 0.40266591637869104,
+          "negative": 0
+        },
+        {
+          "model": "elastic_net",
+          "points": 10,
+          "minimum": 0.2406866483505893,
+          "maximum": 0.6134037627005073,
+          "negative": 0
+        }
+      ],
+      "xlim": [
+        0.7,
+        10.3
+      ],
+      "ylim": [
+        0.0,
+        3.666764161440548
+      ]
+    }
+  ],
+  "files": {
+    "F01_rain_R2.pdf": "9e88aeeae178f8c42c990ee19755665c896d22646de4faec15ae4ab0045b1f30",
+    "F01_rain_R2.png": "022f22573d82c7c385c68a87fd8668f7b81f5fca085e210110965ea9e6a561eb",
+    "F02_overcast_R2.pdf": "c9a7217e1b6cab151fb61027a961d5d953370ee70dd53f2558121ed4f6569b30",
+    "F02_overcast_R2.png": "007440b5195181488a980a5273536267c7fba6d89117e8334a4ca2d4b7a54a5b",
+    "F03_overall_R2.pdf": "382033141cb6d2ac7514d004e376b32699816e021f8dfa8974450dd659931986",
+    "F03_overall_R2.png": "de8244385388fde60ece7f837d1bc9953d5ef9c564280890d1268e3778c2d9aa",
+    "F04_rain_RMSE.pdf": "056d0264220496fb93afbb63c163a3a9f1253868ad0de1456cc98fc4f9757e5f",
+    "F04_rain_RMSE.png": "a0a98af6047113c53abbcc6e6d363784c98dcd1c2db60ae2d125043ae8ec62a2",
+    "F05_overcast_RMSE.pdf": "5e6c7c86f612942489f3326c2aa25e9364da99103ce886bbb06a7df387406f44",
+    "F05_overcast_RMSE.png": "ee61114b06a620e8afc89c87edf3a28b718f6668eb53c93c20981c4ba81fffda",
+    "F06_overall_RMSE.pdf": "0b0d3f21c01daaaca02bbee84a28bf8458636bebc6a75782bbef134a4cd722cc",
+    "F06_overall_RMSE.png": "ebd7d7642c8a66988b63fdd9a5550115c64818f285dbcd5b81485b90a19b218b"
+  },
+  "script_sha256": "fa578b638b7c0addc3de1798e2aea10cf789aab09ae0d36a48f5008da4bc9cb0",
+  "style": "Consistent colours/markers/linetypes; TabM thick blue with cyan halo"
+}

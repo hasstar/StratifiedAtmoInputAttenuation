@@ -1,0 +1,61 @@
+{
+  "retrieved_utc": "2026-10-16T06:35:32.345092+00:00",
+  "files": [
+    {
+      "repository": "yandex-research/tabm",
+      "commit": "28e47ae301c92ec37787dde1ce923a0793f405b4",
+      "url": "https://raw.githubusercontent.com/yandex-research/tabm/28e47ae301c92ec37787dde1ce923a0793f405b4/tabm.py",
+      "local": "tabm.py",
+      "sha256": "fc654af6a16bac53d893a8265c79d7af4ebddcb95ad0d600cc6b6bc6b7317ade",
+      "bytes": 60545,
+      "http_status": 200,
+      "reused_exact_bytes": true,
+      "modified": false
+    },
+    {
+      "repository": "yandex-research/tabm",
+      "commit": "28e47ae301c92ec37787dde1ce923a0793f405b4",
+      "url": "https://raw.githubusercontent.com/yandex-research/tabm/28e47ae301c92ec37787dde1ce923a0793f405b4/LICENSE",
+      "local": "TABM_LICENSE",
+      "sha256": "24330ebf083bc17c1db833b0109ef6ffc9019449330e9e4ec9797c061185c7a6",
+      "bytes": 11340,
+      "http_status": 200,
+      "reused_exact_bytes": true,
+      "modified": false
+    },
+    {
+      "repository": "yandex-research/tabm",
+      "commit": "28e47ae301c92ec37787dde1ce923a0793f405b4",
+      "url": "https://raw.githubusercontent.com/yandex-research/tabm/28e47ae301c92ec37787dde1ce923a0793f405b4/README.md",
+      "local": "TABM_README.md",
+      "sha256": "302b2d36c3bf226cc98121923ea1881617287a161e25cf9a765b82b26b9d4969",
+      "bytes": 30478,
+      "http_status": 200,
+      "reused_exact_bytes": true,
+      "modified": false
+    },
+    {
+      "repository": "yandex-research/rtdl-num-embeddings",
+      "commit": "a8fc25025c83f2321c63ff127a3bcef83bb1bfb5",
+      "url": "https://raw.githubusercontent.com/yandex-research/rtdl-num-embeddings/a8fc25025c83f2321c63ff127a3bcef83bb1bfb5/package/rtdl_num_embeddings.py",
+      "local": "rtdl_num_embeddings.py",
+      "sha256": "48dfc019d447e0cd225deb8b8145b3efa8b42cde9aa314772d6e234753e1cee1",
+      "bytes": 29948,
+      "http_status": 200,
+      "reused_exact_bytes": false,
+      "modified": false
+    },
+    {
+      "repository": "yandex-research/rtdl-num-embeddings",
+      "commit": "a8fc25025c83f2321c63ff127a3bcef83bb1bfb5",
+      "url": "https://raw.githubusercontent.com/yandex-research/rtdl-num-embeddings/a8fc25025c83f2321c63ff127a3bcef83bb1bfb5/package/LICENSE",
+      "local": "EMBEDDINGS_LICENSE",
+      "sha256": "35381b68041ebc3408e1b76ab24ce5eed1f7ea93afd62d109ffdabf1b0daa324",
+      "bytes": 11339,
+      "http_status": 200,
+      "reused_exact_bytes": false,
+      "modified": false
+    }
+  ],
+  "prior_attempt": "Unconfirmed dependency root-file path returned404; official Git tree established package/ path. No old file overwritten."
+}

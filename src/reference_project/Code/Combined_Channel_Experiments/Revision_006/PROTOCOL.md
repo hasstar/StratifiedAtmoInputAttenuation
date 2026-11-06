@@ -1,0 +1,36 @@
+# Revision006 — frozen author-pretrained comparators
+
+Latest human instruction (2026-10-16): add comparators; keep author-trained models unchanged, do not retrain; recover original parameters where possible. This supersedes earlier training permission for this batch. Weather downloads remain stopped. No old entrypoint is executed.
+
+## Execution Lock
+
+- Holder: Codex `/root`, current author-pretrained-only comparator turn, 2026-10-16 17:54 +08:00 (session description, not an invented session ID).
+- Formal record: T012, this linked execution protocol. Lock Status: RELEASED; Released: 2026-10-16T19:04:02.0608224+08:00; both inference processes exited and scientific/source QA passed. Final file-manifest audit is recorded in delivery_receipt.json.
+- Path Base: `E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction`.
+- WRITE, recursive and exclusive: new `Code/Combined_Channel_Experiments/Revision_006/` and `Outputs/Experiments/Combined_Channel_Revision_006/` only; T012 and Revision001/PROGRESS receive an additive handoff after complete before snapshots.
+- READ: existing Rev002–005 outputs/code, Rev029 frozen model/state, Signal_Detectability_Revision_003 data, existing weather STOP flag, rules and task locks. No mutation of historical predictions, scalers, labels, checkpoints, acquisition states or standard calculations.
+- Resources: this Windows host CPU SHARED, bounded threads; public author repositories/PyPI/Hugging Face anonymous GET only, at most two streams. No private data upload, credentials, telemetry, global package install, training or model service calls.
+- Release condition: our processes exited; source/weight SHA and output checks completed or an explicit incomplete handoff recorded. OS lock additionally guards the new inference process; Markdown is not an atomic lock.
+
+## Conflict / reuse check
+
+C1 NONE in inspected new paths (did not exist); fixed indexes require before snapshots and a prewrite hash check. C2 NONE: old sources read-only, different output. C3 NONE: no shared implementation edits, dependencies isolated. C4 POTENTIAL resolved by separating author weights, our historical adaptations, and physical proxies. C5 NONE: newest no-training instruction controls. C6 POTENTIAL: CPU/memory; bounded threads and pilot before full inference. C7 CONFIRMED dependency: existing finalized datasets/predictions; exact bytes checked, author checkpoint/software/license compatibility gated. C8 NONE after REUSE of all old predictions/results, no old-model inference rerun. Overall LOW after gates; PARALLEL_ALLOWED for independent read-only research. Resource recheck: v003 TabPFN working set3.0GiB on16 logical cores; two isolated model processes may run concurrently with4 threads each (at most8 total), disjoint run directories/OS locks and shared immutable sources. No agents/tasks created. Unregistered external writers cannot be ruled out.
+
+T006/T010 are RELEASED; Rev003–005 delivered. Privileged CIM Python query completed with no matching processes before declaration (the earlier sandbox CIM denial is not absence evidence). New version paths were absent. Disk free about155GiB at preflight. Recheck sources/locks after declaration.
+
+## Fixed evaluation design
+
+1. Same ten contemporaneous meteorological features as frozen Rev029 k0010, same ordering. No past channel measurements, extra weather, time features or rain input. Target remains existing hourly excess attenuation in dB; no re-estimation of clear-sky references/CDF or label aggregation.
+2. LOCAL context: original 2404 train hours only. Original343 validation hours may supply a predetermined speed/shape pilot, not parameter selection. Main LOCAL test687; UK expanded5593 eligible hours, separately original physical-common5538 if keys permit. No UK/test labels enter model context or preprocessing. Reuse prior model predictions on identical keys.
+3. Eligible new methods: official task-compatible regression foundation checkpoints (initial candidates TabPFN-v2 and TabICLv2), used with released inference defaults. Pin source/version/checkpoint/SHA/license before scores. No selecting alternate checkpoint, ensemble size, seed, preprocessing or hyperparameters from evaluation results.
+4. In-context estimator `fit` is allowed only after source inspection establishes that it stores LOCAL examples and prepares the author's inference transformations, without gradient/optimizer/weight updates. It is not parameter training. Document context/preprocessing separately; it is not a zero-context prediction. Runtime guards forbid backward/optimizer construction; exact checkpoint/parameter hashes before/after, inference_mode, and absence of gradients are required. v003 preserves author gradient flags, because forcing all requires_grad=False exposed an optional-None bug in TabPFN memory splitting. Flags are not learned values; global gradient tracking is disabled and updates forbidden. No finetune interface is imported or called.
+5. CPU device, bounded thread count and fixed query chunking are execution settings, not learned-parameter changes. Verify chunk equivalence on validation pilot. If full execution is infeasible, preserve failure and report incomplete; do not reduce model defaults based on scores.
+
+CPU-only operational amendment, before any new model scores: v003 TabPFN16-versus8+8 validation pilot passed (maximum difference1.9521e-6dB) but required904.3s. v004 retains every estimator parameter/context/learned weight, increases only external query chunks512→2048 to avoid repeated context forwards, and replays the same16 validation predictions against v003. v003 is stopped by exact PID/creation/command verification and retained, not overwritten. Any finished v003 LOCAL chunk is additionally compared with the corresponding v004 predictions. TabICL stays on its already running512-query path. No cache-mode/model/default-ensemble/seed change and no test-score-based selection.
+6. Existing Bai/TabM weights were trained by us, not supplied by authors. Keep them unchanged and explicitly labeled. Restore a genuine author checkpoint only when available and compatible. Default hyperparameters or random initialization are not original learned parameters; architectural shape changes would require new training and are excluded.
+7. No fabricated scores for code-only FT-Transformer/RealMLP/TabR/TabNet/NODE/CatBoost. Record bounded availability findings, not a universal assertion that no checkpoint exists.
+8. Report RMSE/MAE/bias/R2 on shared cohorts, existing multi-seed variability as such, new single-default frozen runs separately. This is an additional exposed-test comparison, not new blind validation. Tabular foundation methods are not satellite-specific paper reproductions.
+
+## Verification and preservation
+
+Protect all historical model/prediction/dataset inputs with SHA snapshots. Preserve official source/license and checkpoint bytes; safe tensor-only checkpoint loading, no remote code execution. Network disabled during inference. Independent metrics/key/count/finite checks; compare checkpoint files and in-memory learned parameters before/after. Do not overwrite failed attempts or completed run files. A final completion receipt distinguishes added-and-scored methods from unavailable or blocked candidates. No whole T012 completion claim.

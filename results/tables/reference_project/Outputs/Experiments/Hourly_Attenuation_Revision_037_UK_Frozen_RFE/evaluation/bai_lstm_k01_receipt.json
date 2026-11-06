@@ -1,0 +1,7 @@
+{
+  "model": "bai_lstm",
+  "k": 1,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "bd2d7173dcd0969d6354a624de50d2a6c13eb845a64482d66126f1c10a251348",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

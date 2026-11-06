@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "git_file_count": 17880,
+  "release_file_count": 7426,
+  "reference_files_byte_identical": 17847,
+  "intentional_distribution_copy_changes": [
+    "README.md",
+    "data/raw/README.md",
+    "scripts/make_figures.sh",
+    "scripts/run_all.sh",
+    "src/reference_project/Code/Combined_Channel_Experiments/Revision_006/vendor/huggingface_hub/inference/_client.py",
+    "src/reference_project/Code/Combined_Channel_Experiments/Revision_006/vendor/huggingface_hub/inference/_generated/_async_client.py"
+  ],
+  "original_supplementary_material_modified": false,
+  "local_measurement_files_distributed": 0,
+  "svr_support_vector_artifacts_distributed": 0,
+  "frozen_generator_sample_library_distributed": false,
+  "ceda_station_day_files": 236,
+  "four_figure_groups_redrawn": true,
+  "model_hash_mismatches": [],
+  "readme_and_scripts_describe_missing_local_data": true
+}

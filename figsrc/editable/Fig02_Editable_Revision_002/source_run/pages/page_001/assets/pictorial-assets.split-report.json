@@ -1,0 +1,71 @@
+{
+  "source": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\assets\\pictorial-sheet.png",
+  "assets": [
+    {
+      "path": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\assets\\satellite.png",
+      "source": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\assets\\pictorial-sheet.png",
+      "box": [
+        106,
+        84,
+        818,
+        392
+      ],
+      "padded_box": [
+        82,
+        60,
+        842,
+        416
+      ],
+      "area": 67459,
+      "merged_count": 1,
+      "size": [
+        760,
+        356
+      ]
+    },
+    {
+      "path": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\assets\\receiver.png",
+      "source": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\assets\\pictorial-sheet.png",
+      "box": [
+        1168,
+        169,
+        1445,
+        414
+      ],
+      "padded_box": [
+        1144,
+        145,
+        1469,
+        438
+      ],
+      "area": 36755,
+      "merged_count": 1,
+      "size": [
+        325,
+        293
+      ]
+    },
+    {
+      "path": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\assets\\earth.png",
+      "source": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\assets\\pictorial-sheet.png",
+      "box": [
+        5,
+        654,
+        1579,
+        982
+      ],
+      "padded_box": [
+        0,
+        630,
+        1586,
+        992
+      ],
+      "area": 375304,
+      "merged_count": 1,
+      "size": [
+        1586,
+        362
+      ]
+    }
+  ]
+}

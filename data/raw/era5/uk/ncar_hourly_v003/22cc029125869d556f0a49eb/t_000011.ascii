@@ -1,0 +1,28 @@
+Dataset {
+    Grid {
+     ARRAY:
+        Float32 O3[time = 1][level = 1][latitude = 1][longitude = 1];
+     MAPS:
+        Int32 time[time = 1];
+        Float64 level[level = 1];
+        Float64 latitude[latitude = 1];
+        Float64 longitude[longitude = 1];
+    } O3;
+} files/d633000/e5.oper.an.pl/200402/e5.oper.an.pl.128_203_o3.ll025sc.2004021900_2004021923.nc;
+---------------------------------------------
+O3.O3[1][1][1][1]
+[0][0][0], 7.095112E-8
+
+O3.time[1]
+912827
+
+O3.level[1]
+925.0
+
+O3.latitude[1]
+51.0
+
+O3.longitude[1]
+358.5
+
+

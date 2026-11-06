@@ -1,0 +1,7 @@
+{
+  "model": "mlp",
+  "k": 4,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "794f129a82e9e74d07fe8566a7368f496e56bb4ba83d47657a0e871540933ea2",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

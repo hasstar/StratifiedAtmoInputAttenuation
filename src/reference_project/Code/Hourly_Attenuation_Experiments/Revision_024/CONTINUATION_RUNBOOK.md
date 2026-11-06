@@ -1,0 +1,9 @@
+# Revision 024 continuation runbook
+
+Workspace: `E:\0_Workflow_System\01_PhD\Papers\0_TVT_GEO_Prediction`. Python: `C:\Users\SDR_HH\.conda\envs\pytorchmy\python.exe`. Code: `Code\Hourly_Attenuation_Experiments\Revision_024`. Output: `Outputs\Experiments\Hourly_Attenuation_Revision_024_SVR_RFE`.
+
+At every continuation, first read this file, `PROTOCOL.md`, `PROGRESS.md`, and `run_manifest.json`. Run `run_rfe.py status`; inspect the exact `run_rfe.py run` process command line (when accessible), process CPU, `rfe.stdout.log`/`rfe.stderr.log`, state/model counts and fingerprint. If the original worker is alive, perform read-only health checks only, never duplicate it. If absent, distinguish normal completion from failure; resume a failed `run` only with the same frozen manifest/source hashes. Do not mutate original H5, ERA5, Run_011, the cleaned dataset, Rev023 or any prior revision.
+
+The train-only gate requires 156 `states/k_*.json`, 156 `models/k_*.joblib`, 155 one-column transitions, 3 grouped fold fits plus one full-train fit per k (624 fits), all ordered names and fold predictions, plus `verify-run` QA PASS. No validation/test read by `run` or `verify-run`. The full k156 refit must match the saved Rev023 all-layer model on train predictions. Only then execute `evaluate` once, which loads the saved models and writes 156 `evaluation/k_*.json` with complete 343-hour validation and 687-hour test predictions and weather metrics; it must not fit. Run `verify-evaluation` and require PASS, then `report`, independently reconciling all state/evaluation rows and frozen one-SE k. Report all k descriptively, but do not choose k or change the deletion algorithm based on test results. Earlier test viewing and same-day overlap forbid calling this a new blind or cross-day test.
+
+Only notify on stage completion, failure, required user choice or full completion; remain quiet during healthy unchanged progress. Stop the heartbeat after final QA and report.

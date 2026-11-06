@@ -1,0 +1,52 @@
+{
+  "input": {
+    "path": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\Outputs\\GitHub_Publication_20261106_002\\repository\\results\\tables\\figure_inputs\\common\\frozen_exports\\tabm_same_k.csv",
+    "sha256": "6cd7cadd3a092dbcc0617393c1fcadd38b5a9bbd9fe2a90addcf4d6db6886224"
+  },
+  "script": {
+    "path": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\Outputs\\GitHub_Publication_20261106_002\\repository\\figsrc\\upstream\\build_fig07.py",
+    "sha256": "a6fbd2c2fa193eba1f10199303e75e87e3633f356698badafadac1959583e10d"
+  },
+  "versions": {
+    "python": "3.12.11",
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.0",
+    "pandas": "2.3.3"
+  },
+  "font_path": "C:\\Windows\\Fonts\\times.ttf",
+  "layout": {
+    "figsize": [
+      7.15,
+      3.55
+    ],
+    "font": "Times New Roman",
+    "font_size": 13,
+    "tick_size": 12,
+    "inset_tick_size": 10.5,
+    "legend_size": 12.2,
+    "line_width": 1.85,
+    "left": 0.085,
+    "right": 0.982,
+    "bottom": 0.19,
+    "top": 0.845,
+    "wspace": 0.34,
+    "r2_inset": [
+      0.31,
+      0.1,
+      0.65,
+      0.57
+    ],
+    "rmse_inset": [
+      0.31,
+      0.43,
+      0.65,
+      0.53
+    ]
+  },
+  "outputs": {
+    "Fig07_TabM_Independent_RFE_Paths.pdf": "502277cfd33fdcd45a51d9e1fcd72d0cc1c679b7fd68424d6d4a5d212860216b",
+    "Fig07_TabM_Independent_RFE_Paths.png": "a61ae1835fead0e93cee0b3ac2198531daf82092d5fca726591ac53c592fabec",
+    "comparison_audit.csv": "e9ae9e46cc46d6e3b30633a62137742586e10aab1f3e3aaf29dcb3de3f72bad7",
+    "numerical_qa.json": "c1322f3f5280f2eb535130df6b404b0e353712fb344d1edb6e869106d513139b"
+  }
+}

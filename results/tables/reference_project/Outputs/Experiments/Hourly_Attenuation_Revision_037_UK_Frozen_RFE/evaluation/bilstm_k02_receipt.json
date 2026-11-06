@@ -1,0 +1,7 @@
+{
+  "model": "bilstm",
+  "k": 2,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "ad3708121efbbbc0bd1d291b25a12204a81bdebf200b77e3461fdf185878e796",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

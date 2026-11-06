@@ -1,0 +1,4 @@
+Rendered Fig06_Ten_Model_RFE
+{"output": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\Outputs\\GitHub_Publication_20261106_002\\repository\\results\\figures\\upload_verification\\plot_fig07_independent_rfe", "full_wins": 41, "base_wins": 7, "ties": 2, "k10_improvement_percent": 24.38477305078528}
+{"states": 100, "station_metric_checks": 300, "plot_curves": 30, "max_metric_difference": 4.440892098500626e-16, "output": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\Outputs\\GitHub_Publication_20261106_002\\repository\\results\\figures\\upload_verification\\plot_fig08_uk"}
+Rendered Fig10_Fast_Temporal_Statistics

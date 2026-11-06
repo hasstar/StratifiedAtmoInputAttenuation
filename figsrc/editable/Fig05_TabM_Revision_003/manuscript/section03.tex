@@ -1,0 +1,197 @@
+\section{Hourly Attenuation Modeling with Stratified Inputs}
+\label{sec:hourly_modeling}
+
+This section examines how meteorological input composition and dimensionality affect hourly attenuation estimation. Ten models are first compared along independently constructed feature-elimination paths. A separate TabM experiment then compares vertically resolved and non-vertically-resolved candidate pools at equal retained dimensions. Finally, locally trained models are evaluated at the two UK sites with their parameters and preprocessing fixed.
+
+\subsection{Models, Training, and Evaluation Protocol}
+\label{subsec:hourly_protocol}
+
+\subsubsection{Task-adapted TabM}
+
+% P1: Role of TabM and the two candidate input pools in Fig. 5(a).
+TabM provides a parameter-efficient ensemble for hourly attenuation estimation by sharing hidden weight matrices across members while retaining member-specific transformations \cite{Gorishniy2025TabM}. Figure~\ref{fig:tabm_architecture}(a) shows its use with the meteorological inputs defined in Section~II. The full candidate pool contains 50 non-vertically-resolved base features and 106 pressure-level features; the base-pool comparison uses the same 50 base features alone. The base features comprise surface quantities, single-level diagnostics, and column-integrated variables. Each pressure-level feature represents one variable at a specified pressure level. At each RFE state, the retained $k$ features describe the observation hour; channel history, timestamps, and weather-category labels are excluded.
+
+% P2: Preprocessing and replication of the same hourly input.
+Missing values are filled with medians fitted on the training rows, and each input is standardized using the corresponding training mean and standard deviation. The attenuation target is also standardized for training. For hour $h$, let $\mathbf{x}_h\in\mathbb{R}^{k}$ denote the preprocessed retained input. This vector is replicated across $M=32$ members to form $\mathbf{X}_h\in\mathbb{R}^{M\times k}$, whose rows initially contain the same meteorological information.
+
+% P3: Every matrix and operator in Fig. 5(b); the displayed equation moved here.
+Figure~\ref{fig:tabm_architecture}(b) expands one hidden block. Its input $\mathbf{H}\in\mathbb{R}^{M\times d_{\mathrm{in}}}$ is scaled elementwise by the member-specific input adapter $\mathbf{R}$, multiplied by the shared matrix $\mathbf{W}\in\mathbb{R}^{d_{\mathrm{in}}\times d_{\mathrm{out}}}$, and scaled by the member-specific output adapter $\mathbf{S}$. Adding the member-specific bias $\mathbf{B}$, applying ReLU, and applying dropout gives
+\begin{equation}
+\mathbf{H}'=
+\operatorname{Dropout}\!\left(
+\operatorname{ReLU}\!\left(
+\bigl[(\mathbf{H}\odot\mathbf{R})\mathbf{W}\bigr]\odot\mathbf{S}
++\mathbf{B}
+\right)\right),
+\label{eq:tabm_hidden_block}
+\end{equation}
+where $\odot$ denotes elementwise multiplication, $\mathbf{R}$ has the same dimensions as $\mathbf{H}$, and $\mathbf{S}$, $\mathbf{B}$, and $\mathbf{H}'$ have dimensions $M\times d_{\mathrm{out}}$. Rows correspond to ensemble members. Each block has its own $\mathbf{W}$, shared across its members. The network contains three blocks of output width 256, with dropout probability 0.1 during training; dropout is disabled for inference.
+
+% P4: Member-specific heads, training-loss branch and inference-mean branch.
+Each member has a separate scalar regression head, denoted by $h_m$ in Fig.~\ref{fig:tabm_architecture}(a), producing a standardized prediction $\widehat{z}_{m,h}$. All members are supervised against the same standardized attenuation target. The training loss is their squared error averaged uniformly over hours and members, as represented by the member-wise MSE branch. For inference, the predictions are averaged to obtain $\overline{z}_h$ and then transformed back to dB:
+\begin{equation}
+\widehat{A}_h
+=\mu_A+\sigma_A\overline{z}_h
+=\mu_A+\frac{\sigma_A}{M}\sum_{m=1}^{M}\widehat{z}_{m,h},
+\label{eq:tabm_hourly_estimate}
+\end{equation}
+where $\mu_A$ and $\sigma_A$ are the target mean and standard deviation fitted on the training rows. The shared matrices provide the common nonlinear transformations, while the member-specific scales, biases, and heads distinguish the member predictions without duplicating every hidden weight matrix.
+
+% P5: Training settings and link to the protocol explained in the following text.
+The selected network is trained using AdamW with a learning rate of $2\times10^{-3}$, weight decay of 0.01, a batch size of 256, and 54 epochs. Meteorological input construction, training-fitted preprocessing, weather-aware validation, and independent feature-elimination paths adapt the original TabM architecture to this task. The validation criterion and RFE procedure are specified below, and Section~\ref{subsec:uk_frozen_hourly} describes evaluation with the local estimators frozen.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Fig05_TabM_Architecture_And_Protocol.pdf}
+\caption{TabM architecture for hourly attenuation estimation. (a) Preprocessing, parallel member predictions, member-wise training loss, and averaged hourly output. (b) Operations within one hidden block. Blue denotes the hidden weight matrix shared across members; orange denotes member-specific scales, biases, and regression heads. The architecture follows TabM~\cite{Gorishniy2025TabM}. Here, $k$ is the retained input dimension and $M=32$ is the number of ensemble members.}
+\label{fig:tabm_architecture}
+\end{figure*}
+
+\subsubsection{Comparison models}
+
+Nine comparison models cover several approaches to meteorological regression: a multilayer perceptron (MLP), bidirectional long short-term memory network (BiLSTM), graph convolutional network (GCN), Transformer, Bai LSTM, radial-basis-function support vector regression (SVR-RBF), CatBoost, Random Forest, and Elastic Net.
+
+The MLP uses two hidden layers of widths 64 and 32. BiLSTM, Transformer, and GCN explicitly organize pressure-level variables by vertical position and combine their encoded profiles with a separate base-feature branch. BiLSTM processes the ordered pressure levels in both directions. The Transformer uses two encoder layers with four attention heads and a representation width of 32. GCN uses two graph-convolution layers over neighboring pressure levels, with a gate controlling the contribution of the vertical representation. These three models encode the atmospheric structure within one hour.
+
+The Bai LSTM comparator adapts the LSTM architecture of Bai et al. \cite{Bai2022FeatureSelection} to the same concurrent-meteorology task. It uses one input step, an LSTM hidden width of 32, and fully connected layers of widths 16, 32, 64, and 1. SVR-RBF and Elastic Net provide kernel-based and regularized linear comparisons, while CatBoost and Random Forest provide tree-ensemble comparisons. All ten models use the same candidate measurements and data partitions. Their selected configurations are reported in Table~\ref{tab:Table03_Training_And_RFE_Protocol}.
+
+% Table 3: configurations and common experimental protocol.
+\input{tables/Table03_Training_And_RFE_Protocol.tex}
+
+\subsubsection{Training and recursive feature elimination}
+
+The original local split of 2404 training, 343 validation, and 687 test hours is retained. Imputation, input scaling, and neural-target scaling are fitted separately on the rows used for each model fit. Input scaling is applied to the neural, kernel, and linear models; the tree models use imputed inputs without standardization.
+
+For TabM, configuration and epoch selection use the validation criterion
+\begin{equation}
+S_{\mathrm{val}}
+=
+\sqrt{
+\frac{
+\mathrm{MSE}_{\mathrm{all}}
++
+\mathrm{MSE}_{\mathrm{rain}}
++
+\mathrm{MSE}_{\mathrm{overcast}}
+}{3}
+},
+\label{eq:weather_validation_score}
+\end{equation}
+where the three errors are computed on all validation hours, rainy hours, and dry-overcast hours, respectively. The weather-specific terms give additional emphasis to the two attenuation-relevant conditions alongside overall accuracy. TabM retains uniform training-sample weights; this criterion governs model selection. The selected MLP, GCN, CatBoost, and Random Forest configurations use training weights corresponding to equal contributions from the overall, rainy-hour, and dry-overcast mean losses. Bai LSTM selects its training epoch using overall validation RMSE. The selected configurations and training lengths are fixed throughout subsequent RFE.
+
+Each model starts with the same 156-feature pool and independently removes one feature per iteration until a single feature remains. At each retained dimension $k$, three date-grouped folds are formed within the original training set. Preprocessing and model fitting use only the fitting portion of each fold. For each retained feature, its transformed values are permuted once across the held-out rows of each fold, and the increase in overall held-out RMSE is recorded. The importance score is
+\begin{equation}
+I_j^{(k)}
+=
+\frac{1}{3}
+\sum_{q=1}^{3}
+\left(
+E_{q,j}^{\mathrm{perm}}-E_q
+\right),
+\label{eq:permutation_rfe}
+\end{equation}
+where $E_q$ is the unpermuted RMSE in fold $q$ and $E_{q,j}^{\mathrm{perm}}$ is the RMSE after permuting feature $j$. The feature with the smallest mean increase is removed, including when this increase is negative; ties are resolved alphabetically by feature name.
+
+The retained set is fitted on the original training partition and evaluated on the validation and test partitions at every iteration. Deletion decisions use the training folds. The date grouping applies to these internal folds, while the original random-hour training/validation/test split remains unchanged. Structured models preserve the positions of retained atmospheric variables, mask discarded variable slots, and remove levels with no retained variables. Their subset models are refitted at each state. The retained and removed features, fitted preprocessing, predictions, and metrics are recorded for every iteration.
+
+The additional TabM comparison starts independently from the 50 base features and follows the same procedure down to one feature, using the same network and training settings. Thus, the study contains ten 156-to-1 paths and one additional 50-to-1 path. A fixed seed of 17 is used. The $k=10$ state serves as a common compact-input comparison point, while the complete curves show how performance changes along each path.
+
+\subsubsection{Evaluation measures}
+
+Hourly accuracy is evaluated using RMSE and the coefficient of determination:
+\begin{equation}
+\mathrm{RMSE}
+=
+\sqrt{
+\frac{1}{N}
+\sum_{h=1}^{N}
+\left(\widehat{A}_h-A_h\right)^2
+},
+\label{eq:hourly_rmse}
+\end{equation}
+\begin{equation}
+R^2
+=
+1-
+\frac{
+\sum_{h=1}^{N}
+\left(\widehat{A}_h-A_h\right)^2
+}{
+\sum_{h=1}^{N}
+\left(A_h-\overline{A}\right)^2
+},
+\label{eq:hourly_r2}
+\end{equation}
+where $N$ is the number of evaluated hours and $\overline{A}$ is their mean observed attenuation. RMSE is reported in dB. The $R^2$ definition measures squared error relative to the observed-mean reference and can take negative values.
+
+Results are reported overall and by weather condition. For comparison model $b$, TabM's relative RMSE reduction is $100(\mathrm{RMSE}_{b}-\mathrm{RMSE}_{\mathrm{TabM}})/\mathrm{RMSE}_{b}$. The corresponding $R^2$ comparison uses the absolute difference $R^2_{\mathrm{TabM}}-R^2_b$. Positive values favor TabM in both cases. Each comparison uses the same evaluated hours, weather group, and retained dimension.
+
+\subsection{Model Comparison and Stratified Input Analysis}
+\label{subsec:local_hourly_results}
+
+\subsubsection{Ten-model comparison along the full RFE paths}
+
+Figure~\ref{fig:ten_model_rfe} presents the overall local-test performance of the ten independent paths. The full-range panels show the effect of reducing the initial 156-feature input, while the enlarged panels resolve the compact range $k=1$--$10$. Table~\ref{tab:Table04_Local_Ten_Model_Comparison} reports representative states and their weather-specific comparisons.
+
+% Figure 6: 156-to-1 paths and compact-range enlargement.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Fig06_Ten_Model_RFE.pdf}
+\caption{Local-test performance of ten models along their independent 156-to-1 RFE paths. The upper panels show the full range of retained dimensions, and the lower panels enlarge $k=1$--$10$. All states are evaluated on the same 687 test hours. Feature elimination proceeds from right to left.}
+\label{fig:ten_model_rfe}
+\end{figure*}
+
+% Table 4: signed RMSE reductions and absolute R-squared differences.
+\input{tables/Table04_Local_Ten_Model_Comparison.tex}
+
+At the common ten-feature state, TabM achieves the lowest overall RMSE among the ten models: 0.2891~dB, with $R^2=0.9199$. GCN and CatBoost obtain RMSEs of 0.3663 and 0.4052~dB, respectively, corresponding to reductions of 21.07\% and 28.66\% with TabM. Across all nine comparators, the overall RMSE reduction ranges from 21.07\% to 68.82\%.
+
+For TabM itself, reducing the input from 156 to ten features lowers overall test RMSE from 0.3250 to 0.2891~dB and raises $R^2$ from 0.8988 to 0.9199. This state uses 93.59\% fewer inputs and has an 11.05\% lower overall RMSE. The main weather-specific improvement occurs under dry-overcast conditions, where RMSE decreases from 0.5158 to 0.3153~dB. Rainy-hour RMSE changes from 0.4398 to 0.4708~dB.
+
+The model ordering also depends on weather: at $k=10$, MLP has a lower rainy-hour RMSE than TabM, while BiLSTM has a lower dry-overcast RMSE. Thus, TabM's leading result concerns the overall error at the common compact-input state. The complete paths show that model ranking and the effect of further elimination vary with the retained feature set.
+
+\subsubsection{Equal-dimensional comparison of the two TabM paths}
+
+The role of vertically resolved inputs is examined by comparing the independently constructed 156-candidate and 50-candidate TabM paths at the same retained dimension. Figure~\ref{fig:tabm_two_pools} covers $k=1$--$50$, with an enlargement of $k=1$--$10$. The full-pool path may retain both base and pressure-level variables; the base-pool path is restricted to the 50 non-vertically-resolved candidates. Table~\ref{tab:Table05_TabM_Independent_Pool_Comparison} reports absolute metrics for both paths.
+
+% Figure 7: equal-k comparison of independent starting pools.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Fig07_TabM_Independent_RFE_Paths.pdf}
+\caption{TabM comparison at equal retained dimensions for two independent RFE paths starting from 156 full-pool features and 50 non-vertically-resolved base features. Upper panels compare $k=1$--$50$; lower panels enlarge $k=1$--$10$. Both paths use the same network settings and 687 local test hours.}
+\label{fig:tabm_two_pools}
+\end{figure*}
+
+% Table 5: pool subscripts indicate the initial candidate pool.
+\input{tables/Table05_TabM_Independent_Pool_Comparison.tex}
+
+At $k=10$, the full-pool path obtains an overall RMSE of 0.2891~dB, compared with 0.3823~dB for the base-pool path, a reduction of 24.38\%. The corresponding $R^2$ values are 0.9199 and 0.8599. Under dry-overcast conditions, RMSE decreases from 0.5500 to 0.3153~dB, a reduction of 42.67\%. Clear-dry and other-weather RMSEs also decrease, whereas the base-pool path has the lower rainy-hour RMSE at this dimension.
+
+The comparison depends on the retained dimension. At $k=25$, the full-pool path has the lower overall RMSE, while at $k=5$ the base-pool path is better, with RMSEs of 0.3503 and 0.4324~dB, respectively. These results locate the benefit of access to vertical information within the interaction between candidate composition and input dimension. At the common ten-feature state, pressure-level candidates enable a more accurate compact local estimator with the network and training settings held fixed.
+
+The exact ten-feature sets are listed in Table~\ref{tab:TableS01_TabM_K10_Retained_Features}. Five features are shared: convective available potential energy, maximum 2-m temperature since the previous post-processing time, K index, vertically integrated eastward water-vapour flux, and total-column ozone. The full-pool path additionally retains ozone mass mixing ratio at 850~hPa, specific humidity at 650~hPa, temperature at 300~hPa, and the eastward wind component at 5 and 1~hPa.
+
+The other five base-pool features are surface pressure, mean large-scale precipitation rate, vertically integrated eastward mass flux, vertically integrated eastward ozone flux, and vertically integrated northward heat flux. The full-pool subset therefore combines stability and column descriptors with variables resolved at distinct atmospheric levels. These retained sets describe model-dependent predictive selections; their listed order is the input order and does not rank their individual importance.
+
+\subsection{Frozen Evaluation at the UK Sites}
+\label{subsec:uk_frozen_hourly}
+
+External evaluation uses the local $k=10,\ldots,1$ checkpoints of each of the ten models, giving 100 frozen model states. Each state retains its local feature identities and order, preprocessing parameters, target transformation, and fitted model parameters. The UK data are passed through these fixed estimators without training, preprocessing refitting, or feature reselection. Accordingly, the horizontal axis in Fig.~\ref{fig:uk_frozen_models} indexes states along the local RFE paths.
+
+The evaluation includes 5593 valid station-hours: 3382 at Chilbolton and 2211 at Sparsholt. Figure~\ref{fig:uk_frozen_models} reports pooled and station-specific performance. Table~\ref{tab:Table06_UK_Frozen_Model_Comparison} gives the pooled weather-specific comparisons at representative dimensions, while Table~\ref{tab:TableS02} provides the absolute $k=10$ metrics. In the hourly UK grouping, the other-weather category includes clear-dry hours.
+
+% Figure 8: frozen inference, not an RFE procedure performed in the UK.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Fig08_UK_Frozen_Model_Comparison.pdf}
+\caption{Evaluation of 100 frozen local model states at the UK sites, comprising ten models at $k=1$--$10$. Rows show the pooled sites, Chilbolton, and Sparsholt. The $R^2$ panels use explicitly labeled symmetric-log axes to retain the complete negative range; RMSE panels use linear axes.}
+\label{fig:uk_frozen_models}
+\end{figure*}
+
+% Table 6: relative comparisons; absolute metrics are in Table S2.
+\input{tables/Table06_UK_Frozen_Model_Comparison.tex}
+
+At $k=10$, TabM obtains a pooled RMSE of 0.4946~dB, below seven of the nine comparators. Its RMSE is 12.98\% lower than that of Transformer and 15.25\% lower than that of CatBoost. SVR-RBF and Elastic Net obtain lower pooled RMSEs of 0.3530 and 0.4916~dB, respectively. TabM's station-specific RMSE is 0.6136~dB at Chilbolton and 0.2070~dB at Sparsholt.
+
+The absolute metrics provide a different perspective from these relative rankings. At $k=10$, all ten models have negative pooled $R^2$ values; TabM obtains $R^2=-7.5048$. Its squared prediction error therefore exceeds the squared variation around the UK cohort's observed mean. The locally observed compact-input advantage consequently does not establish accurate frozen transfer across these sites. The UK results characterize the dependence of transfer performance on the model, retained feature set, and evaluation site, and provide the hourly baseline for the second-scale combination examined in Section~IV.
+

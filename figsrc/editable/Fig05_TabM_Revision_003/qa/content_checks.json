@@ -1,0 +1,16 @@
+{
+  "panel_c_removed": true,
+  "displayed_equation_removed_from_figure": true,
+  "equation_added_to_body": true,
+  "comparison_protocol_and_results_tail_unchanged": true,
+  "ppt_objects": {
+    "native_shapes": 98,
+    "native_connectors": 78,
+    "images": 0
+  },
+  "pdf_pages": 1,
+  "pdf_embedded_images": 0,
+  "figure_height_reduction_percent": 22.55,
+  "visual_review": "PASS: final PDF rendered and inspected; two panels, no displayed block equation; no clipping or missing symbols.",
+  "latex_compilation": "PASS: desktop LaTeX compiler reported success after one stale-project retry."
+}

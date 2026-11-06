@@ -1,0 +1,141 @@
+{
+  "schema_version": "image2ppt-manifest-arrow-inspection-v1",
+  "passed": true,
+  "pptx": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\final\\exec-194bdcd5-97e5-40b1-a1d5-1ce789f456ad_edited.pptx",
+  "errors": [],
+  "summary": {
+    "expected_arrows": 9,
+    "inspected_arrows": 9,
+    "connectors": 9,
+    "filled_arrows": 0,
+    "fragmented_or_missing": 0
+  },
+  "arrows": [
+    {
+      "slide_index": 1,
+      "shape_index": 40,
+      "id": "propagation_path",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 41,
+      "id": "path_direction",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 55,
+      "id": "local_sampling_callout",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 56,
+      "id": "path_label_leader",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 57,
+      "id": "sample_label_leader",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 58,
+      "id": "receiver_label_leader",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 68,
+      "id": "intersection_leader",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 69,
+      "id": "latitude_axis",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 70,
+      "id": "longitude_axis",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    }
+  ]
+}

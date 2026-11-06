@@ -1,0 +1,7 @@
+{
+  "model": "svr_rbf",
+  "k": 6,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "2bf733522107d20d95d9c41f27ddc919055ef26ead907942a3252ff4836521a5",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

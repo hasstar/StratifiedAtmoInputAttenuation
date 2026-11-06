@@ -1,0 +1,7 @@
+# Revision 001 progress
+
+- The completed slow-model code, model bundles, metrics, predictions, and input split were frozen in `Outputs/Experiment_Freezes/Freeze_2026-10-05_PreFastFading/slow_experiments_rev023-025.tar` before fast-variation analysis.
+- Stage 0 PASS: all 129,822,732 calibrated 100 ms source rows were scanned. The 3,869 official measurement hours have exact quality-zero counts; 3,434 detected-hour attenuation labels recompute with a maximum difference of about `1.14e-13 dB`. The 435 censored hours remain unlabeled. See `Outputs/Experiments/Fast_Fading_Revision_001/alignment_qa.json`.
+- Stage 1 PASS: 120,936,525 quality-zero 100 ms records in the detected-hour pool were reaggregated into 12,213,997 clean observed seconds across nine nonempty monthly partitions; 12,087,671 seconds have at least nine accepted 100 ms records. The power ratio, envelope and dB residual identities, including the per-hour weighted mean ratio of one, passed independent QA. See `clean_1s_qa.json` and `power_normalization_qa.json`.
+- Exploratory train-only multi-scale diagnostics PASS: 202,693 quality-controlled windows across 1, 2, 5, 10, 15, 30 and 60 minutes were scored, with a same-hour paired comparison over 839 hours. See `window_scale_qa.json` and `PRELIMINARY_ANALYSIS.md`.
+- No stationary interval, weather-conditional distribution, temporal generator, or end-to-end short-time prediction has yet been selected or validated. The next gate is train-day uncertainty and held-out-day distribution/dynamics scoring, per `PROTOCOL.md`.

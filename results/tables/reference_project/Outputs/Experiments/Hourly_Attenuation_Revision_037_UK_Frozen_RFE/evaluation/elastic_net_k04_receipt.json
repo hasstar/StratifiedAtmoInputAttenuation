@@ -1,0 +1,7 @@
+{
+  "model": "elastic_net",
+  "k": 4,
+  "local_replay_max_abs_db": 0.0,
+  "model_sha256": "299e5112a8292e4582b98c03f20a6af72a847168b028f4ea33007efbb13b5cce",
+  "status": "REPLAY_PASS_INFERENCE_DONE_PENDING_QA"
+}

@@ -1,0 +1,25 @@
+# Numerical environment used for the release verification (Python 3.12).
+# PyTorch runs on CPU; a CUDA build is not required.
+numpy==2.3.0
+pandas==2.3.3
+scipy==1.16.2
+scikit-learn==1.7.2
+torch==2.8.0
+catboost==1.2.8
+xgboost==3.1.1
+lightgbm==4.6.0
+pyarrow==22.0.0
+netCDF4==1.7.4
+xarray==2025.12.0
+cdsapi==0.7.7
+ecmwf-datastores-client==0.5.1
+requests==2.32.5
+PyYAML==6.0.2
+matplotlib==3.10.8
+seaborn==0.13.2
+pillow==11.1.0
+joblib==1.5.2
+psutil==7.0.0
+h5py==3.14.0
+shap==0.50.0
+sympy==1.14.0

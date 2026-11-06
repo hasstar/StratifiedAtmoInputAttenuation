@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "backend": "builtin-ink",
+  "source": {
+    "width_px": 1634,
+    "height_px": 962
+  },
+  "lines": [],
+  "note": "ADVISORY ONLY: these measurements are a reference, and some text lines may be missed or merged with graphics. Lines sharing a size_group are the same text level and must use exactly one font size. When assembling the final PPT: keep same-level text at identical font sizes (apply the group's size to similar lines, including ones you add yourself), and fill in every text the detector missed from your own reading of the source image. box_px values are source pixels usable directly in text_boxes. Pick font_pt_if_cjk for CJK text and font_pt_if_latin for Latin text, and add \"font_size_source\": \"measured\" to boxes you size from these hints."
+}

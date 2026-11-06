@@ -1,0 +1,143 @@
+% Exact table extracted from the pinned manuscript; needs booktabs/amsmath.
+\begin{table}[t]
+\centering
+\caption{Second-scale amplitude and temporal statistics.}
+\label{tab:fast_amplitude_temporal}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.06}
+
+\textbf{(a) Amplitude scores and fluctuation intensity}
+\par\smallskip
+
+\begin{tabular*}{\columnwidth}
+{@{\extracolsep{\fill}}lrrrrrr@{}}
+\toprule
+Weather & Hours
+& \multicolumn{2}{c}{CRPS (dB)}
+& \multicolumn{3}{c}{SD (dB)} \\
+\cmidrule(lr){3-4}
+\cmidrule(lr){5-7}
+& & Zero-$F$ & Gen. & Obs. & Gen. & MAE \\
+\midrule
+
+\multicolumn{7}{l}{\textit{Local test}} \\
+Overall   & 687 & 0.0827 & 0.0637 & 0.1058 & 0.1941 & 0.1136 \\
+Rain      & 51  & 0.1293 & 0.1058 & 0.1714 & 0.6087 & 0.4670 \\
+Overcast  & 158 & 0.0927 & 0.0720 & 0.1185 & 0.1728 & 0.0895 \\
+Clear/dry & 322 & 0.0642 & 0.0473 & 0.0799 & 0.1189 & 0.0481 \\
+Other     & 156 & 0.0954 & 0.0754 & 0.1250 & 0.2355 & 0.1577 \\
+
+\multicolumn{7}{l}{\textit{Chilbolton}} \\
+Overall   & 3382 & 0.1369 & 0.1057 & 0.1743 & 0.2339 & 0.0937 \\
+Rain      & 408  & 0.2432 & 0.1965 & 0.3189 & 0.6107 & 0.3872 \\
+Overcast  & 1440 & 0.1262 & 0.0956 & 0.1591 & 0.1728 & 0.0370 \\
+Clear/dry & 593  & 0.1075 & 0.0819 & 0.1352 & 0.1189 & 0.0276 \\
+Other     & 941  & 0.1258 & 0.0967 & 0.1596 & 0.2365 & 0.0950 \\
+
+\multicolumn{7}{l}{\textit{Sparsholt}} \\
+Overall   & 2211 & 0.1312 & 0.1009 & 0.1671 & 0.2438 & 0.1063 \\
+Rain      & 327  & 0.2293 & 0.1852 & 0.2982 & 0.6104 & 0.3965 \\
+Overcast  & 877  & 0.1184 & 0.0892 & 0.1495 & 0.1728 & 0.0406 \\
+Clear/dry & 423  & 0.1018 & 0.0770 & 0.1277 & 0.1192 & 0.0243 \\
+Other     & 584  & 0.1166 & 0.0887 & 0.1488 & 0.2355 & 0.1020 \\
+
+\bottomrule
+\end{tabular*}
+
+\par\medskip
+\textbf{(b) Autocorrelation and complete fade durations}
+\par\smallskip
+
+\begin{tabular*}{\columnwidth}
+{@{\extracolsep{\fill}}lrrrrrrrrr@{}}
+\toprule
+Weather & $n_{\rho}$
+& \multicolumn{2}{c}{$\rho(60\,\mathrm{s})$}
+& $n_{95}$
+& \multicolumn{2}{c}{$D^{95}$ (s)}
+& $n_{99}$
+& \multicolumn{2}{c}{$D^{99}$ (s)} \\
+\cmidrule(lr){3-4}
+\cmidrule(lr){6-7}
+\cmidrule(lr){9-10}
+& & Obs. & Gen. & & Obs. & Gen. & & Obs. & Gen. \\
+\midrule
+
+\multicolumn{10}{l}{\textit{Local test}} \\
+Overall
+& 636 & 0.1671 & 0.0895
+& 667 & 1.41 & 2.03
+& 236 & 1.75 & 1.51 \\
+Rain
+& 41 & 0.2255 & 0.1511
+& 33 & 1.95 & 3.64
+& 5 & 2.74 & 1.61 \\
+Overcast
+& 145 & 0.1623 & 0.1200
+& 156 & 1.53 & 2.13
+& 63 & 1.95 & 1.52 \\
+Clear/dry
+& 318 & 0.1554 & 0.0773
+& 322 & 1.29 & 1.74
+& 128 & 1.56 & 1.49 \\
+Other
+& 132 & 0.1826 & 0.0665
+& 156 & 1.43 & 2.19
+& 40 & 1.92 & 1.58 \\
+
+\multicolumn{10}{l}{\textit{Chilbolton}} \\
+Overall
+& 3382 & 0.1634 & 0.0998
+& 3380 & 1.54 & 2.58
+& 2691 & 1.29 & 1.61 \\
+Rain
+& 408 & 0.4006 & 0.1448
+& 406 & 2.65 & 4.80
+& 87 & 5.32 & 2.42 \\
+Overcast
+& 1440 & 0.1375 & 0.1189
+& 1440 & 1.34 & 2.28
+& 1312 & 1.12 & 1.56 \\
+Clear/dry
+& 593 & 0.1090 & 0.0757
+& 593 & 1.33 & 1.82
+& 593 & 1.10 & 1.48 \\
+Other
+& 941 & 0.1346 & 0.0661
+& 941 & 1.51 & 2.56
+& 699 & 1.25 & 1.70 \\
+
+\multicolumn{10}{l}{\textit{Sparsholt}} \\
+Overall
+& 2211 & 0.2264 & 0.1009
+& 2207 & 1.63 & 2.64
+& 1598 & 1.61 & 1.61 \\
+Rain
+& 327 & 0.4286 & 0.1455
+& 323 & 2.99 & 4.81
+& 63 & 11.36 & 2.38 \\
+Overcast
+& 877 & 0.1930 & 0.1196
+& 877 & 1.34 & 2.27
+& 770 & 1.13 & 1.56 \\
+Clear/dry
+& 423 & 0.1728 & 0.0754
+& 423 & 1.39 & 1.80
+& 423 & 1.12 & 1.49 \\
+Other
+& 584 & 0.2023 & 0.0664
+& 584 & 1.48 & 2.59
+& 342 & 1.49 & 1.72 \\
+
+\bottomrule
+\end{tabular*}
+
+\par\smallskip
+\begin{minipage}{\columnwidth}
+\footnotesize
+\textbf{Note:}
+Obs. and Gen. denote observed and generated statistics. CRPS is averaged over valid seconds and then over hours. SD is the population standard deviation, with generated SD averaged over 32 realizations per hour. In (b), \(n_{\rho}\) counts hours with defined ACFs at 60~s. \(D^{95}\) and \(D^{99}\) are mean complete fade durations in seconds; \(n_{95}\) and \(n_{99}\) are the corresponding paired hour counts. Overcast denotes dry-overcast conditions.
+\end{minipage}
+
+\end{table}

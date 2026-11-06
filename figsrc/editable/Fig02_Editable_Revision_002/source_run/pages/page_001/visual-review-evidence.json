@@ -1,0 +1,22 @@
+{
+  "schema_version": "image2ppt-visual-review-evidence-v1",
+  "pages": [
+    {
+      "page_id": "page_001",
+      "source": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\source.png",
+      "rendered": "E:\\0_Workflow_System\\01_PhD\\Papers\\0_TVT_GEO_Prediction\\最终提交的修改材料\\Fig02_Editable_Revision_002\\source_run\\pages\\page_001\\render\\rendered.png",
+      "source_sha256": "c386b9487bfdce45d7309cb4ba5438d2d35f6e5a07096e32f5dc13d00ef5f117",
+      "rendered_sha256": "6d8879175d6302a5d29acd607af1ac44bc41494c18849dfe30dfc866a9ce5e77",
+      "reviewed": true,
+      "checks": {
+        "composition_layout": "Compared actual PowerPoint render to source: left pressure-layer scene occupies about two thirds; interpolation above feature cards on right; three panel letters retain their source anchors.",
+        "text_content": "Times New Roman renders correctly including G1–G4 subscript labels; all 10 pressure labels, 50 base features, 106 pressure-level features and total 156 are visible without clipping.",
+        "object_completeness": "Counted 10 pressure contours and 10 orange points on the diagonal path; four blue ERA5 corners, one orange interpolation point, two feature cards, the count box and all three pictorial assets appear once.",
+        "render_integrity": "Reviewed the PNG exported by installed PowerPoint; native serif labels and connector arrowheads differ from the builder's diagnostic preview, proving inspection uses actual PPT rendering; no full-page source bitmap is embedded.",
+        "arrow_geometry": "Downlink arrow points toward the receiver, with an intermediate direction arrow; orange dashed callout ends at the 300 hPa point; latitude/longitude arrows point upward/right; labels have native one-object arrow leaders.",
+        "raster_assets": "Satellite with two blue panels, roof dish/building and curved Earth were separated through imagegen and reinserted as bounded assets. Small texture/edge differences retained as noted; no text remains in these images.",
+        "compound_diagram": "Checked source/node geometry: all ten path points align with their native contours and diagonal link; grid target is off-center with orthogonal dashed guides; square grid and gently rounded cards remain independent shapes."
+      }
+    }
+  ]
+}

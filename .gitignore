@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.cdsapirc
+*.key
+data/raw/era5/local/
+src/data_preparation/requests/local_campaign.json
+src/data_preparation/requests/cds_local.json
+results/tables/reference_project/Outputs/Datasets/
+results/tables/reproductions/
+results/tables/reference_project/Outputs/Experiments/Fast_Fading_*/
+results/tables/reference_project/**/evaluation.json
+results/tables/reference_project/**/permutation_fold*.npz
+results/tables/reference_project/**/state.json
+results/tables/reference_project/**/fits/svr_rbf/
