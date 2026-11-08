@@ -10,4 +10,4 @@ Python：C:/Users/SDR_HH/.conda/envs/pytorchmy/python.exe；所有命令加-B；
 
 预期：layer1024 states/1024 models/3072 fold_models；rfe156 states/156 models/468 fold_models；155次删除、36735次置换；各训练53轮；所有模型种子17。评价layer1024+rfe156记录，各含343验证与687测试预测、5天气RMSE/MAE/Bias。对mask1023和k156进行Rev028锚点逐预测核验。
 
-日志新建时用隐藏Start-Process。主worker正常健康且未阶段完成保持安静；仅阶段完成、失败、需用户决策、全部完成通知。完成全部QA/报告/进度后暂停原tvt任务。测试历史访问、同日训练重叠不能抹除，不能据测试曲线选k、强制分层列入前10或反向修改参数。
+日志新建时用隐藏Start-Process。主worker正常健康且未阶段完成保持安静；仅阶段完成、失败、需由我作出决定、全部完成通知。完成全部QA/报告/进度后暂停原tvt任务。测试历史访问、同日训练重叠不能抹除，不能据测试曲线选k、强制分层列入前10或反向修改参数。

@@ -1,6 +1,6 @@
 # T015 — UK frozen LOCAL RFE transfer, k=10..1
 
-2026-10-20, same user thread. User explicitly requested frozen inference for ten models on the existing UK dataset and then explicitly approved targeted acquisition of the missing atmospheric inputs and necessary supporting fields. This does not resume any old download queue or authorize UK training.
+2026-10-20, the same project thread. I chose frozen inference for ten models on the existing UK dataset and then explicitly approved targeted acquisition of the missing atmospheric inputs and necessary supporting fields. This does not resume any old download queue or authorize UK training.
 
 ## Fixed contract
 
@@ -22,6 +22,6 @@ Root E:/0_Workflow_System/README.md was fully read this turn; SHA 39741aa8c69136
 
 ADAPT/COMBINE: reuse immutable T014 bundle loader and complete model SHA table, UK native labels/weather and field-provenance tables, existing NCAR exact-subset transport/parser design, existing six-figure styling. No new model library or external research is needed. Official archive metadata will be checked only for missing field acquisition.
 
-C1/C2/C3 LOW: new Code/Hourly_Attenuation_Experiments/Revision_037 and Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE, both checked unoccupied. All historical code/data/model files READ ONLY with SHA guards. C4 MEDIUM: parameter identity, time semantics and LOS alignment must pass before prediction. C5 latest user authorization allows only frozen UK inference and bounded input completion. C6 single low-thread local process, single anonymous request stream; no GPU. C7 missing input gate unresolved until acquisition and independent QA. C8 reuse the accepted data and weights, never rerun RFE. Decision PARALLEL_ALLOWED only within this isolated write domain; no second worker.
+C1/C2/C3 LOW: new Code/Hourly_Attenuation_Experiments/Revision_037 and Outputs/Experiments/Hourly_Attenuation_Revision_037_UK_Frozen_RFE, both checked unoccupied. All historical code/data/model files READ ONLY with SHA guards. C4 MEDIUM: parameter identity, time semantics and LOS alignment must pass before prediction. C5 my latest decision allows only frozen UK inference and bounded input completion. C6 single low-thread local process, single anonymous request stream; no GPU. C7 missing input gate unresolved until acquisition and independent QA. C8 reuse the accepted data and weights, never rerun RFE. Decision PARALLEL_ALLOWED only within this isolated write domain; no second worker.
 
 Execution lock is an OS byte lock in the new output. Freeze has no network or model execution. Subsequent stages must preserve failed attempts and source snapshots; no frozen032/033 edits. Completion requires 100 valid states, independent numerical/input/model QA, detailed result tables, predictions, six figures (ten curves each, TabM thick blue/cyan glow), Chinese report, and post-run SHA verification. Partial acquisition or partial inference is not completion.

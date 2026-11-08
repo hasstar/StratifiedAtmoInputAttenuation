@@ -12,4 +12,4 @@ Current gate (2026-10-02 20:20 Beijing): model QA PASS. The frozen layer method 
 
 Once `run` is complete, execute `layer_direct.py verify-run` and require `layer_qa.json` PASS. Only then execute `layer_direct.py test`, which loads the frozen models and scores all 1024 masks in one batch, creating 1024 `layer_test/mask_*.json` files. Then execute `layer_direct.py verify-test` and `layer_direct.py report`; verify `layer_test_qa.json` PASS, `layer_final_report.json`, and `layer_all_1024_summary.csv`. Update PROGRESS.md and stop the heartbeat only after full verification. Never select an apparently superior mask using test results.
 
-Update PROGRESS.md after each passed gate. Notify only for a completed stage, failure, needed user decision or full completion; stay quiet while healthy progress is unchanged. Disable the 15-minute heartbeat after final QA and report.
+Update PROGRESS.md after each passed gate. Notify only for a completed stage, failure, a decision I need to make or full completion; stay quiet while healthy progress is unchanged. Disable the 15-minute heartbeat after final QA and report.

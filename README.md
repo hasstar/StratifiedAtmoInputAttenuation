@@ -1,9 +1,9 @@
 # Supplementary material for VT-2026-03463
 
-This private repository contains the scientific code, configurations, aggregate
-results, figures, editable diagrams, and UK observations supporting the revised
-Ka-band satellite-channel manuscript. **The local measurement dataset is not
-distributed in this repository, at the author's request.**
+I have collected the scientific code, configurations, aggregate results,
+figures, editable diagrams, and UK observations supporting my revised Ka-band
+satellite-channel manuscript in this private repository. **I have not uploaded
+my local measurement dataset to this repository.**
 
 ## What is included
 
@@ -23,8 +23,7 @@ rows, local prediction/observation pairs, SHAP background/test inputs, and measu
 CDF samples/segment libraries are omitted**. SVR fitted artifacts are omitted
 because their support vectors contain local training samples. Local observation
 sequence figures and their numerical sources are also omitted. Aggregated model
-performance and temporal-statistics figures remain available. The original local
-supplementary package is unchanged.
+performance and temporal-statistics figures remain available. I have kept my original local supplementary package unchanged.
 
 ## Quick start
 
@@ -48,7 +47,7 @@ and records its log under `results/logs/`. Editable architecture drawings and
 their publication PDFs are also included. SHAP summary figures and rankings are
 provided; recalculating local SHAP requires the omitted local inputs.
 
-**Full training and evaluation, after separately restoring the author's local
+**Full training and evaluation, after separately restoring my local
 inputs into their original package-relative locations:**
 
 ```bash
@@ -102,15 +101,19 @@ assigned to the data or software in this upload.
 - `results/logs/release_verification_001/all_local_metrics.csv` contains the
   saved local train/validation/test aggregate scores.
 - `results/logs/UPLOAD_FILES.jsonl` records SHA-256 for the delivered files.
+- I revised my explanatory wording on 2026-11-08;
+  `results/logs/WORDING_REVISION_20261108.json` records the affected documents
+  and their before/after hashes. Earlier experiment manifests retain their
+  original snapshot hashes; no experimental calculation or data file changed.
 - Historical catalogues under `results/logs/provenance/` describe the complete
   local experiment. This README and `UPLOAD_SCOPE.json` take precedence for
   availability in the filtered GitHub distribution.
 
 ## 中文说明
 
-本仓库按作者要求不上传本地数据集，也排除了夹带本地实测值的中间文件。
-英国两站数据、代码、每轮特征筛选与汇总指标、论文统计图和可编辑架构图保留。
-本地快变经验分布与实测片段库未上传，不能宣称仅凭此仓库即可完整重跑本地实验。
+我未在本仓库中上传本地数据集，也排除了含有本地实测值的中间文件。
+我保留了英国两站数据、代码、每轮特征筛选与汇总指标、论文统计图和可编辑架构图。
+我未上传本地快变经验分布与实测片段库，因此完整重跑本地实验还需这些输入。
 `make_figures.sh` 可重绘已提供数据的四组统计图；完整训练需另行恢复本地输入。
 
 ## Download the larger frozen artifacts

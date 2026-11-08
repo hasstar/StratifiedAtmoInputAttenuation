@@ -1,6 +1,6 @@
 # Revision 028 progress
 
-2026-10-11: user authorized continued experiments and restoring15-minute checks. Rev027 complete and independently verified NOT_MET; old full BiLSTM rain deteriorated in all3 seeds. This bounded new stage independently tunes50/156 inputs with equal8-config opportunities, compares uniform against weather-aware regularized direct fits, and never presupposes pressure improvement.
+2026-10-11: I approved continued experiments and the restoration of 15-minute checks. Rev027 complete and independently verified NOT_MET; old full BiLSTM rain deteriorated in all3 seeds. This bounded new stage independently tunes50/156 inputs with equal8-config opportunities, compares uniform against weather-aware regularized direct fits, and never presupposes pressure improvement.
 
 Setup complete.13 pure-synthetic checks PASS and20 pure-synthetic weighted input/family API fits PASS; research sample reads0. All4 newPython files syntax-checked. All old revisions/data and frozen slow/fast packages remain read-only.
 
@@ -8,7 +8,7 @@ Frozen fingerprint:168ec778ecbdff46a91e5edfd4704b26f4c11ca81e1ffbf948416001677ea
 
 search worker PID26272 launched hidden2026-10-11 23:08:14 BJT; exact command `C:/Users/SDR_HH/.conda/envs/pytorchmy/python.exe -B E:/0_Workflow_System/01_PhD/Papers/0_TVT_GEO_Prediction/Code/Hourly_Attenuation_Experiments/Revision_028/run_weather.py search`. Logs search.stdout.log/search.stderr.log in the new output. Initial readonly check: exactcommand confirmed,CPU130.765625 seconds,19/160 candidates checkpointed,stderr empty; training/models/test still0, no new test scoring. This is RUNNING, not complete.
 
-Original tvt heartbeat updated ACTIVE via automation tool, same chat and15-minute cadence, new name TVT 天气感知基础与全层配对. User explicitly approved restoring it; no duplicate automation created. Do not restart any old fast-fading worker or Rev027.
+Original tvt heartbeat updated ACTIVE via automation tool, same chat and15-minute cadence, new name TVT 天气感知基础与全层配对. I explicitly approved restoring it; no duplicate automation created. Do not restart any old fast-fading worker or Rev027.
 
 Next gates: complete160search records -> freeze20plans ->60formal train-only fits ->verify-train PASS ->60test scores ->independent QA ->report ->delivery QA. Preserve failures and NOT_MET. Never alter frozencode/plan or use test scores to launch an automatic favorable retry. Phase status/CPU/records/digests must come from actual saved evidence only.
 
@@ -28,6 +28,6 @@ Interpretation retained in the detailed report:rain seed29 worsened, and the pai
 
 Additional delivery-only document_results.py was added AFTER the frozen science/delivery audit. It imports no ML code and only renders audited JSON; it did not enter training/selection. DETAILED_RESULTS.md includes all ten models/all5weather groups, RMSE/MAE/Bias, all20 selected configurations, actual and best rounds, stopping explanations, date uncertainty and old-version comparisons. NewCSV tables contain100 weather means,60 formal parameter records,12422 selected-search/formal round rows,2060 feature-list entries and30 paired-date interval rows. detailed_report_qa PASS,300 scalar round-trip checks, zero new fits/post-test plan changes; all scientific source and existing delivery hashes remain unchanged.
 
-All bounded research stages, independent audits and detailed documents are COMPLETE; mean-rule acceptance is MET, with the uncertainty and historical comparisons explicitly preserved. Next action is to pause the originaltvt heartbeat through the app automation tool. Do not rerun search/refit/test or resume old slow/fast jobs. Any different scientific study requires a new user-authorized plan rather than editing this completed frozen run.
+All bounded research stages, independent audits and detailed documents are COMPLETE; mean-rule acceptance is MET, with the uncertainty and historical comparisons explicitly preserved. Next action is to pause the originaltvt heartbeat through the app automation tool. Do not rerun search/refit/test or resume old slow/fast jobs. Any different scientific study requires a new plan that I approve rather than editing this completed frozen run.
 
 Final handoff: original automationtvt updated through the app tool toPAUSED; tool confirmed automationIdtvt,modeupdate,statusPAUSED. Existing name,prompt,15-minute recurrence and target chat were preserved, with no duplicate task. Completed science and reports stay frozen; no automatic favorable reruns remain scheduled.

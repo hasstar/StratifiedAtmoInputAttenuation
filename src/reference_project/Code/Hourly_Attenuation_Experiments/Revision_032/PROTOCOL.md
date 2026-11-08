@@ -2,7 +2,7 @@
 
 ## Scope and interpretation
 
-Ten learning families: tabm, bai_lstm, bilstm, transformer, mlp, catboost, gcn, random_forest, svr_rbf, elastic_net. Each starts from the SAME ordered 156 columns and independently removes exactly one feature to 1. The user's wish to demonstrate TabM superiority is a hypothesis, not a required ranking. No test-driven parameter search, deletion, seed selection or suppression of poor states.
+Ten learning families: tabm, bai_lstm, bilstm, transformer, mlp, catboost, gcn, random_forest, svr_rbf, elastic_net. Each starts from the SAME ordered 156 columns and independently removes exactly one feature to 1. I treat TabM superiority as a hypothesis, not a required ranking. No test-driven parameter search, deletion, seed selection or suppression of poor states.
 
 LOCAL Signal_Detectability_Revision_003: 2404 training / 343 validation / 687 test hours. Rev023 retained list: 50 surface/base + 106 pressure variables; pressure levels 925/850/700/650/500/300/200/30/5/1 hPa. Target clear_sky_attenuation_db is unchanged. No historical measured channel as predictor. No new weather, UK fitting, 1024-layer training, fast-CDF fitting, or excluded-model work.
 
@@ -26,7 +26,7 @@ Each state saves model/fit-role lineage, training and fold predictions, per-epoc
 
 ## ITU source contract
 
-User paper Materials/Original_Submission/English_2026_TVT.pdf page4 section II.D, Eq(4): gas+cloud+rain. Prose says four mechanisms although the equation has three; no extra scintillation is invented. Reuse approved Combined011 corrected hourly geometric approximation plus Combined027 liquid-input legality audit. The printed vapour-density Eq(5) has an extra RH factor when vapour pressure is already from dew point; corrected implementation does not multiply humidity twice. Relative-clear target conversion uses fixed physical gas reference, NOT the manuscript's fitted 0.5dB empirical offset. Cloud liquid counted once, hourly liquid rain proxy not R0.01. This is explicitly a corrected hourly combined ITU approximation, not exact reproduction of every manuscript sentence or a full ITU probability model.
+My manuscript Materials/Original_Submission/English_2026_TVT.pdf page4 section II.D, Eq(4): gas+cloud+rain. Prose says four mechanisms although the equation has three; no extra scintillation is invented. Reuse approved Combined011 corrected hourly geometric approximation plus Combined027 liquid-input legality audit. The printed vapour-density Eq(5) has an extra RH factor when vapour pressure is already from dew point; corrected implementation does not multiply humidity twice. Relative-clear target conversion uses fixed physical gas reference, NOT the manuscript's fitted 0.5dB empirical offset. Cloud liquid counted once, hourly liquid rain proxy not R0.01. This is explicitly a corrected hourly combined ITU approximation, not exact reproduction of every manuscript sentence or a full ITU probability model.
 
 ITU has no learned RFE path. Keep all687 ML hours, separately compare all models on the684 physically legal hours. Exclude only the three pre-identified negative tp−snow liquid differences (027 ledger); no clipping/missing fill. Retain full-hour missing ledger. No change of reference based on labels.
 

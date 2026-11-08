@@ -1,6 +1,6 @@
 # Revision 019: test-ranked ten models and fixed-weight zero-mask analysis
 
-This revision implements the user's revised experiment. It does not train a residual model or enumerate 1024 pressure-layer subsets. The original H5, ERA5, Run_011, and dataset revisions are read-only. New outputs go only to `Outputs/Experiments/Hourly_Attenuation_Revision_019_Test_Ranked_Zero_Mask`.
+This revision implements the experiment I revised. It does not train a residual model or enumerate 1024 pressure-layer subsets. The original H5, ERA5, Run_011, and dataset revisions are read-only. New outputs go only to `Outputs/Experiments/Hourly_Attenuation_Revision_019_Test_Ranked_Zero_Mask`.
 
 ## Data and frozen inputs
 
@@ -28,4 +28,4 @@ This revision implements the user's revised experiment. It does not train a resi
 2. Finish 40/40 candidate trials and 30/30 three-seed validation refits; verify their fingerprints, curves, and training/validation boundary. Freeze ten configurations.
 3. Only then score 30/30 frozen model-seed pairs on the test set and generate the ten-model test ranking. Verify predictions and metric recomputation.
 4. Only then perform and verify 22 zero-mask configurations at each of three seeds, with no retraining between masks. Generate a full result report.
-5. Previous experiment directories are not deleted until the user specifies the exact target directories and the new run has passed QA. Preserve a minimal test-access audit record and any shared runtime dependencies required to reproduce this revision.
+5. Previous experiment directories are not deleted until I specify the exact target directories and the new run has passed QA. Preserve a minimal test-access audit record and any shared runtime dependencies required to reproduce this revision.

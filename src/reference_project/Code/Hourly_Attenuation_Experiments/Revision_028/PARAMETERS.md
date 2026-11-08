@@ -6,7 +6,7 @@ All numeric choices are frozen before new test scoring. No value is claimed a gu
 |---|---|---|
 |Data and target|2404 train,343 validation,687 test; clear_sky_attenuation_db|Existing Signal_Detectability_Revision_003; no favorable resplit or changed target|
 |Inputs|base50 / full156, same list asRev023|Controlled addition of106 pressure columns, no new feature selection|
-|Weather endpoints|overall,rain,dry_overcast|User requires all three to improve; rain unifies all rain intensities|
+|Weather endpoints|overall,rain,dry_overcast|I set improvement in all three as the objective; rain unifies all rain intensities|
 |Selection S|sqrt(mean of the three MSEs)|Equal consideration of requested endpoints; an engineering loss, not a physical law|
 |Training weights|uniform1 or balanced(1+n*rain/nrain+n*cloud/ncloud)/3|Balanced loss equals the three-MSE mean exactly; counts from fitting hours only; every hour retains positive weight|
 |Search budget|8 per family/input:4 original controls+4 extensions|Same opportunities for base/full and all10 families; original4 grids fromRev014 models.py; cannot remove losing candidates|
@@ -30,6 +30,6 @@ All numeric choices are frozen before new test scoring. No value is claimed a gu
 |Input imputation/scaling|Training median; StandardScaler for scaled models; empty neutral slots|ReuseRev026, fit train only. Full raw156 inputs remain intact; no projection/PCA introduced in this stage|
 |Continuity guard|New winner overall <=0.28567316472555604 dB|OldQA-passed benchmark retained; cannot achieve a desired story by worsening all competitors|
 |QA tolerances|Prediction replay1e-10; scalar metric1e-12|Numerical equivalence, not scientific effect-size threshold|
-|Monitoring|Every15 minutes; unchanged healthy state quiet|Explicit user approval2026-10-11; matching live worker prohibits duplicate launch|
+|Monitoring|Every15 minutes; unchanged healthy state quiet|My explicit approval on 2026-10-11; matching live worker prohibits duplicate launch|
 
 Training sample counts/weight distribution and configuration expansion are serialized in run_manifest.json. All failed numerical/convergence states and warnings are preserved. Validation/test labels do not enter the model input tensor. Original and new complete curves permit identifying the true fit ending and selected checkpoint separately.

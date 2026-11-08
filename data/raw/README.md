@@ -1,9 +1,9 @@
 # Distributed data
 
-Included: 236 CEDA station-day NetCDF files (Chilbolton and Sparsholt), and the
-targeted UK ERA5 payloads used for the frozen evaluation. Files are reference
-copies and must be treated as read-only. Local measurements and local ERA5
-datasets are not included at the author's request.
+I have included 236 CEDA station-day NetCDF files (Chilbolton and Sparsholt)
+and the targeted UK ERA5 payloads used for the frozen evaluation. These are
+reference copies and must be treated as read-only. I have not uploaded my local
+measurements or local ERA5 datasets.
 
 Official dataset records:
 - Chilbolton Global Broadcast Service propagation observations:

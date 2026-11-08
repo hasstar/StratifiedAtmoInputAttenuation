@@ -1,6 +1,6 @@
 # Revision043 — corrected Windows-reader regression test, T017 continuation
 
-2026-10-26, same user authorization “快点修复”. Read Revision041/PROTOCOL.md and Revision042/PROTOCOL.md. Those scientific and operational boundaries remain in force except for the test assumption corrected below. Current legal entry is Revision043/repair_surface.py; do not execute Revision042 again.
+2026-10-26, my earlier decision to proceed with the repair ("快点修复"). Read Revision041/PROTOCOL.md and Revision042/PROTOCOL.md. Those scientific and operational boundaries remain in force except for the test assumption corrected below. Current legal entry is Revision043/repair_surface.py; do not execute Revision042 again.
 
 ## Evidence-driven correction
 

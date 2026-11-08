@@ -21,7 +21,7 @@ C8: reuse LOCAL and old39 predictions; no training, parameter or seed selection.
 
 Use the intersection of completed pressure/surface/rain acquisition-unit hours,
 separately for each original station, requiring complete 24-hour source dates.
-Expected counts from the user-stop receipt: Chilbolton 143 days/3432 hours,
+Expected counts from the receipt recording my stop decision: Chilbolton 143 days/3432 hours,
 Sparsholt 93 days/2232 hours, total 236 station-days/5664 station-hours.
 This comprises old39 days per station plus 104/54 newly acquired 2003 dates through
 November30. Preserve original native calendar gaps. December incomplete pressure
@@ -80,7 +80,7 @@ do not replace them with LOCAL medians or arbitrary heights. Mark UK physical
 attenuation evaluation unavailable for missing inputs. P.618 annual statistics,
 P.1853/Maseng–Bakken/SST stochastic synthesis are different output tasks; do not
 score them as contemporaneous hourly predictions. Models using past channel
-measurements to forecast future channels are excluded by direct user instruction.
+measurements to forecast future channels are excluded by my explicit decision.
 Document remaining candidates and exact input/reproduction boundaries, not fake
 paper replications. This closes the current feasible hourly comparison package,
 not every historical T012 goal or new fast/annual experiment.

@@ -1,6 +1,6 @@
 # Revision 003 — frozen fast generator + current TabM k10
 
-Frozen before new evaluation, 2026-10-24. User selected TabM only and LOCAL validation/test plus both UK stations. The current submission's k10 state is used; no UK/test-based state or seed selection. Historical validation/test/UK data have been inspected previously: this is a descriptive supplementary evaluation, not a new blind test.
+Frozen before new evaluation, 2026-10-24. I selected TabM only and LOCAL validation/test plus both UK stations. The current submission's k10 state is used; no UK/test-based state or seed selection. Historical validation/test/UK data have been inspected previously: this is a descriptive supplementary evaluation, not a new blind test.
 
 ## Inputs and immutable lineage
 

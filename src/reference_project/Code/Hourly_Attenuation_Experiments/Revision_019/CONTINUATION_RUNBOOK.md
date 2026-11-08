@@ -6,4 +6,4 @@ Read `PROTOCOL.md`, `PROGRESS.md`, `run_manifest.json`, and the latest QA record
 
 Expected stages: `prepare` and `verify-plan`; `train` (40 trials, 30 validation refits) and `verify-train`; `test-models` (30 test refits) and `verify-test`; `zero-masks` (22 mask configurations times three seeds, no per-mask refits) and `verify-all`; `report`. Never score test before train QA PASS; never zero-mask before ten-model test-ranking QA PASS. Report meaningful stage changes, failure, or completion only. The test is historically accessed and is being used for the explicit ten-model benchmark ranking, so do not call it fresh blind.
 
-When all final QA is PASS, update `PROGRESS.md` and delete this thread heartbeat. Old experiments may be removed only after resolving the user's exact deletion targets and protecting the audit trail and dependencies.
+When all final QA is PASS, update `PROGRESS.md` and delete this thread heartbeat. Old experiments may be removed only after resolving the exact deletion targets I specify and protecting the audit trail and dependencies.

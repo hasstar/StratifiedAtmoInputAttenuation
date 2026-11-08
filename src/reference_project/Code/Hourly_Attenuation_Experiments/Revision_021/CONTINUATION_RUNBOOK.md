@@ -6,4 +6,4 @@ At every wakeup read `PROTOCOL.md`, `PROGRESS.md`, this runbook, and `run_manife
 
 Stages: `prepare` -> `verify-plan` PASS -> `rfe` (200 states, 600 training records/models, 199 deletions) -> `verify-rfe` PASS -> `test` (600 saved test predictions) -> `verify-test` PASS -> `report`. Test is not read before RFE QA. No zero-mask comparison, no 1024 subsets, and no residual model are part of this run. Weather labels evaluate only, including all heavy rain within rain. The local test set is historically accessed and the family was test-ranked earlier; do not call it newly blind or choose final k from its curve. All earlier versions and source data are read-only.
 
-When all QA gates pass, update `PROGRESS.md` and delete the 15-minute heartbeat. Notify only on a meaningful stage completion, failure, need for user decision, or final completion. Stay quiet when a healthy worker continues unchanged.
+When all QA gates pass, update `PROGRESS.md` and delete the 15-minute heartbeat. Notify only on a meaningful stage completion, failure, need for my decision, or final completion. Stay quiet when a healthy worker continues unchanged.

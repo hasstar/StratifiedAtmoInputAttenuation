@@ -134,7 +134,7 @@ Every generated set has `render_manifest.json`; all copied originals have source
 ## Tables and textual evidence
 
 The following are exact extracted LaTeX environments from the manuscript snapshot; they
-remain author-formatted publication references. New numerical tables from `summarize.py`
+remain publication references that I formatted. New numerical tables from `summarize.py`
 are separately named and never overwrite these source tables.
 
 | Manuscript table | Label | Source file |

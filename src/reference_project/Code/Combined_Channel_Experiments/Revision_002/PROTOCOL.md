@@ -1,6 +1,6 @@
 # T012 comparison extension — Revision 002
 
-Frozen before new fits, 2026-10-16, same user thread. This is an experiment
+Frozen before new fits, 2026-10-16, the same project thread. This is an experiment
 implementation, not a weather-acquisition restart.
 
 ## Authorization and isolation

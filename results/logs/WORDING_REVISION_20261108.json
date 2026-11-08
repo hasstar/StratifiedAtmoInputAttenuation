@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-08",
+  "baseline_commit": "d0244bd67dc0ad4b01dad2fce2ed13f8e0cb0286",
+  "description": "I revised the explanatory documents to use my own first-person voice. Experimental facts, numerical values, source code, data and model artifacts are unchanged.",
+  "document_count": 92,
+  "changes": [
+    {
+      "path": "README.md",
+      "before_sha256": "0e8a40b75e6cfe9083f0d9e27ef3ad82ba74df647bbf26786d7ef1d1f6ab4187",
+      "after_sha256": "e5ffeac89dfb16a1b150a10967da7d01e7aadbc237fa5e0034c7ff064c4c2ff3"
+    },
+    {
+      "path": "data/raw/README.md",
+      "before_sha256": "09acaf7c96b9eb22bcbb3964e883b14fe1d3a4f1c93fead2fa2fa65c704f0c42",
+      "after_sha256": "36d4a71f2fb1d35afc8b7bda521dcb87daafc07b75808eb8e76ace90cea0608e"
+    },
+    {
+      "path": "figsrc/editable/Fig05_TabM_Revision_003/图文对应与使用说明.md",
+      "before_sha256": "a01547c026d2cf3e23f285e4ddeea5e4763cc0cc2a4116d73aeb8e9088636676",
+      "after_sha256": "9f18dba1d153ff28e6186480dacfd801ffd7fe6e5e22d5082fe7636ba14fa9b1"
+    },
+    {
+      "path": "figsrc/upstream/ITU小时观测图_Revision_003/从这里开始.md",
+      "before_sha256": "b2e82c276153d085ee0aea2d68f5b1f7307ab2f50bd211ff0b35e4b2987777b5",
+      "after_sha256": "839e9f2b824272a9a2a0f333c3e5a3aefda5723c171703646998cc6055b668dd"
+    },
+    {
+      "path": "figsrc/upstream/TabM_K08_SHAP_20261104_001/PROTOCOL.md",
+      "before_sha256": "6bee3e73c804777eff7bad97476768c060976c84bfb84e27a8e2ea98810150fc",
+      "after_sha256": "499b2bf9173a0499557aa74aee697d50ab4dfba2e3f9f6041302f6c32659c91e"
+    },
+    {
+      "path": "figsrc/upstream/TabM_K08_SHAP_20261104_002/PROTOCOL.md",
+      "before_sha256": "e33fa7fbaec8dba58fab09cfec2fa173392feec0b3ac8dfeebbd30b0a5844e62",
+      "after_sha256": "66da6929bbbd5597280d210c9bf147fac4299961dd41a1f0ce8dd13af2257b22"
+    },
+    {
+      "path": "figsrc/upstream/TabM_K08_SHAP_20261104_002/从这里开始.md",
+      "before_sha256": "f73e7c11fe85159ada71723e1b55fa8c4a20d24afdd5530e47db6005056fd2a9",
+      "after_sha256": "67aad45fb8ff7e493ecaddf96263c7c99ff19c7e71f949de31856c851a3e8f16"
+    },
+    {
+      "path": "results/logs/provenance/CODE_AND_RESULTS.md",
+      "before_sha256": "224664650dd38f252b5c9d39c519f236ae3c70f1d55744802801ccfc35d4324a",
+      "after_sha256": "3371053a8acd23105eddc58cdd54c80cb95870ef3c6ea30efeb5765e6d9ff86c"
+    },
+    {
+      "path": "results/tables/figure_inputs/common/methods/02_PROTOCOL.md",
+      "before_sha256": "411fd537e6572ef5e10896c8184a005b0ea7c794caa59c2cf1948e4997acc96d",
+      "after_sha256": "ebdd08299b672f46a631208c774a178577c798def8e749c3b2c047367b94ad9b"
+    },
+    {
+      "path": "results/tables/figure_inputs/common/methods/04_PROTOCOL.md",
+      "before_sha256": "5c82550f979b23020105f8e6ddb05d9907e592a7b7d0eb67b74f8f2e89460562",
+      "after_sha256": "9b768e48aedaad7852ce6f40f9039fd61dd5908505ac0c2fa6340818125a0018"
+    },
+    {
+      "path": "results/tables/figure_inputs/common/methods/06_PROTOCOL.md",
+      "before_sha256": "f873a3246d14922ee4ffc4646bdd44b84e94d3b2f3612b48a90224b153fe69de",
+      "after_sha256": "c5c39645c4f99dd0040f95bf62a436daa8df32d62551b288b3b46b6c0af014fb"
+    },
+    {
+      "path": "results/tables/figure_inputs/common/methods/14_README.md",
+      "before_sha256": "6b4927c5d37e9ba5bc5081969223d9624e85df712f85da9dd6e7aec4b8ba1769",
+      "after_sha256": "515e0ac13c1f34c3e01c112332ae91a2e06f7ea695207d3ba3af15c7c54d74e6"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "fd68cb25409fb1ac4f7d84f7cc0ad9e8954dbc3d732d281ef34a6ed8182ea342",
+      "after_sha256": "eaf8ac3b259d2851e0d3506dcb99da50058619adf316d2ad85e6ac8c9d3e1d47"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_003.md",
+      "before_sha256": "ccc7fdb19160db1a251bad3d03e16d81794c0403811f8e14d4bf88837320e4e6",
+      "after_sha256": "26253478a0143e1e162660b1ad802159476f3c07f7ad6231f72eedd7043b3181"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_004.md",
+      "before_sha256": "1f645f4c0a0d5ceb1580c690903de85a2343bcf7471438bb88010122a59f5cf9",
+      "after_sha256": "f74fc768b6d136e24a032c0492d629451498ac95b093cee1ca64580c09beaab4"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_005.md",
+      "before_sha256": "d0baae8706d1ddd1dd99aa22292b3c645cac5803e42215d86c3144a6aadb6519",
+      "after_sha256": "41c589b796c184242ea3d670718dbaf749c335d603231997561f42fde7ac5d5b"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_006.md",
+      "before_sha256": "b053e06ed312e7bbc49d84b501c1f01fb0ccb90dd153493eb97ad3341a62af89",
+      "after_sha256": "f5277d00ebce6c576410669fdffe83180f2a6e1229a515feb2a0ebe85df0ddf3"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_007.md",
+      "before_sha256": "d22f0cc44b74e3f75405f75385173dd3bc2ec27a4b6a6a730e09e2e86a4ea785",
+      "after_sha256": "f3911503f01fbe51aa11d76a1cd3a2804eb325e1a3ea1270be7972beb9047917"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_008.md",
+      "before_sha256": "e4ebbcb978c88deaf4c8f7cbe33f2a90323c70a1bbdf725c63fda954c7173cd7",
+      "after_sha256": "02562566941d6d414bc9d5ce893fa52ef27df46e4db599cb5a1f5191fb9ae6f5"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_009.md",
+      "before_sha256": "a1749a3a22268e36875d582d05d2de13184e55936d02088afa4c5202bf9f7ecf",
+      "after_sha256": "55c898422c207fe4b882cb01cb63d4538229f98050048c3bf6a1371127b9bb63"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_010.md",
+      "before_sha256": "80a272780e93f39fced044dd15bec23775d5baf60b1751de153243be87ffb9c9",
+      "after_sha256": "51de0328ff6cdeb55dfea4a8eaf16902c2db1faaed8972941d1f2dd4ef4a400b"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_011.md",
+      "before_sha256": "07133e5a5dccef00a9d5e3894126b6da53e98485ef2a8b34dfe62c5ce04d2f55",
+      "after_sha256": "81faeb97a7e0cd4717c920e415317bb8e936dc51381db2c88bccd0b074c4b4de"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/CONTINUATION_RUNBOOK_012.md",
+      "before_sha256": "0d0ef52e5230b2a46c429b3017382c178dc30014839a633e6f949966aa2b921e",
+      "after_sha256": "3c1fa8429df2a38edb0ab776950acd30b239b2237d963eaa1d751fbffd82cf5b"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/EXTERNAL_PREPARATION.md",
+      "before_sha256": "221709fad01f441f6aa49524dec2a5a0b45c04e4f13c355eef5de651c225ccd4",
+      "after_sha256": "de9137f0ee965a2f233fc36be84a717d2f92c79f75089c54073b3594af473c8b"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_001/PROGRESS.md",
+      "before_sha256": "fa1e33f47677c9d3798bb1d0516cbb22e63c0c78abd09a7b8aba47fde519ae30",
+      "after_sha256": "58b8db9eb44dc8cc9ddfc9b4e3a29bc0dbbffdd0ffe03c26c0f82ae3b1970cfa"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_002/PROTOCOL.md",
+      "before_sha256": "4304e6360ec85ef4708901fa3abb649c50f4fd7080930a4c38dc4b18f1ec96ba",
+      "after_sha256": "6f36a6163737850ea34cab9290cffe8e957b11abd1cc82e588ce894d80873258"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_003/PROTOCOL.md",
+      "before_sha256": "6e43fff117c7b53f1ed489c106b95b0a6ee9202adfc6e5cd5b95533046c44a6e",
+      "after_sha256": "a860453d02cc9c016579ab6d032e8510a743755279e0152c711bd024d80b0bb6"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_007/PROTOCOL.md",
+      "before_sha256": "e03ac00854d6be94081920c96fe0bf4973a9e62bc2cfbac2466a3342a4f6fb6b",
+      "after_sha256": "570946aa62cf7d148af7df252cc14a991c2b6d61ca94e4b1bb4f45bffa13def7"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_009/FORMULA_AUDIT.md",
+      "before_sha256": "d55bd9794d5eeb80b1c92105729c59f75dd5b61ba6abdfa266cdb2d0828572ed",
+      "after_sha256": "696bb9e60b305be78d779f021f16f837459921325a182ada43ff71cecd84c2d2"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_009/PROTOCOL.md",
+      "before_sha256": "b760641ddab7eea01c3b9e68fc7aff2219fa15232f82ebc7f571086c4ac1ae7c",
+      "after_sha256": "83582f040656518574bfc529e23425a1d72285bd456472ac49bd5a52e580280b"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_010/PROTOCOL.md",
+      "before_sha256": "623cd360ad1b244d699a120b17f32621cbd1419773165aba3e29cc8a9aa904e7",
+      "after_sha256": "07821b095a3afd05458e43ff96762db7e5ca1e5d07fa7f0ccb5e5b97c33b3aed"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_011/PROTOCOL.md",
+      "before_sha256": "f9b0d2a9af6bdd0b5e658734136edff42d886c23ae6b0038b0477b674d6ae797",
+      "after_sha256": "1ff9b411da41b8e9ac13594c3a6e6336eb2fc99bd65de17aa5ad4fc295ca8a39"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_017/PROTOCOL.md",
+      "before_sha256": "7aca5c232d65f7dacc186b42fe04db8f7c59d010b3a37d16e943975d393d0079",
+      "after_sha256": "84e3a0bd4cd4e01c5ff37db218a881e7f2474b5009d9fb51840388f37076a910"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_022/PROTOCOL.md",
+      "before_sha256": "52bf1a433361d7013722e6e2269eb712d8bff21762e4763f83121dfacb1ba1aa",
+      "after_sha256": "348ea19cb9e4e2d0fdc5f72b975b39f182ef074a31725dd06bbc4d0dcafe575f"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_026/PROTOCOL.md",
+      "before_sha256": "29f25d08d259bc6114ee9151d91dadd5e8b55091d0217e703e5369bbdb1053cf",
+      "after_sha256": "a6c790e3f2b537d04abe5b246fc81069a1de1d2d3a5ce1db49021244ecb46976"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_028/PROTOCOL.md",
+      "before_sha256": "e9017c133e09a6e772f8fd21f023702d4ec504776127a31348d0a54c4f1c3170",
+      "after_sha256": "35220e54a76aeb76c3cb98543d773472546da2a9feb6ad1262a5ba9817e5841a"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_031/PROTOCOL.md",
+      "before_sha256": "12e0092592958c14e5f4dbcbbaf129a4eb1a897fd0292bc973501c4864712faa",
+      "after_sha256": "018827429abda152e18f33c8043d4bb305b9803e0f12214b228a9c79457a3632"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_033/PROTOCOL.md",
+      "before_sha256": "33ab5c0f12d29c5bf081caff2c60eb189b61c4d703f035f74c0b3bf14545e78d",
+      "after_sha256": "d415fcf140a417cc78fe38b7817b3ceb39ac2045bb57764eaba76d57622cbdd2"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_035/PROTOCOL.md",
+      "before_sha256": "2360218938c655ba8d51837f5c6d6f7b2380bf0c3e96f2c59a5a1dd624e40726",
+      "after_sha256": "52b8668cd1cac0dd10058e96880d2c5f12093f3e482fa7f41f71b003f68dccb0"
+    },
+    {
+      "path": "src/reference_project/Code/Combined_Channel_Experiments/Revision_036/PROTOCOL.md",
+      "before_sha256": "8c54a197453b3d863a18f146af385f067e6a5ef7ffae01de9db25cadc6c569a1",
+      "after_sha256": "589a11221c0bc33000248fc9f7933fd4c32166d5a3551482d658eab67c018577"
+    },
+    {
+      "path": "src/reference_project/Code/External_Datasets/CEDA_GBS_Revision_002/README.md",
+      "before_sha256": "75c3c85210179018cd017f05f7905c80440a1810e4972dd95c65f29c91dd84d4",
+      "after_sha256": "7eb05f12e189cb49a7a5497585f9a2e429d9d2e2544fd13c56b4c910a455ffd4"
+    },
+    {
+      "path": "src/reference_project/Code/Fast_Fading_Experiments/Revision_002/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "18dc11f5c5cf45b843c1cb6987488204975d4486e0c0b929c9822645613328d9",
+      "after_sha256": "dc05f7af900cc758fa5cd8ba284f78f31f1f581c984bb3a7e8b2cf5a39ce9396"
+    },
+    {
+      "path": "src/reference_project/Code/Fast_Fading_Experiments/Revision_002/DYNAMICS_RUNBOOK.md",
+      "before_sha256": "bf0076e4ba6a2842c231f222ee8510a8fbe40b06ee20d522add7baef58371c44",
+      "after_sha256": "1747821117d9b05dee9b5a7e6f35fdac38f636203bf1cab0c3ce69af291c5c7b"
+    },
+    {
+      "path": "src/reference_project/Code/Fast_Fading_Experiments/Revision_002/PARAMETERS.md",
+      "before_sha256": "e64ef9ddb36293e740b9a1a15b9cbee87b086fabb74e45facc7c231b85d5297b",
+      "after_sha256": "ad0b306bb2144540bae3e9964fbc8cd7fad83dfbd084f7d3011ead9caedbf7bb"
+    },
+    {
+      "path": "src/reference_project/Code/Fast_Fading_Experiments/Revision_002/PROGRESS.md",
+      "before_sha256": "4278a4819390f295b627a2f6531490790b51cbff7694d09ab07f079a7ca3c77c",
+      "after_sha256": "82cab6e05b7f4c2d672e9af98e92c9162c5e6bab2b4a8cfb028f0ed7662ca0ec"
+    },
+    {
+      "path": "src/reference_project/Code/Fast_Fading_Experiments/Revision_002/PROTOCOL.md",
+      "before_sha256": "885879fab09d75ff6234fad4cdc884cdfcd58a83276cd83c0065f68460cc66cb",
+      "after_sha256": "f6fe741c55de8280ed33307b02c20aa3cbe8685eff3f5a20d078fbe3986822c1"
+    },
+    {
+      "path": "src/reference_project/Code/Fast_Fading_Experiments/Revision_003/PROTOCOL.md",
+      "before_sha256": "f873a3246d14922ee4ffc4646bdd44b84e94d3b2f3612b48a90224b153fe69de",
+      "after_sha256": "c5c39645c4f99dd0040f95bf62a436daa8df32d62551b288b3b46b6c0af014fb"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_015/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "1f4af5539ea80873d65e00a9c4c2f1854378ef10bd9398c513046b3f33652006",
+      "after_sha256": "8d3e7afd6dfdcaa61e2f5fdda1568769b6266db4c5ae9ac544ffb72219e159ce"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_016/PROTOCOL.md",
+      "before_sha256": "ba98859310534ee163418fa67314f9d1d38349b343cd265079b9d4c089c65dc7",
+      "after_sha256": "d732b8b94063852e9e7b75c84fd8cb0cb81712ff2a1a54b9243727d10534700c"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_017/PROTOCOL.md",
+      "before_sha256": "dca5dea0233db6907913c8dec5485a0f0dbc57a15241ae6b0301f685da80b6e0",
+      "after_sha256": "61dba5cbba76071a98a38bca88b4cf7b5c4c189ad2c8aaea2254d06682896114"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_018/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "3c55af01e0b109e4901ffbe79cc75b68399923592290319461abb9b9fdf0558b",
+      "after_sha256": "6da9f3d7a012945c0279a9483f74b9279afc6b79ee5617aca6fdf5ec23fd8edc"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_018/PROGRESS.md",
+      "before_sha256": "42f2bf0d45ba290cf26c6ea1c1da8ffb63dea11c8b3fae717e977a35ea89b7a4",
+      "after_sha256": "a3337c5238c14f3c7751a32eb76cf4a585ac3b1d85bd3b40a7712cfe5887d949"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_018/PROTOCOL.md",
+      "before_sha256": "b372e35c6dd02aa990403555a46ef96a60d86a77d5f76769ca7923707ce1b512",
+      "after_sha256": "3d926f20fac6fd024da05a61a3cb7f0f0d74cd899f3bbc7568726c26c18e8caf"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_019/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "92e5b206be295934b85db0f185512fe044dc6d230be160d0a44f82a31fe72695",
+      "after_sha256": "bf61b6ddb4def870b685978d13db9cf67577d439e5d24b95f658d049bb8f57ef"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_019/PROGRESS.md",
+      "before_sha256": "5c2a1188fc3e6aebd6f917424881035fe019e569dc843856aa64b828164ab659",
+      "after_sha256": "4fd9964a7f91dc15a09f911be9021b9e66f57d0e62bd22d2502f55da0ea3a5b9"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_019/PROTOCOL.md",
+      "before_sha256": "5455e0512decf51453954375bdc29efed89f4ac33031a96bfc1f5443daab483b",
+      "after_sha256": "49272d1fe5a7fb5dc9ab8b2f6fa08ce7a07ead3f473d5aa3629822a70b567e2b"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_020/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "b3303d6a9c251aaba609e4f05e2e41e9e458081e558faac6cd582eb676782acf",
+      "after_sha256": "fecea09cfda3df85c357daa662389d0dc187531bd208d66fbae3d91b8a722fad"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_021/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "8ffb53ac4626742bd2c18477b93890c51d342c3ab3e2ba1923e65c9345087d8a",
+      "after_sha256": "a333c87dfd734433d8e940853b5f9f9521bb1841463e7fcb40d114ab309b83b1"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_021/PROGRESS.md",
+      "before_sha256": "5aed7735569880589ac8cda460c29e6fd89dfbcce7490783f876c8cdb3ad4739",
+      "after_sha256": "0d43fad89722a26dd47ca3d3d1e3ec982ca90d5705724e79f975853ded9d7ccd"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_022/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "ff5ea6e69b97ff3cac101748555ef998a2c846424dc7568406c7f54e72cff5f3",
+      "after_sha256": "158efaf032c2feadf8daddef216a28de2237d91adacd68847ef4ac1f8db1da2c"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_022/PROGRESS.md",
+      "before_sha256": "eeda48cea35ce29b4f391bd70d654cf452ae853effca313daeebf6c552085aa1",
+      "after_sha256": "3c9522fabb201eb687da93f5d89f68e0bc2a51a9f697b06b1fadafeb07789386"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_023/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "17ef9be092829835b60157c0fe1ba371684274e0983f8592b54d8a34ae3ac74e",
+      "after_sha256": "89f0c095860237837855aa41d29c8fa4b9d2669bde4c2bac5931a5d196665b05"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_023/PROGRESS.md",
+      "before_sha256": "4383fc4c6ca67fe63f650f2c869e22d35c7bf6df0debce805c0eafeabc976191",
+      "after_sha256": "1de85d1778b2f97368725245c75c65a59ca38680ca31fef69442f7bcd819151f"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_024/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "eec5fdb7614370246805a814b7561b92a397da56fae7db035eae3a4ac651a010",
+      "after_sha256": "36b71339bb63782085d8d6fce25c95d879e76e6790bc9861bb8e6e02a214189c"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_026/PROGRESS.md",
+      "before_sha256": "78f0ca0ed9623a4771faa681cd80e34bc60e4b2f339987a76a05e4ca84a16210",
+      "after_sha256": "53a05529a81da06bfd4634d6d4715a993fd4e3b90b6d6359d9e6b020b7bd1c45"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_026/PROTOCOL.md",
+      "before_sha256": "bcecce8a75c4bd58c525135e4085fb0d727937634a48f60448133558af7f6b82",
+      "after_sha256": "3724ab86c6dc6ca2128d3471d004a62e9558ceb53e32e3e1c3bc899235708b50"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_027/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "abb6fe0d6d51f6a043648ccb01b4dee2d9ba8b288c2768b0493c2be0608e1c8d",
+      "after_sha256": "55c9edbdf9d8c809c31380d7e3309d74e000a65763b4ecf9c250f03ac894e7fc"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_027/PROGRESS.md",
+      "before_sha256": "8368eaa700486768f3af86abb51e813fafc38bed3797b3c5cfe612a113ab0c74",
+      "after_sha256": "d51c7cd77670074446c2f4741e3156e0ad280ca7cf586f068979719dc619f209"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_027/PROTOCOL.md",
+      "before_sha256": "b2a2f7a9ad611416b49a1c946be3fb7c92156798459fbea4dc8c7effe829a5f3",
+      "after_sha256": "f71227ea6232318a51784c254ecba7fd5f7075083e59539087465504b500e684"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_028/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "3f144788410cf0bbd95e9e611814a0ec43c8238704aca2546bde8c4528c6dbfc",
+      "after_sha256": "3009efe8e7bc6ca61fc6d8c9c10e9bed6b5b0cd15fc69f0e3b8a9dc907ec0675"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_028/PARAMETERS.md",
+      "before_sha256": "d7969076eddef7ba41f7a8b97cc95e37efff078254f6e42849b1915603d4ee3d",
+      "after_sha256": "be1997fd5b8deb9a874f66e8adab8f49816f16c4f2f9f265bf40a53d099880b6"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_028/PROGRESS.md",
+      "before_sha256": "5f9acc4b8b268d5d64ba1d91756877d81d7e290e8aff9934e06189dacb136d17",
+      "after_sha256": "3ad77daa88d2066294c558af85e3fdf17f0e11feeb0b41d4cab4cda06306d80d"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_028/PROTOCOL.md",
+      "before_sha256": "6054a63735a034e62144ed8847f4491b6ce4eb471b36bad5c05769f6c22159e8",
+      "after_sha256": "5ea2e67b106d54a117e2597fedb1157e4c10ece781736dad4d640dd7997d405a"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_029/CONTINUATION_RUNBOOK.md",
+      "before_sha256": "755a366f746d25b5cac81431f4a08b203a083e3a1a6bdfca039d597a4ee3fe2f",
+      "after_sha256": "f51224101d1531ed0cfd559e67e6b9d895263c1d8069f5037ae01e7a4932acba"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_029/PARAMETERS.md",
+      "before_sha256": "e81377b01fad9e58e1821f9aee97109edde72bb03c7b130fdba4025d276e6f8a",
+      "after_sha256": "b597ebc4da7c99e1ce6deca2827cf967769824983dac21cf9f004aa6603a4567"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_029/PROTOCOL.md",
+      "before_sha256": "52e7049462d4e768d5f61faa99d8c8cfce7078dd2d2aaeb1d9d43f8336c6bd74",
+      "after_sha256": "5886e05dc90d8a6dfef33b236de40a9646dc55877e50d3f74a05a5c5d22f18ed"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_030/Full_Results_Delivery/PROGRESS.md",
+      "before_sha256": "f3baafa28e229cdc284ed864e81694d4b830624e3a38f0fe456c6a0371c64826",
+      "after_sha256": "5d08ca49784192ca5cbb26b7ac3427db8429dbeb02ceb53134a47a110d88ccae"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_030/PARAMETERS.md",
+      "before_sha256": "d200834ca4d343b14042e328afe7beabc63ffe8fd1073a8f436745ea51e124aa",
+      "after_sha256": "d82d2952c492b60075f4130f17213ef0a960c1aa4915302b2577b69b791e8a0a"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_030/PROGRESS.md",
+      "before_sha256": "5804d795aa0ebb757e7b29544bc5e131b7f77a98f84fd115f6afdc61f156cefe",
+      "after_sha256": "d05a5aeb8350635fa405ecf09e09d20d6a15a36df768db66773854cc45c971e4"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_030/PROTOCOL.md",
+      "before_sha256": "6ae060c162e7f569931eff9306060e0aa42ec3fcb1f71f9f449634246833239c",
+      "after_sha256": "eefb84f4706fb69443dc224821f5f854fedd4936014c61b85253403584170582"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_031/PIPELINE_PROTOCOL.md",
+      "before_sha256": "2a3054798c0c75344b25d399f89820138dd6dc57a5ddede8edf8ac11dd123d97",
+      "after_sha256": "329943736160463ab638c000974850778ef71f791fde28ca5f27e5cc14a984e1"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_031/PROTOCOL.md",
+      "before_sha256": "fe3fc150e7c32245c7df3f3b748f76c24a8b45b9127cdd72f5a5936da4905448",
+      "after_sha256": "277e4c30f5954f3cb6b36440937ad5b15eb85a7ef3113a757d392c8d03cb6222"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_032/PROTOCOL.md",
+      "before_sha256": "411fd537e6572ef5e10896c8184a005b0ea7c794caa59c2cf1948e4997acc96d",
+      "after_sha256": "ebdd08299b672f46a631208c774a178577c798def8e749c3b2c047367b94ad9b"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_034/PROTOCOL.md",
+      "before_sha256": "a0dbaec3b6c9b8849dc087a43d6b09366f919e34ef7bdc1352906e860799e16f",
+      "after_sha256": "62eca69558097f1a84f106ee18fedd7ac093c637eefaa1b45c72f0102cf69c28"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_035/PROTOCOL.md",
+      "before_sha256": "4d87520dd5aa58a2b925d6dcd5665a20330c14e1721395b3eacbeacb40a187fe",
+      "after_sha256": "1dcb1a5eda075e46bad9187e22723bb804d550fda17d47a36cf45dcc2f9b73d5"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_036/PROTOCOL.md",
+      "before_sha256": "81585dd1d7f8254ce86b086ca46305ca2ffeae60ad6db7137cd39ff824c51eb1",
+      "after_sha256": "bd4057ec0d4eb382f01f536036c635230e709daddd963c840d8d7a71433e5486"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_037/PIPELINE_HANDOFF_001.md",
+      "before_sha256": "fc5f20aa69a49809ab84a0bdc3822fa5ed39faf5e2b8a97a0ac3252145b449f2",
+      "after_sha256": "47adcb1086eb1ad8e0d70e0fb7bdd57a709bfee2891a20760a2d12c6722045c2"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_037/PROTOCOL.md",
+      "before_sha256": "5c82550f979b23020105f8e6ddb05d9907e592a7b7d0eb67b74f8f2e89460562",
+      "after_sha256": "9b768e48aedaad7852ce6f40f9039fd61dd5908505ac0c2fa6340818125a0018"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_037/PROTOCOL_ADDENDUM_CDS_001.md",
+      "before_sha256": "3843b268bb3519825b0ce80df8d2af8e2613647716e1813abc6143a6cb0f33d5",
+      "after_sha256": "233e3ca76379dc8de2f3880875aebcb59db0ce5eaf4bfd54cb9338219796920c"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_039/PROTOCOL.md",
+      "before_sha256": "6792882a2e5d73d958beb90bca334cc84eca9a305a1709d672fe6fde39f51014",
+      "after_sha256": "f228b02b6125e3b25e0a8e28d14a005f0afbc7d84a9d14b28a2ba27f5a90dd06"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_042/PROTOCOL.md",
+      "before_sha256": "6dfc8b7e384a03f146d7d70fc9070ee94158d51dffc354b83eee818259e44152",
+      "after_sha256": "fc124d0d0ca110f69c18eef23a53bb7be7d09fade2a207a696a7c135f270ab96"
+    },
+    {
+      "path": "src/reference_project/Code/Hourly_Attenuation_Experiments/Revision_043/PROTOCOL.md",
+      "before_sha256": "6686220358c06da400802fd36c08c5be2ccb25e0b08b733f7f9c6a4292cac68c",
+      "after_sha256": "b28509120db984bce55bc672f5bb5bd8d0947b3c563cd594d693dbd5d30eadd5"
+    }
+  ],
+  "historical_manifests": "Earlier manifests retain the hashes of the original experiment snapshots. UPLOAD_FILES.jsonl records the current publication files; the baseline Git commit preserves the previous wording."
+}

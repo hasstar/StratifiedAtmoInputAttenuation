@@ -60,7 +60,7 @@ progress中verified_unique_grid_field_hours只算v009新响应；reused_complete
 
 实际全字段独立UTC/层/单位/身份/网格/数量/有限值/SHA及几何残差QA后，核对目标和已有模型兼容，再做标明覆盖范围的局部纯推理。现成k_0010 SHA=b9eb8b7aa0f64b330dd0e6a23ac605afdceab8b7e34613011228a5015054c9e5，BiLSTM seed17/53轮，LOCAL2404小时拟合，10列/原生268槽；不是给156网络补零。
 
-零训练：只冻结transform/predict/组合/指标；禁止fit/partial_fit/fit_transform/训练/微调/调参/选种子/优化器更新/重估插补归一化晴空参考CDF。LOCAL/所有旧模型/结果/QA只读不重跑。GBS秒级relative-clearsky可复用旧Alignment004；OpenSat分钟RSL平均域未知，不插值造秒真值、不重拟合分钟CDF。其他模型族仅已有兼容检查点；缺模型/特征/目标尺度/天气分组要列缺口请用户决定，不扩下载。
+零训练：只冻结transform/predict/组合/指标；禁止fit/partial_fit/fit_transform/训练/微调/调参/选种子/优化器更新/重估插补归一化晴空参考CDF。LOCAL/所有旧模型/结果/QA只读不重跑。GBS秒级relative-clearsky可复用旧Alignment004；OpenSat分钟RSL平均域未知，不插值造秒真值、不重拟合分钟CDF。其他模型族仅已有兼容检查点；缺模型/特征/目标尺度/天气分组要列缺口由我决定，不扩下载。
 
 按来源频段、总体/晴/雨含强雨/干燥阴天/other分别报告RMSE/MAE/Bias及适用CRPS/校准与样本日期站点；缺诊断保留不可评估，不跨频段合并RMSE。历史访问/同日重叠不称新盲测，随机场景不称确定性秒预测；IID/block共享CDF常数增量相消，不把共同VS当慢变增益；LOCAL CRPS0.130487较自身0.162335降19.62%、90覆盖73.98%不是已校准。负结果/空数据/数值失效保留。
 

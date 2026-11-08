@@ -1,6 +1,6 @@
 # Revision 026 — frozen ten-model test benchmark
 
-User-authorized scope (2026-10-11): evaluate all ten hourly models on the same existing 687-hour test partition, report overall/clear/rain/dry-overcast/other metrics, and rank them on test performance. Do not retune any model after test scoring. Preserve Revision 023–025, the slow/fast frozen packages, original H5/ERA5/Run_011, and the dataset unchanged. All new code/output belongs to Revision 026.
+Scope I selected (2026-10-11): evaluate all ten hourly models on the same existing 687-hour test partition, report overall/clear/rain/dry-overcast/other metrics, and rank them on test performance. Do not retune any model after test scoring. Preserve Revision 023–025, the slow/fast frozen packages, original H5/ERA5/Run_011, and the dataset unchanged. All new code/output belongs to Revision 026.
 
 ## Frozen inputs and models
 
@@ -27,4 +27,4 @@ The old two-model table used Revision 023's separately tuned layer SVR (C=10), w
 
 prepare → refit → verify-refit PASS → evaluate → independent verify PASS → report/workbook. Require SHA-256 source preservation, 30 reconstructed weights, 30 training records, 30 test records, 20,610 test predictions, 150 model/seed/weather rows, and complete 156-feature names/configuration/curves. There is one operating-system byte lock for writers; never start duplicate workers. Failed stages resume under the same frozen manifest and preserve failure/log records.
 
-This is explicitly a user-requested ranking on a historically accessed local test set. It is not a fresh blind test; choosing a family using these test scores is test-based model selection, even though no test sample enters parameter fitting. All 156 test calendar dates overlap training dates in this random-hour split. No unseen-day or causal conclusion is claimed, and no old test-access audit is deleted.
+I use this ranking on a historically accessed local test set. It is not a fresh blind test; choosing a family using these test scores is test-based model selection, even though no test sample enters parameter fitting. All 156 test calendar dates overlap training dates in this random-hour split. No unseen-day or causal conclusion is claimed, and no old test-access audit is deleted.

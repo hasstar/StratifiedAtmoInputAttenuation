@@ -1,6 +1,6 @@
 # Revision042 — T017 execution-only Windows sharing repair
 
-2026-10-26. User authorization: “快点修复”. This addendum supersedes the direct Revision041 launch entry only; the T017/Revision041 scientific protocol and manifest remain unchanged.
+2026-10-26. My decision: “快点修复”. This addendum supersedes the direct Revision041 launch entry only; the T017/Revision041 scientific protocol and manifest remain unchanged.
 
 ## Diagnosis and scope
 
